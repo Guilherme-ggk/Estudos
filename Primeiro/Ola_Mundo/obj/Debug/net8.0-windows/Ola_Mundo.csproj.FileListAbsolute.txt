@@ -1,0 +1,17 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\bin\Debug\net8.0-windows\Ola_Mundo.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\bin\Debug\net8.0-windows\Ola_Mundo.deps.json
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\bin\Debug\net8.0-windows\Ola_Mundo.runtimeconfig.json
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\bin\Debug\net8.0-windows\Ola_Mundo.dll
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\bin\Debug\net8.0-windows\Ola_Mundo.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.AssemblyInfoInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.AssemblyInfo.cs
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.sourcelink.json
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.dll
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\refint\Ola_Mundo.dll
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\Ola_Mundo.genruntimeconfig.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Ola_Mundo\obj\Debug\net8.0-windows\ref\Ola_Mundo.dll

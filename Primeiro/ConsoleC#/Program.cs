@@ -10,6 +10,7 @@ namespace ConsoleC_
     {
         static void Main(string[] args)
         {
+            #region Comentarios e regions
             //Comentários 
             //são feitos para organizar o código, documentar o que
             //cada parte faz para ajudar possiveis outros programadores de equipe
@@ -19,6 +20,7 @@ namespace ConsoleC_
             //#Region
             //Feito tbm para organizar os blocos de código
             //documentar e deixar nomes para cada bloco
+            #endregion
 
             #region Executa um linha de comando
 
@@ -26,6 +28,7 @@ namespace ConsoleC_
 
             #endregion
 
+            #region Tipos numericos
             //Tipos Numericos
 
             //Numeros assinados, variaveis que suportando numeros negativos
@@ -62,9 +65,13 @@ namespace ConsoleC_
 
             // tipo object
 
-            //originario da 
+            //originario da lib object, ele é como var, mas ele não os trata como seus tipos, 
+            //tudo que vai em object, vira um objeto, ele é a base de todas as variaveis
 
-            
+            object alea = null;
+            object num1 = 20;
+            #endregion
+
 
 
         }

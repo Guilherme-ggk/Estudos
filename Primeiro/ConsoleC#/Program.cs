@@ -26,6 +26,17 @@ namespace ConsoleC_
 
             #endregion
 
+            //Tipos Numericos
+
+            //Numeros assinados, variaveis que suportando numeros negativos
+
+            int n = 1;
+            long t = 1;
+
+            //Numeros sem sinal, variaveis que não suportam numeros negativos
+
+            uint u = 0;
+            ulong v = 0;
 
 
         }

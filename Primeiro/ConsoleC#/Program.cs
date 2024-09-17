@@ -38,6 +38,34 @@ namespace ConsoleC_
             uint u = 0;
             ulong v = 0;
 
+            // tipo string
+
+            string nome = "Giovana";
+
+            //char = "Representa a quantidade de caracteres de uma palavra";
+
+            //tipo bool 
+
+            bool escolheu_Sair = false;
+
+            bool escolheu_Ficar = true;
+
+            // tipo var 
+
+            var a = 1;
+            var b = "nome";
+            var verdade = false;
+            var flut = 10f;
+
+            // comporta qualquer tipo de dado, fazendo seu papel até
+            // o final da execução
+
+            // tipo object
+
+            //originario da 
+
+            
+
 
         }
     }

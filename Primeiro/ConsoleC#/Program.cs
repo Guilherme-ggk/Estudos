@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleC_
 {
-   
-    internal class Program
+    
+
+internal class Program
     {
         static void Main(string[] args)
         {
@@ -80,6 +81,15 @@ namespace ConsoleC_
             notaMédia = 2, // Usados mais para Menus, e escolhas
             notaZero = 3
         };
+
+        //estruturas ou structs
+
+        struct Clientes
+        {
+            public string nome;
+            public int idade;           //bom para armazenar variaveis e objetos
+            public double altura;
+        }
 
 
 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleC_
 {
+   
     internal class Program
     {
         static void Main(string[] args)
@@ -73,9 +74,18 @@ namespace ConsoleC_
             #endregion
 
             //Enum 
+             enum Menu
+        {
+            notaBoa = 1,
+            notaMédia = 2, // Usados mais para Menus, e escolhas
+            notaZero = 3
+        };
 
 
 
-        }
+
+
+
+    }
     }
 }

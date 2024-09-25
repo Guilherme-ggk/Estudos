@@ -72,6 +72,8 @@ namespace ConsoleC_
             object num1 = 20;
             #endregion
 
+            //Enum 
+
 
 
         }

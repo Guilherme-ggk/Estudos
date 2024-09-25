@@ -87,8 +87,8 @@ internal class Program
         struct Clientes
         {
             public string nome;
-            public int idade;           //bom para armazenar variaveis e objetos
-            public double altura;
+            public int idade;           //bom para armazenar variaveis e objetos de pequeno uso no  projeto
+            public double altura;       //é similar com as classes mas uma struct não trabalha com heranças e variaveis longas
         }
 
 

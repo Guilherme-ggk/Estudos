@@ -91,6 +91,13 @@ internal class Program
             public double altura;       //é similar com as classes mas uma struct não trabalha com heranças e variaveis longas
         }
 
+        //Lists 
+
+      
+            List<int> numeros = new List<int>();
+            numeros.Add(1);
+            Console
+
 
 
 

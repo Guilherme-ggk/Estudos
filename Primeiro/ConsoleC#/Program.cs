@@ -102,9 +102,8 @@ internal class Program
             //Entrada e Saída de Dados
 
             in e out
-            /*entrada > processamento > saida
-            
-                      armazenamento /*
+            //entrada > processamento > saida
+                      //armazenamento
 
 
 

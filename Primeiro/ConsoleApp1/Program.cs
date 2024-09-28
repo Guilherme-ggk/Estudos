@@ -10,12 +10,23 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
-           
 
-            string nome = Console.ReadLine();
-            Console.WriteLine(nome);
-            Console.ReadKey();
+            Console.WriteLine("Invertendo os nomes");
+            string nome1, nome2, nome3, nome4, auxiliar;
+            Console.WriteLine("Digite o número #1:");
+            nome1 = Console.ReadLine();
+
+            Console.WriteLine("Digite o número #2:");
+            nome2 = Console.ReadLine();
+
+            Console.WriteLine("Digite o número #3:");
+            nome3 = Console.ReadLine();
+
+            Console.WriteLine("Digite o número #4:");
+            nome4 = Console.ReadLine();
+
+            Console.WriteLine("Nomes inver");
+
         }
     }
 }

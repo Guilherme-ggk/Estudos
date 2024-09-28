@@ -11,8 +11,10 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             
-            int codigo = Console.Read();
-            Console.WriteLine(codigo);
+           
+
+            string nome = Console.ReadLine();
+            Console.WriteLine(nome);
             Console.ReadKey();
         }
     }

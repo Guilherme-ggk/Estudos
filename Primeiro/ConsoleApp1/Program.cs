@@ -25,7 +25,27 @@ namespace ConsoleApp1
             Console.WriteLine("Digite o número #4:");
             nome4 = Console.ReadLine();
 
-            Console.WriteLine("Nomes inver");
+            Console.WriteLine("Nomes invertidos");
+
+            auxiliar = nome1;
+            nome1 = nome4;
+
+            auxiliar = nome4;
+            nome4 = nome1;
+
+            auxiliar = nome3;
+            nome3 = nome2;
+
+            auxiliar = nome2;
+            nome2 = nome3;
+
+            Console.WriteLine(nome1);
+            Console.WriteLine(nome2);
+            Console.WriteLine(nome3);
+            Console.WriteLine(nome4);
+            Console.ReadLine();
+
+
 
         }
     }

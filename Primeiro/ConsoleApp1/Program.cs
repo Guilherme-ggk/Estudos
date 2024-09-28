@@ -30,14 +30,13 @@ namespace ConsoleApp1
             auxiliar = nome1;
             nome1 = nome4;
 
-            auxiliar = nome4;
-            nome4 = nome1;
-
-            auxiliar = nome3;
-            nome3 = nome2;
-
+            nome4 = nome2;
             auxiliar = nome2;
+
             nome2 = nome3;
+            nome3 = auxiliar;
+
+            
 
             Console.WriteLine(nome1);
             Console.WriteLine(nome2);

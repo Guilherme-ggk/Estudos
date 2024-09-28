@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E5A20B55-DDC9-4B0E-87ED-366A26E94B0A}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A20B55-DDC9-4B0E-87ED-366A26E94B0A}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|solutionrelative:consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,18 +36,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T14:25:02.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleC#\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleC#\\Program.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleC#\\Program.cs",
               "RelativeToolTip": "ConsoleC#\\Program.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAkwGkAAAAWAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwGIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T12:44:42.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Form1.cs",
               "RelativeDocumentMoniker": "Ola_Mundo\\Form1.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Form1.cs",
               "RelativeDocumentMoniker": "Ola_Mundo\\Form1.cs",

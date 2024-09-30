@@ -27,14 +27,14 @@ namespace ConsoleApp1
 
             Console.WriteLine("Nomes invertidos");
 
-            auxiliar = nome1;
-            nome1 = nome4;
+            auxiliar = nome1;  // joga o n1 no auxiliar 
+            nome1 = nome4; // n1 recebe n4
 
-            nome4 = auxiliar;
-            auxiliar = nome2;
+            nome4 = auxiliar; // n4 recebe auxiliar que esta com o n1
+            auxiliar = nome2; // aux recebe n2
 
-            nome2 = nome3;
-            nome3 = auxiliar;
+            nome2 = nome3; // n2 recebe n3 
+            nome3 = auxiliar; // n3 recebe aux que estáq com n2
 
 
             

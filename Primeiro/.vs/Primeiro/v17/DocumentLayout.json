@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{E5A20B55-DDC9-4B0E-87ED-366A26E94B0A}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|solutionrelative:consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,8 +55,7 @@
               "RelativeToolTip": "ConsoleC#\\Program.cs",
               "ViewState": "AQIAAFMAAAAAAAAAAAAYwGIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T12:44:42.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T12:44:42.299Z"
             },
             {
               "$type": "Document",

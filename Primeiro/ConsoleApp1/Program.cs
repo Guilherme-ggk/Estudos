@@ -30,7 +30,7 @@ namespace ConsoleApp1
             auxiliar = nome1;
             nome1 = nome4;
 
-            nome4 = nome2;
+            nome4 = nome1;
             auxiliar = nome2;
 
             nome2 = nome3;

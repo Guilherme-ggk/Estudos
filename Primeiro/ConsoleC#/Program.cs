@@ -112,7 +112,9 @@ internal class Program
             //exemplo:
 
             float n = 100f;
-            double
+            double n2 = n;
+
+            Console.WriteLine(n2);
 
 
 

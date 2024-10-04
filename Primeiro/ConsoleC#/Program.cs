@@ -116,6 +116,17 @@ internal class Program
 
             Console.WriteLine(n2);
 
+            //Conversão explicita ou (Quest)
+
+            enum Menu { };
+        int intop = 0;
+        int z = (Menu)intop;
+
+
+
+                
+
+
 
 
 

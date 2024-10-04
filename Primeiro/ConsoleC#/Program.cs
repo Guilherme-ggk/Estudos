@@ -106,8 +106,19 @@ internal class Program
                       //armazenamento
 
 
+            // Conversão implicita
+
+            //conversão implicita, desde que o tipo  suporte o valor, vai passar normal
+            //exemplo:
+
+            float n = 100f;
+            double
+
+
+
+
 
 
     }
-    }
+}
 }

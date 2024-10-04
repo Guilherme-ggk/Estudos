@@ -37,6 +37,8 @@ namespace ConsoleApp1
             nome3 = auxiliar; // n3 recebe aux que estáq com n2
 
 
+           
+
             
 
             Console.WriteLine(nome1);
@@ -44,6 +46,9 @@ namespace ConsoleApp1
             Console.WriteLine(nome3);
             Console.WriteLine(nome4);
             Console.ReadLine();
+
+
+
 
 
 

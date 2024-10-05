@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8853A64-9609-4EBB-A060-A0E961CA6E0A}|ConsoleC#\\ConsoleC#.csproj|solutionrelative:consolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\ola_mundo\\ola_mundo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ola_mundo\\ola_mundo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|solutionrelative:ola_mundo\\ola_mundo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Ola_Mundo\\Ola_Mundo.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-04T01:44:50.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T01:44:50.24Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "ConsoleC#\\Program.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleC#\\Program.cs",
               "RelativeToolTip": "ConsoleC#\\Program.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAowHMAAAAAAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAA0wHcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T12:44:42.299Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Ola_Mundo\\Form1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:18:29.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T13:18:29.688Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Form1.cs [Projeto]",
               "RelativeToolTip": "Ola_Mundo\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:00:06.962Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-09-10T13:00:06.962Z"
             }
           ]
         }

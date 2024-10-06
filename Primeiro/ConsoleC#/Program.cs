@@ -118,6 +118,8 @@ internal class Program
 
             //Conversão explicita ou (Quest)
 
+            // a conversão é feita até o maximo que o método suporta, por exemplo, se byte suporta 244, e tentar converter 100, vai dar 100, mas se fo
+
             enum Menu { };
         int intop = 0;
         int z = (Menu)intop;

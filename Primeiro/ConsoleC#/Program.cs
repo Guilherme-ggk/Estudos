@@ -126,6 +126,15 @@ internal class Program
 
         //classe convert
 
+        string num = Convert.ToString(200);
+
+        double num1 = Convert.ToDouble(false);
+
+        int num2 = Convert.ToInt32("C");
+
+        Console.WriteLine(num2);
+        Console.ReadKey();
+
 
 
                 

@@ -135,6 +135,11 @@ internal class Program
         Console.WriteLine(num2);
         Console.ReadKey();
 
+        // a conversão implicita é automatica e não há riscos de perder dados, já a explicite tem esse risco
+        // o metodo parse pode converter varios tipos
+
+
+
 
 
                 

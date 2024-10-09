@@ -139,7 +139,11 @@ internal class Program
         // o metodo parse pode converter varios tipos
 
 
+            //Arrays
 
+            //criando um array
+
+            int[] numeros[2] = 10,11; 
 
 
                 

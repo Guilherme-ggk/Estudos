@@ -12,7 +12,7 @@ namespace Arrays
         {
             Console.WriteLine("** Criando arrays **");
 
-            int[] numeros = { 1, 2, 3, };
+            int[] numeros = new int[3] { 1, 2, 3, };
             string[] carros = 
                 {
                 "Lamborghini",

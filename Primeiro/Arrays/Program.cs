@@ -22,7 +22,7 @@ namespace Arrays
 
             Console.WriteLine(numeros[0]);
 
-            Cons
+            Console.WriteLine(carros[1]);
 
             Console.ReadKey();
         }

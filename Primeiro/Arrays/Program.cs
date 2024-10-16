@@ -10,21 +10,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("** Criando arrays **");
-
-            int[] numeros = new int[3] { 1, 2, 3, };
-            string[] carros = 
-                {
-                "Lamborghini",
-                "Sena",
-                "Bugatti"
-                };
-
-            Console.WriteLine(numeros[0]);
-
-            Console.WriteLine(carros[1]);
-
-            Console.ReadKey();
+            Console.WriteLine("Criando Arrays");
         }
     }
 }

@@ -18,7 +18,10 @@ namespace Arrays
                 3 
             };
 
+            string[] carros = { "lamborghini", "Subaru", "Mustang"};
+
             Console.WriteLine(numeros[0]);
+            Console.WriteLine(carros[1]);
 
             Console.ReadLine();
             

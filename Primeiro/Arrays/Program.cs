@@ -11,6 +11,15 @@ namespace Arrays
         static void Main(string[] args)
         {
             Console.WriteLine("Criando Arrays");
+
+            int[] numeros = {
+                1,
+                2,
+                3 
+            };
+
+            Console.WriteLine(numeros[0]);
+
             
 
         }

@@ -20,6 +20,7 @@ namespace Arrays
 
             Console.WriteLine(numeros[0]);
 
+            Console.ReadLine();
             
 
         }

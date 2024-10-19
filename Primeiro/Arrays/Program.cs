@@ -18,7 +18,9 @@ namespace Arrays
 
             k = (273.15);
 
-            Console.WriteLine();
+            Console.WriteLine(c + "graus celcius = " + f + " graus fahrenheit");
+            Console.WriteLine(c + "graus celcius = " + f + " graus fahrenheit");
+            Console.ReadKey();
 
         }
     }

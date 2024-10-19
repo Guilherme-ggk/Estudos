@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;  
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,21 +10,15 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Criando Arrays");
+            double c, f, k;
+            Console.WriteLine("Conversor de temperatura");
+            c = double.Parse(Console.ReadLine());
 
-            int[] numeros = {
-                1,
-                2,
-                3 
-            };
+            f = (c * 9 / 5) + 32;
 
-            string[] carros = { "lamborghini", "Subaru", "Mustang"};
+            k = (273.15);
 
-            Console.WriteLine(numeros[0]);
-            Console.WriteLine(carros[1]);
-
-            Console.ReadLine();
-            
+            Console.WriteLine();
 
         }
     }

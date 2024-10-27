@@ -60,6 +60,7 @@ namespace Arrays
 
             int[,] matriz1 = new int[2, 3];
             int[,] matriz2 = new int[3, 2];
+            int[,] resultado = new int[2, 2];
 
 
 

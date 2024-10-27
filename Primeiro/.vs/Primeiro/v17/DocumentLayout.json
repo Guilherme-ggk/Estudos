@@ -8,9 +8,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ConsoleApp1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5A20B55-DDC9-4B0E-87ED-366A26E94B0A}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\consoleapp1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +31,7 @@
               "RelativeDocumentMoniker": "Arrays\\Program.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Arrays\\Program.cs",
               "RelativeToolTip": "Arrays\\Program.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwEAAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwD4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T23:52:54.833Z",
               "EditorCaption": ""
@@ -48,8 +45,7 @@
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleApp1\\ConsoleApp1.csproj",
               "RelativeToolTip": "ConsoleApp1\\ConsoleApp1.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-26T23:52:48.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T23:52:48.11Z"
             }
           ]
         }

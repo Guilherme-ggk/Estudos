@@ -7,16 +7,10 @@
       "RelativeMoniker": "D:0:0:{2186E7B0-2BE6-4ABC-85DA-EC1B280DA933}|Arrays\\Arrays.csproj|solutionrelative:arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ola_mundo\\ola_mundo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|solutionrelative:ola_mundo\\ola_mundo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ConsoleApp1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ola_mundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|solutionrelative:ola_mundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ola_mundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44CEEB9F-409F-4F8A-98CE-64AA44A063F6}|Ola_Mundo\\Ola_Mundo.csproj|solutionrelative:ola_mundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E5A20B55-DDC9-4B0E-87ED-366A26E94B0A}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\consoleapp1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,47 +32,24 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Arrays\\Program.cs",
               "RelativeDocumentMoniker": "Arrays\\Program.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Arrays\\Program.cs*",
-              "RelativeToolTip": "Arrays\\Program.cs*",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwCwAAAAsAAAA",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Arrays\\Program.cs",
+              "RelativeToolTip": "Arrays\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T21:54:59.18Z",
+              "WhenOpened": "2024-10-26T23:52:54.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ola_Mundo",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Ola_Mundo.csproj",
-              "RelativeDocumentMoniker": "Ola_Mundo\\Ola_Mundo.csproj",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Ola_Mundo.csproj",
-              "RelativeToolTip": "Ola_Mundo\\Ola_Mundo.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-04T01:44:50.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Form1.cs",
-              "RelativeDocumentMoniker": "Ola_Mundo\\Form1.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Form1.cs",
-              "RelativeToolTip": "Ola_Mundo\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:18:29.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Form1.cs",
-              "RelativeDocumentMoniker": "Ola_Mundo\\Form1.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Ola_Mundo\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Ola_Mundo\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:00:06.962Z"
+              "Title": "ConsoleApp1",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp1\\ConsoleApp1.csproj",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeToolTip": "ConsoleApp1\\ConsoleApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-26T23:52:48.11Z",
+              "EditorCaption": ""
             }
           ]
         }

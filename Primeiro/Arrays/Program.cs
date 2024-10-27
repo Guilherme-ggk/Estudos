@@ -62,6 +62,14 @@ namespace Arrays
             int[,] matriz2 = new int[3, 2];
             int[,] resultado = new int[2, 2];
 
+            for(int linha = 0; linha < 2; linha++)
+            {
+                for (int coluna = 0; coluna < coluna++; )
+                {
+                    
+                }
+            }
+
 
 
 

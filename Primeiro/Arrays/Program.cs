@@ -84,7 +84,16 @@ namespace Arrays
                 }
             }
 
+            Console.WriteLine("Resultado de matriz1 * matriz2:");
+            resultado[0, 0] = (matriz1[0, 0] * matriz2[0, 0]) + (matriz1[0, 1] * matriz2[1, 0]) + (matriz1[0, 2] * matriz2[2, 0]);
+            resultado[1, 0] = (matriz1[1, 0] * matriz2[1, 0]) + (matriz1[1, 2] * matriz2[1, 0]) + (matriz1[1, 2] * matriz2[2, 0]);
+            resultado[0, 1] = (matriz1[0, 0] * matriz2[0, 0]) + (matriz1[0, 1] * matriz2[1, 1]) + (matriz1[0, 2] * matriz2[2, 1]);
+            resultado[1, 1] = (matriz1[1, 0] * matriz2[0, 1]) + (matriz1[1, 1] * matriz2[1, 1]) + (matriz1[1, 2] * matriz2[2, 1]);
 
+            Console.WriteLine("[" + resultado[0, 0] + resultado[0,1] + "]");
+            Console.WriteLine("[" + resultado[1, 0] + resultado[1, 1] + "]");
+           
+            Console.ReadKey();
 
 
 

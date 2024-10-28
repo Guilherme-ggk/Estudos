@@ -96,6 +96,37 @@ namespace Arrays
             Console.ReadKey();
 
 
+            //If e else
+
+
+
+            //Condição simples
+
+            if()
+            {
+
+            }
+            else
+            {
+
+            }
+
+            //Condição encadeada
+
+            if()
+            {
+
+            }
+            else if()
+            {
+
+            }
+            else
+            {
+
+            }
+            //
+            //Condição aninhada
 
 
         }

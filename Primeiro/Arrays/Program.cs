@@ -97,9 +97,6 @@ namespace Arrays
 
 
             //If e else
-
-
-
             //Condição simples
 
             int a = 10;
@@ -146,9 +143,6 @@ namespace Arrays
             {
                 Console.WriteLine("é menor que 5");
             }
-
-
-
 
         }
     }

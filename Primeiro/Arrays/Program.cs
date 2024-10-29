@@ -129,21 +129,25 @@ namespace Arrays
             }
             //
             //Condição aninhada
-            if(a >= 7)
+            if(a > 5)
             {
-                if(a >=  8)
+                Console.WriteLine("O número é mair que 5");
+
+                if(a % 2 == 0)
                 {
-                    Console.WriteLine("Válido");
+                    Console.WriteLine("e também é par");
                 }
                 else
                 {
-                    Console.WriteLine("Válido");
+                    Console.WriteLine("e é impar");
                 }
             }
             else
             {
-                Console.WriteLine("Inválido");
+                Console.WriteLine("é menor que 5");
             }
+
+
 
 
         }

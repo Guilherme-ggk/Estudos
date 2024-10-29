@@ -102,31 +102,48 @@ namespace Arrays
 
             //Condição simples
 
-            if()
-            {
+            int a = 10;
 
+            if(a <= 10)
+            {
+                Console.WriteLine("Válido");
             }
             else
             {
-
+                Console.WriteLine("Inválido");
             }
 
             //Condição encadeada
 
-            if()
+            if(a >= 10)
             {
-
+                Console.WriteLine("Válido");
             }
-            else if()
+            else if(a != 6)
             {
-
+                Console.WriteLine("Válido");
             }
             else
             {
-
+                Console.WriteLine("Inválido");
             }
             //
             //Condição aninhada
+            if(a >= 7)
+            {
+                if(a >=  8)
+                {
+                    Console.WriteLine("Válido");
+                }
+                else
+                {
+                    Console.WriteLine("Válido");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Inválido");
+            }
 
 
         }

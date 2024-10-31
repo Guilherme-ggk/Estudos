@@ -147,6 +147,12 @@ namespace Arrays
 
             //Hoje aprendi melhor como usar vb6
 
+            Dim numero1 as Integer
+            Dim numero2 as Integer
+            Dim resultado as Integer
+
+
+
 
 
 

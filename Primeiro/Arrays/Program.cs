@@ -145,7 +145,9 @@ namespace Arrays
             }
 
 
-            //
+            //Hoje aprendi melhor como usar vb6
+
+
 
 
 

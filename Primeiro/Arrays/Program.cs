@@ -1,6 +1,7 @@
 ﻿using System;  
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -147,16 +148,20 @@ namespace Arrays
 
             //Hoje aprendi melhor como usar vb6
 
+            Public BtnCalculadora_Click
+
             Dim numero1 as Integer
             Dim numero2 as Integer
             Dim resultado as Integer
 
-            numero1 = Txtnumero1.Text
+            numero1 = CInt Txtnumero1.Text
             numero2 = TxtNumero2.Text
 
             resultado = numero1 + numero2
 
-            Txtresultado = Cstr
+            Txtresultado = CStr resultado
+
+            end 
 
 
 

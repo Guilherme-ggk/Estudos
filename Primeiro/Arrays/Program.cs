@@ -148,20 +148,20 @@ namespace Arrays
 
             //Hoje aprendi melhor como usar vb6
 
-            Public BtnCalculadora_Click
+            Public sub BtnCalculadora_Click()
 
             Dim numero1 as Integer
             Dim numero2 as Integer
             Dim resultado as Integer
 
-            numero1 = CInt Txtnumero1.Text
-            numero2 = TxtNumero2.Text
+            numero1 = CInt (Txtnumero1.Text)
+            numero2 = CInt (TxtNumero2.Text)
 
             resultado = numero1 + numero2
 
-            Txtresultado = CStr resultado
+            Txtresultado = CStr (resultado)
 
-            end 
+            end sub
 
 
 

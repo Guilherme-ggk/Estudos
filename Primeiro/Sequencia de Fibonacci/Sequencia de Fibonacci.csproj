@@ -7,7 +7,7 @@
     <ProjectGuid>{EC20C019-5C59-41AD-9266-169F2BAFD57D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Sequencia_de_Fibonacci</RootNamespace>
-    <AssemblyName>Sequencia_de_Fibonacci</AssemblyName>
+    <AssemblyName>Sequencia de Fibonacci</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

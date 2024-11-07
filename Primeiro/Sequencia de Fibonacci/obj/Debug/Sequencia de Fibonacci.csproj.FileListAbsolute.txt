@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Sequencia de Fibonacci\bin\Debug\Sequencia de Fibonacci.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Sequencia de Fibonacci\bin\Debug\Sequencia de Fibonacci.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Sequencia de Fibonacci\bin\Debug\Sequencia de Fibonacci.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Sequencia de Fibonacci\obj\Debug\Sequencia de Fibonacci.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Sequencia de Fibonacci\obj\Debug\Sequencia de Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Sequencia de Fibonacci\obj\Debug\Sequencia de Fibonacci.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Sequencia de Fibonacci\obj\Debug\Sequencia de Fibonacci.pdb

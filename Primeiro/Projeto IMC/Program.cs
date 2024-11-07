@@ -50,19 +50,7 @@ namespace Projeto_IMC
                 Console.WriteLine("       \\__|IIIIII|__/");
                 Console.WriteLine("        | \\IIIIII/ |");
                 Console.WriteLine("        \\          /");
-                Console.WriteLine("         `--------`");
-                Console.Write("           ______");
-                Console.WriteLine("        .-\"      \"-.");
-                Console.WriteLine("       /            \\");
-                Console.WriteLine("      |              |");
-                Console.WriteLine("      |,  .-.  .-.  ,|");
-                Console.WriteLine("      | )(__/  \\__)( |");
-                Console.WriteLine("      |/     /\\     \\|");
-                Console.WriteLine("      (_     ^^     _)");
-                Console.WriteLine("       \\__|IIIIII|__/");
-                Console.WriteLine("        | \\IIIIII/ |");
-                Console.WriteLine("        \\          /");
-                Console.WriteLine("         `--------`");
+                Console.WriteLine("         `---------`");
                 Console.ReadLine();
 
             }

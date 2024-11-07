@@ -163,6 +163,14 @@ namespace Arrays
 
             end sub
 
+                // operador ternario
+                int numeroz = 0;
+
+                string mensagem = numeroz > 5 ? "maior que 5" : "menor que 5";
+
+
+
+
 
 
 

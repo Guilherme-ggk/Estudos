@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Projeto IMC\bin\Debug\Projeto IMC.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Projeto IMC\bin\Debug\Projeto IMC.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Projeto IMC\bin\Debug\Projeto IMC.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Projeto IMC\obj\Debug\Projeto IMC.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Projeto IMC\obj\Debug\Projeto IMC.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Projeto IMC\obj\Debug\Projeto IMC.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Primeiro\Projeto IMC\obj\Debug\Projeto IMC.pdb

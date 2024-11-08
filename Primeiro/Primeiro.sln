@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto IMC", "Projeto IMC\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequencia de Fibonacci", "Sequencia de Fibonacci\Sequencia de Fibonacci.csproj", "{EC20C019-5C59-41AD-9266-169F2BAFD57D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EC20C019-5C59-41AD-9266-169F2BAFD57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC20C019-5C59-41AD-9266-169F2BAFD57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC20C019-5C59-41AD-9266-169F2BAFD57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

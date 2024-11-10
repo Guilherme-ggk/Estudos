@@ -3,17 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\SistemaComercio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8F2F962-6CE8-4A64-84C1-0E9DC6DD396E}|SistemaComercio.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\sistemacomercio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8F2F962-6CE8-4A64-84C1-0E9DC6DD396E}|SistemaComercio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6F5C9370-B048-4E59-8870-C9D992B2D1E8}|..\\CamadaDados\\CamadaDados.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadadados\\dcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5C9370-B048-4E59-8870-C9D992B2D1E8}|..\\CamadaDados\\CamadaDados.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadadados\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5C9370-B048-4E59-8870-C9D992B2D1E8}|..\\CamadaDados\\CamadaDados.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadadados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86EAA439-CFFE-41CD-B4BF-474F35C69765}|..\\CamadaApresentacao\\CamadaApresentacao.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadaapresentacao\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2C96AF-A5ED-4931-BA45-7EEF0E3D65E8}|..\\CamadaNegocio\\CamadaNegocio.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadanegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8F2F962-6CE8-4A64-84C1-0E9DC6DD396E}|SistemaComercio.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\sistemacomercio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8F2F962-6CE8-4A64-84C1-0E9DC6DD396E}|SistemaComercio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F5C9370-B048-4E59-8870-C9D992B2D1E8}|..\\CamadaDados\\CamadaDados.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadadados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2C96AF-A5ED-4931-BA45-7EEF0E3D65E8}|..\\CamadaNegocio\\CamadaNegocio.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadanegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,19 +37,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "DCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaDados\\DCategoria.cs",
+              "RelativeDocumentMoniker": "..\\CamadaDados\\DCategoria.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaDados\\DCategoria.cs",
+              "RelativeToolTip": "..\\CamadaDados\\DCategoria.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA9wA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:52:28.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaDados\\Conexao.cs",
+              "RelativeDocumentMoniker": "..\\CamadaDados\\Conexao.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaDados\\Conexao.cs",
+              "RelativeToolTip": "..\\CamadaDados\\Conexao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:49:04.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaDados\\Class1.cs",
               "RelativeDocumentMoniker": "..\\CamadaDados\\Class1.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaDados\\Class1.cs",
               "RelativeToolTip": "..\\CamadaDados\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:24:45.067Z"
+              "WhenOpened": "2024-11-08T13:24:45.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaNegocio\\Class1.cs",
               "RelativeDocumentMoniker": "..\\CamadaNegocio\\Class1.cs",
@@ -55,19 +88,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaApresentacao\\Class1.cs",
               "RelativeDocumentMoniker": "..\\CamadaApresentacao\\Class1.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaApresentacao\\Class1.cs",
               "RelativeToolTip": "..\\CamadaApresentacao\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:21:58.965Z"
+              "WhenOpened": "2024-11-08T13:21:58.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\SistemaComercio\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

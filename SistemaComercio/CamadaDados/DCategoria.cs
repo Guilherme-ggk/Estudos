@@ -20,5 +20,23 @@ namespace CamadaDados
         public string Descricao { get => _Descricao; set => _Descricao = value; }
         public string Textobuscar { get => _Textobuscar; set => _Textobuscar = value; }
 
+
+        //Construtor Vazio
+
+        public DCategoria()
+        {
+
+        }
+
+        // Construtor com Paramêtros
+
+        public DCategoria(int idcategoria, string nome, string descricao, string textobuscar)
+        {
+            this.Idcategoria = idcategoria;
+            this.Nome = nome;
+            this.Descricao = descricao;
+            this.Textobuscar = textobuscar;
+
+        }
     }
 }

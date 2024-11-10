@@ -36,6 +36,55 @@ namespace CamadaDados
             this.Nome = nome;
             this.Descricao = descricao;
             this.Textobuscar = textobuscar;
+        }
+
+
+
+        //INSERIR
+
+        public string Inserir(DCategoria Categoria)
+        {
+            string resposta;
+            SqlConnection SQLCON = new SqlConnection();
+            try
+            {
+                SQLCON.ConnectionString = Conexao.Cn;
+            }
+            catch (Exception ex)
+            {
+                resposta = ex.Message;
+            }
+
+            finally 
+            {
+                if(SQLCON.State ==ConnectionState.Open)
+                {
+                    SQLCON.Close();
+                }
+            }
+        }
+        //EDITAR
+
+        public string Ediatar(DCategoria Categoria)
+        {
+
+        }
+        //EXCLUIR
+
+        public string Excluir(DCategoria Categoria)
+        {
+
+        }
+        //MOSTRAR
+
+        public DataTable Mostrar(DCategoria Categoria)
+        {
+
+        }
+        //MÉTODO BUSCAR NOME
+
+        public string BuscarNome(DCategoria Categoria)
+        {
 
         }
     }

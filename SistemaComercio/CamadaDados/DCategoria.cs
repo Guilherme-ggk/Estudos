@@ -65,7 +65,7 @@ namespace CamadaDados
         }
         //EDITAR
 
-        public string Ediatar(DCategoria Categoria)
+        public string Editar(DCategoria Categoria)
         {
 
         }

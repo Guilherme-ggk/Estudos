@@ -15,7 +15,7 @@
       "AbsoluteMoniker": "D:0:0:{86EAA439-CFFE-41CD-B4BF-474F35C69765}|..\\CamadaApresentacao\\CamadaApresentacao.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\camadaapresentacao\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8F2F962-6CE8-4A64-84C1-0E9DC6DD396E}|SistemaComercio.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sistemacomercio\\sistemacomercio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8F2F962-6CE8-4A64-84C1-0E9DC6DD396E}|SistemaComercio.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\SistemaComercio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8F2F962-6CE8-4A64-84C1-0E9DC6DD396E}|SistemaComercio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -43,7 +43,7 @@
               "RelativeDocumentMoniker": "..\\CamadaDados\\DCategoria.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\CamadaDados\\DCategoria.cs",
               "RelativeToolTip": "..\\CamadaDados\\DCategoria.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA9wA4AAAAiAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowEAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T17:52:28.642Z",
               "EditorCaption": ""
@@ -58,8 +58,7 @@
               "RelativeToolTip": "..\\CamadaDados\\Conexao.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:49:04.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T16:49:04.1Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "..\\CamadaDados\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:24:45.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T13:24:45.067Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "..\\CamadaApresentacao\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:21:58.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T13:21:58.965Z"
             },
             {
               "$type": "Document",
@@ -108,8 +105,7 @@
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SistemaComercio\\SistemaComercio\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:20:58.9Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-08T13:20:58.9Z"
             }
           ]
         }

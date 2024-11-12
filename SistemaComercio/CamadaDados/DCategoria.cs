@@ -52,7 +52,7 @@ namespace CamadaDados
 
                 SqlCommand SQLcmd = new SqlCommand();
                 SQLcmd.Connection = SQLCON;
-                SQLcmd.CommandText = "";
+                SQLcmd.CommandText = "spInserir_categoria";
             }
             catch (Exception ex)
             {

@@ -49,6 +49,10 @@ namespace CamadaDados
             try
             {
                 SQLCON.ConnectionString = Conexao.Cn;
+
+                SqlCommand SQLcmd = new SqlCommand();
+                SQLcmd.Connection = SQLCON;
+                SQLcmd.CommandText = "";
             }
             catch (Exception ex)
             {

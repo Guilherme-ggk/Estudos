@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{504A4B79-ECCA-4E42-9EDD-E2E484E3D637}|Projeto IMC\\Projeto IMC.csproj|solutionrelative:projeto imc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}|ConsoleApp2\\ConsoleApp2.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16E5540B-BEB0-4A75-BC76-BCAA06DCA9B0}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC20C019-5C59-41AD-9266-169F2BAFD57D}|Sequencia de Fibonacci\\Sequencia de Fibonacci.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\sequencia de fibonacci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC20C019-5C59-41AD-9266-169F2BAFD57D}|Sequencia de Fibonacci\\Sequencia de Fibonacci.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\sequencia de fibonacci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC20C019-5C59-41AD-9266-169F2BAFD57D}|Sequencia de Fibonacci\\Sequencia de Fibonacci.csproj|solutionrelative:sequencia de fibonacci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2186E7B0-2BE6-4ABC-85DA-EC1B280DA933}|Arrays\\Arrays.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\primeiro\\arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2186E7B0-2BE6-4ABC-85DA-EC1B280DA933}|Arrays\\Arrays.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2186E7B0-2BE6-4ABC-85DA-EC1B280DA933}|Arrays\\Arrays.csproj|solutionrelative:arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "ConsoleApp2\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:24:43.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T13:24:43.892Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Sequencia de Fibonacci\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:44:03.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T12:44:03.248Z"
             },
             {
               "$type": "Document",
@@ -64,9 +62,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Projeto IMC\\Program.cs",
               "RelativeDocumentMoniker": "Projeto IMC\\Program.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Projeto IMC\\Program.cs",
-              "RelativeToolTip": "Projeto IMC\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAA8AAAA",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Primeiro\\Projeto IMC\\Program.cs*",
+              "RelativeToolTip": "Projeto IMC\\Program.cs*",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T11:27:47.387Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Arrays\\Program.cs",
               "ViewState": "AQIAAIkAAAAAAAAAAAAQwKkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:52:54.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T23:52:54.833Z"
             }
           ]
         }

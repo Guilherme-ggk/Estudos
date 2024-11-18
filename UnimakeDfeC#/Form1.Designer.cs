@@ -28,34 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnConsultaStatus = new System.Windows.Forms.Button();
+            this.BtnConsultaSituacao = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnConsultaStatus
             // 
-            this.button1.Location = new System.Drawing.Point(6, 34);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(220, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Consulta Status";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnConsultaStatus.Location = new System.Drawing.Point(6, 34);
+            this.BtnConsultaStatus.Name = "BtnConsultaStatus";
+            this.BtnConsultaStatus.Size = new System.Drawing.Size(220, 23);
+            this.BtnConsultaStatus.TabIndex = 0;
+            this.BtnConsultaStatus.Text = "Consulta Status";
+            this.BtnConsultaStatus.UseVisualStyleBackColor = true;
+            this.BtnConsultaStatus.Click += new System.EventHandler(this.BtnConsultaStatus_Click);
             // 
-            // button2
+            // BtnConsultaSituacao
             // 
-            this.button2.Location = new System.Drawing.Point(6, 63);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(220, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Consulta Situação";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnConsultaSituacao.Location = new System.Drawing.Point(6, 63);
+            this.BtnConsultaSituacao.Name = "BtnConsultaSituacao";
+            this.BtnConsultaSituacao.Size = new System.Drawing.Size(220, 23);
+            this.BtnConsultaSituacao.TabIndex = 1;
+            this.BtnConsultaSituacao.Text = "Consulta Situação";
+            this.BtnConsultaSituacao.UseVisualStyleBackColor = true;
+            this.BtnConsultaSituacao.Click += new System.EventHandler(this.BtnConsultaSituacao_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.BtnConsultaStatus);
+            this.groupBox1.Controls.Add(this.BtnConsultaSituacao);
             this.groupBox1.Location = new System.Drawing.Point(13, 7);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(232, 433);
@@ -78,8 +80,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnConsultaStatus;
+        private System.Windows.Forms.Button BtnConsultaSituacao;
         private System.Windows.Forms.GroupBox groupBox1;
     }
 }

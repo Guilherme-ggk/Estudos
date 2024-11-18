@@ -41,23 +41,18 @@ namespace UnimakeDfeC_
         private static X509Certificate2 CertificadoSelecionadoField; // Todo certificado digital alimenta essa propriedade
         
 
-        public static X509Certificate2 CertificadoSelecionado
+        public static X509Certificate2 CertificadoSelecionado // trabalho de carregar o certificado
         {
-            get
+            get // pega 
             {
-                if (CertificadoSelecionadoField == null)
+                if (CertificadoSelecionadoField == null) // se for nulo ele carrega o certificado e senha
                 {
                     CertificadoSelecionadoField = new CertificadoDigital().CarregarCertificadoDigitalA1(PathCertificadoDigital, SenhaCertificadoDigital);
                 }
-                else
-                {
-                    {
-
-                    }
-                }
-
-
             }
+
+            //diz que não pode carregar manualmente por que ele já vai resgatar de forma automatica
+            private set => throw new Exception("Não é possivel atribuir um certificado digital! Somente resgate o valor da propriedade que o certificado é definido automaticamente.");
         }
 
 

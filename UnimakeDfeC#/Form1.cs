@@ -8,6 +8,8 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Unimake.Business.Security;
+
 
 namespace UnimakeDfeC_
 {
@@ -43,6 +45,17 @@ namespace UnimakeDfeC_
         {
             get
             {
+                if (CertificadoSelecionadoField == null)
+                {
+                    CertificadoSelecionadoField = new CertificadoDigital().CarregarCertificadoDigitalA1(PathCertificadoDigital, SenhaCertificadoDigital);
+                }
+                else
+                {
+                    {
+
+                    }
+                }
+
 
             }
         }

@@ -49,6 +49,8 @@ namespace UnimakeDfeC_
                 {
                     CertificadoSelecionadoField = new CertificadoDigital().CarregarCertificadoDigitalA1(PathCertificadoDigital, SenhaCertificadoDigital);
                 }
+
+                return CertificadoSelecionadoField;
             }
 
             //diz que não pode carregar manualmente por que ele já vai resgatar de forma automatica

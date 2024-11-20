@@ -36,9 +36,10 @@
             // 
             // BtnConsultaStatus
             // 
-            this.BtnConsultaStatus.Location = new System.Drawing.Point(6, 34);
+            this.BtnConsultaStatus.Location = new System.Drawing.Point(8, 42);
+            this.BtnConsultaStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnConsultaStatus.Name = "BtnConsultaStatus";
-            this.BtnConsultaStatus.Size = new System.Drawing.Size(220, 23);
+            this.BtnConsultaStatus.Size = new System.Drawing.Size(293, 28);
             this.BtnConsultaStatus.TabIndex = 0;
             this.BtnConsultaStatus.Text = "Consulta Status";
             this.BtnConsultaStatus.UseVisualStyleBackColor = true;
@@ -46,9 +47,10 @@
             // 
             // BtnConsultaSituacao
             // 
-            this.BtnConsultaSituacao.Location = new System.Drawing.Point(6, 63);
+            this.BtnConsultaSituacao.Location = new System.Drawing.Point(8, 78);
+            this.BtnConsultaSituacao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnConsultaSituacao.Name = "BtnConsultaSituacao";
-            this.BtnConsultaSituacao.Size = new System.Drawing.Size(220, 23);
+            this.BtnConsultaSituacao.Size = new System.Drawing.Size(293, 28);
             this.BtnConsultaSituacao.TabIndex = 1;
             this.BtnConsultaSituacao.Text = "Consulta Situação";
             this.BtnConsultaSituacao.UseVisualStyleBackColor = true;
@@ -58,19 +60,22 @@
             // 
             this.groupBox1.Controls.Add(this.BtnConsultaStatus);
             this.groupBox1.Controls.Add(this.BtnConsultaSituacao);
-            this.groupBox1.Location = new System.Drawing.Point(13, 7);
+            this.groupBox1.Location = new System.Drawing.Point(17, 9);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(232, 433);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(309, 533);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NFe";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

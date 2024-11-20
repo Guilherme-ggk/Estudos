@@ -38,18 +38,18 @@
             // 
             this.groupBox1.Controls.Add(this.BtnConsultaSituacao);
             this.groupBox1.Controls.Add(this.BtnConsultaStatus);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(11, 18);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 426);
+            this.groupBox1.Size = new System.Drawing.Size(141, 420);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NFe";
             // 
             // BtnConsultaStatus
             // 
-            this.BtnConsultaStatus.Location = new System.Drawing.Point(6, 33);
+            this.BtnConsultaStatus.Location = new System.Drawing.Point(6, 30);
             this.BtnConsultaStatus.Name = "BtnConsultaStatus";
-            this.BtnConsultaStatus.Size = new System.Drawing.Size(188, 23);
+            this.BtnConsultaStatus.Size = new System.Drawing.Size(128, 23);
             this.BtnConsultaStatus.TabIndex = 0;
             this.BtnConsultaStatus.Text = "Consulta Status";
             this.BtnConsultaStatus.UseVisualStyleBackColor = true;
@@ -57,9 +57,9 @@
             // 
             // BtnConsultaSituacao
             // 
-            this.BtnConsultaSituacao.Location = new System.Drawing.Point(6, 62);
+            this.BtnConsultaSituacao.Location = new System.Drawing.Point(7, 59);
             this.BtnConsultaSituacao.Name = "BtnConsultaSituacao";
-            this.BtnConsultaSituacao.Size = new System.Drawing.Size(188, 23);
+            this.BtnConsultaSituacao.Size = new System.Drawing.Size(128, 23);
             this.BtnConsultaSituacao.TabIndex = 1;
             this.BtnConsultaSituacao.Text = "Consulta Situação";
             this.BtnConsultaSituacao.UseVisualStyleBackColor = true;
@@ -72,6 +72,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

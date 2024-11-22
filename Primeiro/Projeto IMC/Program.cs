@@ -10,42 +10,42 @@ namespace Projeto_IMC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calculando o IMC");
-            Console.WriteLine("Qual o seu peso?");
+            Console.WriteLine("Calculando IMC");
+
+            Console.WriteLine("Peso:");
             double peso = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Qual a sua altura?");
+            Console.WriteLine("Altura:");
             double altura = double.Parse(Console.ReadLine());
 
             double resultado = peso / (altura * altura);
 
-            if(resultado <= 18)
+            if (resultado < 20)
             {
-                Console.WriteLine($"Seu IMC consta {resultado}, você está magro.");
+                Console.WriteLine($"{resultado}, magro.");
+            }
+            else if (resultado >= 20 && resultado <= 24)
+            {
+                Console.WriteLine($"{resultado}, normal.");
+            }
+            else if(resultado >= 25 && resultado <= 29)
+            {
+                Console.WriteLine($"{resultado}, sobre peso.");
+            }
+            else if (resultado >= 30 && resultado <= 34)
+            {
+                Console.WriteLine($"{resultado}, obeso.");
+            }
+            else if (resultado > 35)
+            {
+                Console.WriteLine($"{resultado}, obeso grave.");
                 Console.ReadKey();
             }
-            else if(resultado >= 18 && resultado <= 24)
-            {
-                Console.WriteLine($"Seu IMC consta {resultado}, peso ideal.");
-                Console.ReadKey();
-            }
-            else if (resultado >= 25 && resultado <= 29)
-            {
-                Console.WriteLine($"Seu IMC consta {resultado}, acima do peso.");
-                Console.ReadKey();
-            }
-            else if (resultado >= 30 && resultado <= 39)
-            {
-                Console.WriteLine($"Seu IMC consta {resultado}, obeso.");
-                Console.ReadKey();
-            }
-            else if (resultado >= 40)
-            {
-                Console.WriteLine($"Seu IMC consta {resultado}, obesidade grave.");
-                Console.ReadKey();
-            }
-
+            Console.WriteLine("Pressione qualquer tecla para sair...");
             Console.ReadKey();
+
+
         }
+      
     }
 }

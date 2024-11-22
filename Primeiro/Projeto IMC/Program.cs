@@ -12,40 +12,38 @@ namespace Projeto_IMC
         {
             Console.WriteLine("Calculando IMC");
 
-            Console.WriteLine("Peso:");
+            Console.WriteLine("Qual o seu peso?");
             double peso = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Altura:");
+            Console.WriteLine("Qual a sua altura?");
             double altura = double.Parse(Console.ReadLine());
 
             double resultado = peso / (altura * altura);
 
             if (resultado < 20)
             {
-                Console.WriteLine($"{resultado}, magro.");
+                Console.WriteLine($"{resultado}, magro");
             }
             else if (resultado >= 20 && resultado <= 24)
             {
-                Console.WriteLine($"{resultado}, normal.");
+                Console.WriteLine($"{resultado}, normal");
             }
-            else if(resultado >= 25 && resultado <= 29)
+            else if (resultado >= 24 && resultado < 29)
             {
-                Console.WriteLine($"{resultado}, sobre peso.");
+                Console.WriteLine($"{resultado}, sobre peso");
             }
-            else if (resultado >= 30 && resultado <= 34)
+            else if (resultado >= 30 && resultado < 34)
             {
-                Console.WriteLine($"{resultado}, obeso.");
+                Console.WriteLine($"{resultado}, obeso");
             }
-            else if (resultado > 35)
+            else
             {
-                Console.WriteLine($"{resultado}, obeso grave.");
-                Console.ReadKey();
+                Console.WriteLine("Gordassa");
+                Console.ReadLine();
             }
-            Console.WriteLine("Pressione qualquer tecla para sair...");
-            Console.ReadKey();
+            Console.ReadLine();
 
 
         }
-      
     }
 }

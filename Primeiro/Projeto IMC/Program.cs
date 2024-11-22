@@ -10,8 +10,7 @@ namespace Projeto_IMC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calculando IMC");
-
+            Console.WriteLine("Calculando o IMC");
             Console.WriteLine("Qual o seu peso?");
             double peso = double.Parse(Console.ReadLine());
 
@@ -20,41 +19,33 @@ namespace Projeto_IMC
 
             double resultado = peso / (altura * altura);
 
-            if(resultado < 20)
+            if(resultado <= 18)
             {
-                Console.WriteLine($"IMC = {resultado}, você está abaixo do peso.");
+                Console.WriteLine($"Seu IMC consta {resultado}, você está magro.");
+                Console.ReadKey();
             }
-            else if((resultado >= 20) && (resultado <= 24))
+            else if(resultado >= 18 && resultado <= 24)
             {
-                Console.WriteLine($"IMC = {resultado}, você está com um peso normal.");
+                Console.WriteLine($"Seu IMC consta {resultado}, peso ideal.");
+                Console.ReadKey();
             }
-            else if ((resultado >= 25) && (resultado <= 29))
+            else if (resultado >= 25 && resultado <= 29)
             {
-                Console.WriteLine($"IMC = {resultado}, você está sobre peso.");
+                Console.WriteLine($"Seu IMC consta {resultado}, acima do peso.");
+                Console.ReadKey();
             }
-            else if ((resultado >= 30) && (resultado <= 34))
+            else if (resultado >= 30 && resultado <= 39)
             {
-                Console.WriteLine($"IMC = {resultado}, você está obeso.");
+                Console.WriteLine($"Seu IMC consta {resultado}, obeso.");
+                Console.ReadKey();
             }
-            else
+            else if (resultado >= 40)
             {
-                Console.WriteLine($"IMC = {resultado}!!!");
-                Console.WriteLine("           ______");
-                Console.WriteLine("        .-\"      \"-.");
-                Console.WriteLine("       /            \\");
-                Console.WriteLine("      |              |");
-                Console.WriteLine("      |,  .-.  .-.  ,|");
-                Console.WriteLine("      | )(__/  \\__)( |");
-                Console.WriteLine("      |/     /\\     \\|");
-                Console.WriteLine("      (_     ^^     _)");
-                Console.WriteLine("       \\__|IIIIII|__/");
-                Console.WriteLine("        | \\IIIIII/ |");
-                Console.WriteLine("        \\          /");
-                Console.WriteLine("         `---------`");
-                Console.ReadLine();
-
+                Console.WriteLine($"Seu IMC consta {resultado}, obesidade grave.");
+                Console.ReadKey();
             }
 
+            Console.ReadKey();
         }
     }
 }

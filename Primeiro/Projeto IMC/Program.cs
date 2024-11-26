@@ -43,6 +43,7 @@ namespace Projeto_IMC
                         EscolheuSair = true;
                         break;
                 }
+                Console.Clear();
                 
             }
             

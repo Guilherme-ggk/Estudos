@@ -22,16 +22,22 @@ namespace Projeto_IMC
                 switch (opcao)
                 {
                     case Menu.soma:
+                        Soma();
                         break;
                     case Menu.sub:
+                        Sub();
                         break;
                     case Menu.mult:
+                        Mult();
                         break;
                     case Menu.div:
+                        Div();
                         break;
                     case Menu.pot:
+                        Pot();
                         break;
                     case Menu.raiz:
+                        Raiz();
                         break;
                     case Menu.sair:
                         EscolheuSair = true;
@@ -112,7 +118,7 @@ namespace Projeto_IMC
             Console.WriteLine("Digite o número que deseja saber a raiz:");
             int n1 = int.Parse(Console.ReadLine());
 
-            int resultado = (int)(n1);
+            int resultado = (int)Math.Sqrt(n1);
 
             Console.WriteLine(resultado);
             Console.ReadLine();

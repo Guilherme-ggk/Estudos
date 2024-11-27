@@ -15,6 +15,9 @@ namespace POO
             MinhaClasse Objeto1 = new MinhaClasse();
             MinhaClasse Objeto2 = Objeto1;
 
+
+            Classe2 ObjClasse2 = new Classe2();
+            
         }
 
 

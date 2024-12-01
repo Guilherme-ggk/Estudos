@@ -22,21 +22,28 @@ namespace Projeto_IMC
                 switch (opcao)
                 {
                     case Menu.soma:
+                        Soma();
                         break;
                     case Menu.sub:
+                        Sub();
                         break;
                     case Menu.mult:
+                        Mult();
                         break;
                     case Menu.div:
+                        Div();
                         break;
                     case Menu.pot:
+                        Pot();
                         break;
                     case Menu.raiz:
+                        Raiz();
                         break;
                     case Menu.sair:
                         EscolheuSair = true;
                         break;
                 }
+                Console.Clear();
             }
            
         }

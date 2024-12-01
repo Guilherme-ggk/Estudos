@@ -40,6 +40,76 @@ namespace Projeto_IMC
             }
            
         }
-    
+        static void Soma()
+        {
+            Console.WriteLine("Digite o primeiro número:");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int n2 = int.Parse(Console.ReadLine());
+
+            int resultado = n1 + n2;
+
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+        }
+        static void Sub()
+        {
+            Console.WriteLine("Digite o primeiro número:");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int n2 = int.Parse(Console.ReadLine());
+
+            int resultado = n1 - n2;
+
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+        }
+        static void Mult()
+        {
+            Console.WriteLine("Digite o primeiro número:");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int n2 = int.Parse(Console.ReadLine());
+
+            int resultado = n1 * n2;
+
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+        }
+        static void Div()
+        {
+            Console.WriteLine("Digite o primeiro número:");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int n2 = int.Parse(Console.ReadLine());
+
+            float resultado = (float)n1 / (float)n2;
+
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+        }
+        static void Pot()
+        {
+            Console.WriteLine("Digite o número base:");
+            int b1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o número expoente:");
+            int e2 = int.Parse(Console.ReadLine());
+
+            int resultado = (int)Math.Pow(b1, e2);
+
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+        }
+        static void Raiz()
+        {
+            Console.WriteLine("Digite o número que deseja saber a raiz:");
+            int n1 = int.Parse(Console.ReadLine());
+
+            int resultado = (int)Math.Sqrt(n1);
+
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+        }
+
     }
 }

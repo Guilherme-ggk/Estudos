@@ -10,8 +10,7 @@ namespace Projeto_IMC
     {
         static void Main(string[] args)
         {
-            
-         
+
         }
 
     }

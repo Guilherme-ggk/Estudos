@@ -8,96 +8,180 @@ using System.Threading.Tasks;
 
 namespace Projeto_IMC
 {
+    [System.Serializable]
     internal class Program
     {
-        struct Cliente
-        {
-            public string nome;
-            public int idade;
-            public string email;
-        }
-        static List<Cliente> clientes = new List<Cliente>();
-        enum Menu { lista = 1, adicionar, remover, sair };
+        static List<IEstoque> produtos = new List<IEstoque>();
+        enum Menu { lista = 1, adicionar, remover, entrada, saida, sair };
         static void Main()
         {
             Carregar();
             bool EscolheuSair = false;
             while (!EscolheuSair)
             {
-                Console.WriteLine("Gestor de clientes");
-                Console.WriteLine("1-listagem\n2-adicionar\n3-remover\n4-sair");
+                Console.WriteLine("Gestor de Produtos");
+                Console.WriteLine("1-listagem\n2-adicionar\n3-remover\n4-Entrada\n5-saida\n6-sair");
                 int intop = int.Parse(Console.ReadLine());
                 Menu opcao = (Menu)intop;
-
-                switch (opcao)
+                if(intop > 0 && intop < 7)
                 {
-                    case Menu.lista:
-                        Listagem();
-                        break;
-                    case Menu.adicionar:
-                        Adicionar();
-                        break;
-                    case Menu.remover:
-                        Remover();
-                        break;
-                    case Menu.sair:
-                        EscolheuSair = true;
-                        break;
+                    switch (opcao)
+                    {
+                        case Menu.lista:
+                            Listagem();
+                            break;
+                        case Menu.adicionar:
+                            Adicionar();
+                            break;
+                        case Menu.remover:
+                            Remover();
+                            break;
+                        case Menu.entrada:
+                            Entrada();
+                            break;
+                        case Menu.saida:
+                            Saida();
+                            break;
+                        case Menu.sair:
+                            EscolheuSair = true;
+                            break;
+                    }
+                    Console.Clear();
                 }
-                Console.Clear();
+                else
+                {
+                    EscolheuSair = true;
+                }
             }
         }
         static void Listagem()
         {
-            if(clientes.Count > 0)
+            if(produtos.Count > 0)
             {
                 int id = 0;
-                foreach (Cliente cliente in clientes)
+                foreach (IEstoque produto in produtos)
                 {
-                    Console.WriteLine($"ID: {id}");
-                    Console.WriteLine(cliente.nome);
-                    Console.WriteLine(cliente.idade);
-                    Console.WriteLine(cliente.email);
+                    Console.WriteLine($"ID = {id}");
+                    produto.Exibir();
                     id++;
                 }
             }
             else
             {
-                Console.WriteLine("Nenhum cliente cadastrado");
+                Console.WriteLine("Nenhum produto cadastrado");
             }
             Console.ReadLine();
         }
         static void Remover()
         {
             Listagem();
-            Console.WriteLine("qual cliente deseja remover? (id)");
+            Console.WriteLine("qual produto deseja remover? (id)");
             int id = int.Parse(Console.ReadLine());
             
-            if( clientes.Count > 0 && id >= 0 && clientes.Count > id)
+            if( produtos.Count > 0 && id >= 0 && produtos.Count > id)
             {
-                clientes.RemoveAt(id);
+                produtos.RemoveAt(id);
+                
                 Salvar();
             }
-            else
+
+            Console.ReadLine();
+       }
+        static void Entrada()
+        {
+            Listagem();
+            Console.WriteLine("qual produto deseja dar entrada? (id)");
+            int id = int.Parse(Console.ReadLine());
+
+            if (produtos.Count > 0 && id >= 0 && produtos.Count > id)
             {
-                Console.WriteLine("Nenhum cliente cadastrado");
+                produtos[id].AddEntrada();
+
+                Salvar();
             }
+
+            Console.ReadLine();
+        }
+        static void Saida()
+        {
+            Listagem();
+            Console.WriteLine("qual produto deseja dar saida? (id)");
+            int id = int.Parse(Console.ReadLine());
+
+            if (produtos.Count > 0 && id >= 0 && produtos.Count > id)
+            {
+                produtos[id].AddSaida();
+
+                Salvar();
+            }
+            Console.ReadLine();
         }
         static void Adicionar()
         {
-            Cliente cliente = new Cliente();
+            Console.WriteLine("1-Ebook\n2-Curso\n3-Produto Fisico");
+            int intop = int.Parse(Console.ReadLine());
 
+            switch (intop)
+            {
+                case 1:
+                    AdcEbook();
+                    break;
+                case 2:
+                    AdcCurso();
+                    break;
+                case 3:
+                    AdcProdutoFisico();
+                    break;
+            }
+            
+        }
+        static void AdcEbook()
+        {
             Console.WriteLine("Nome:");
-            string nome = cliente.nome;
+            string nome = Console.ReadLine();
 
-            Console.WriteLine("Idade:");
-            int idade = cliente.idade;
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("Email:");
-            string email = cliente.email;
+            Console.WriteLine("Autor:");
+            string autor = Console.ReadLine();
+
+            Ebook eb = new Ebook(nome, preco, autor);
+
+            produtos.Add(eb);
             Salvar();
+        }
+        static void AdcCurso()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
 
-            clientes.Add(cliente);
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Autor:");
+            string autor = Console.ReadLine();
+
+            Curso cs = new Curso(nome, preco, autor);
+
+            produtos.Add(cs);
+            Salvar();
+        }
+        static void AdcProdutoFisico()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("frete:");
+            float frete = float.Parse(Console.ReadLine());
+
+            ProdutoFisico pf = new ProdutoFisico(nome, preco, frete);
+
+            produtos.Add(pf);
+            Salvar();
         }
 
         static void Salvar()
@@ -105,7 +189,7 @@ namespace Projeto_IMC
             FileStream stream = new FileStream("clientes.dat", FileMode.OpenOrCreate);
             BinaryFormatter encoder = new BinaryFormatter();
 
-            encoder.Serialize(stream, clientes);
+            encoder.Serialize(stream, produtos);
 
             stream.Close();
         }
@@ -116,16 +200,16 @@ namespace Projeto_IMC
             {
                 BinaryFormatter encoder = new BinaryFormatter();
 
-                clientes = (List<Cliente>)encoder.Deserialize(stream);
+                produtos = (List<IEstoque>)encoder.Deserialize(stream);
 
-                if(clientes == null)
+                if(produtos == null)
                 {
-                    clientes = new List<Cliente>();
+                    produtos = new List<IEstoque>();
                 }
             }
             catch(Exception)
             {
-                clientes = new List<Cliente>();
+                produtos = new List<IEstoque>();
             }
             stream.Close();
         }

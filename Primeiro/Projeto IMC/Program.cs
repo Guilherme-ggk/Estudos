@@ -72,11 +72,11 @@ namespace Projeto_IMC
             Listagem();
             Console.WriteLine("qual cliente deseja remover? (id)");
             int id = int.Parse(Console.ReadLine());
-            if(id >= 0 && clientes.Count > id)
+            
+            if( clientes.Count > 0 && id >= 0 && clientes.Count > id)
             {
                 clientes.RemoveAt(id);
                 Salvar();
-                
             }
             else
             {

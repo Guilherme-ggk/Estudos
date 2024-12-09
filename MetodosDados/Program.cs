@@ -12,6 +12,17 @@ namespace MetodosDados
         {
             Metodos m = new Metodos();
 
+         
+            string NomeCompleto = m.FormaNome("Guilherme", "Henrique");
+
+            double ValorPi = m.ValorDePi();
+            int Codigo = m.CodigoChar('a');
+
+           
+            int valor2 = 100;
+
+            
+            m.AumentarRef(ref valor2);
             m.Cumprimentar();
 
             m.Soma(5, 15);
@@ -19,21 +30,9 @@ namespace MetodosDados
             m.Aprensentar("Guilheme", 21);
 
 
-            int valor1 = 100;
-            int valor2 = 100;
-
-            m.AumentarValor(valor1);
-            m.AumentarRef(ref valor2);
-
-            string NomeCompleto = m.FormaNome("Guilherme", "Henrique");
-
-            double ValorPi = m.ValorDePi();
-            int Codigo = m.CodigoChar('a');
 
 
 
-            Console.WriteLine(valor1);
-            Console.WriteLine(valor2);
             Console.WriteLine(NomeCompleto);
             Console.WriteLine(ValorPi);
             Console.WriteLine(Codigo);

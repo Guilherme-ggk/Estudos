@@ -28,6 +28,7 @@ namespace MetodosDados
             string NomeCompleto = m.FormaNome("Guilherme", "Henrique");
 
             double ValorPi = m.ValorDePi();
+            int Codigo = m.CodigoChar('a');
 
 
 
@@ -35,6 +36,7 @@ namespace MetodosDados
             Console.WriteLine(valor2);
             Console.WriteLine(NomeCompleto);
             Console.WriteLine(ValorPi);
+            Console.WriteLine(Codigo);
             Console.ReadKey();
         }
     }

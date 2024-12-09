@@ -51,6 +51,11 @@ namespace MetodosDados
             return 3.1514;
         }
 
+        public int CodigoChar(char Codigo)
+        {
+            return Codigo;
+        }
+
         
 
     }

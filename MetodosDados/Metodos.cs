@@ -43,7 +43,12 @@ namespace MetodosDados
         public string FormaNome(string Nome, string SobreNome)
         {
             return Nome + " " + SobreNome;
-            Console.ReadLine();
+            
+        }
+
+        public double ValorDePi()
+        {
+            return 3.1514;
         }
 
         

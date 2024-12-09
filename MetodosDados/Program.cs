@@ -27,12 +27,14 @@ namespace MetodosDados
 
             string NomeCompleto = m.FormaNome("Guilherme", "Henrique");
 
-            Console.WriteLine(NomeCompleto);
+            double ValorPi = m.ValorDePi();
 
 
 
             Console.WriteLine(valor1);
             Console.WriteLine(valor2);
+            Console.WriteLine(NomeCompleto);
+            Console.WriteLine(ValorPi);
             Console.ReadKey();
         }
     }

@@ -25,6 +25,12 @@ namespace MetodosDados
             m.AumentarValor(valor1);
             m.AumentarRef(ref valor2);
 
+            string NomeCompleto = m.FormaNome("Guilherme", "Henrique");
+
+            Console.WriteLine(NomeCompleto);
+
+
+
             Console.WriteLine(valor1);
             Console.WriteLine(valor2);
             Console.ReadKey();

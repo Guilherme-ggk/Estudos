@@ -40,6 +40,12 @@ namespace MetodosDados
             Console.ReadLine();
         }
 
+        public string FormaNome(string Nome, string SobreNome)
+        {
+            return Nome + " " + SobreNome;
+            Console.ReadLine();
+        }
+
         
 
     }

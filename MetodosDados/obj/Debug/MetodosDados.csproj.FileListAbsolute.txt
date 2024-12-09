@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\MetodosDados\bin\Debug\MetodosDados.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\MetodosDados\bin\Debug\MetodosDados.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\MetodosDados\bin\Debug\MetodosDados.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\MetodosDados\obj\Debug\MetodosDados.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\MetodosDados\obj\Debug\MetodosDados.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\MetodosDados\obj\Debug\MetodosDados.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\MetodosDados\obj\Debug\MetodosDados.pdb

@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace POO
 {
-    internal class Classe2
+    public class Classe2
     {
+        public string nome;
+        public string sobrenome;
+
+        public void Cumprimentar()
+        {
+            Console.WriteLine($"Olá {nome}, seu sobrenome é {sobrenome}");
+        }
     }
 }

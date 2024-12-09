@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO", "POO.csproj", "{4088BE06-1F04-402C-B8F5-4ECAFE7CE7B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosDados", "..\MetodosDados\MetodosDados.csproj", "{F3BE0FAB-D5BB-4F1E-B6B2-AC118DF35309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{222CDAAF-0515-42C1-8A9C-814EB39C1162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4088BE06-1F04-402C-B8F5-4ECAFE7CE7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4088BE06-1F04-402C-B8F5-4ECAFE7CE7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4088BE06-1F04-402C-B8F5-4ECAFE7CE7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BE0FAB-D5BB-4F1E-B6B2-AC118DF35309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BE0FAB-D5BB-4F1E-B6B2-AC118DF35309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BE0FAB-D5BB-4F1E-B6B2-AC118DF35309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BE0FAB-D5BB-4F1E-B6B2-AC118DF35309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222CDAAF-0515-42C1-8A9C-814EB39C1162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222CDAAF-0515-42C1-8A9C-814EB39C1162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222CDAAF-0515-42C1-8A9C-814EB39C1162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222CDAAF-0515-42C1-8A9C-814EB39C1162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,6 +17,16 @@ namespace POO
 
 
             Classe2 ObjClasse2 = new Classe2();
+
+            //metodo simples
+
+            Classe2 p1 = new Classe2();
+            p1.nome = "Guilherme";
+            p1.sobrenome = "Henrique";
+
+            p1.Cumprimentar();
+
+            Console.ReadLine();
             
         }
 
@@ -25,6 +35,8 @@ namespace POO
         {
             
         }
+
+
 
     }
 }

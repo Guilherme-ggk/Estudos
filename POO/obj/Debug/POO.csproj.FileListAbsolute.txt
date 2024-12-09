@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\POO\bin\Debug\POO.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\POO\bin\Debug\POO.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\POO\bin\Debug\POO.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\POO\obj\Debug\POO.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\POO\obj\Debug\POO.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\POO\obj\Debug\POO.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\POO\obj\Debug\POO.pdb

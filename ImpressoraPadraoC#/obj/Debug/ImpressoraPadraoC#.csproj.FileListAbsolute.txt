@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\bin\Debug\ImpressoraPadraoC#.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\bin\Debug\ImpressoraPadraoC#.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\bin\Debug\ImpressoraPadraoC#.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\obj\Debug\ImpressoraPadraoC#.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\obj\Debug\ImpressoraPadraoC_.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\obj\Debug\ImpressoraPadraoC_.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\obj\Debug\ImpressoraPadraoC#.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\obj\Debug\ImpressoraPadraoC#.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\obj\Debug\ImpressoraPadraoC#.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ImpressoraPadraoC#\obj\Debug\ImpressoraPadraoC#.pdb

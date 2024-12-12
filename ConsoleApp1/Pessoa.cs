@@ -32,11 +32,6 @@ namespace ConsoleApp1
             return 2024 - anonascimento;
         }
 
-        public Pessoa(string nome, int idade)
-        {
-            this.nome = nome;
-            this.anonascimento = anonascimento;
-            idade = Idade();
-        }
+        
     }
 }

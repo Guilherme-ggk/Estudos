@@ -22,6 +22,14 @@ namespace ConsoleApp1
             Console.WriteLine("valor1: " + valor1);
             Console.WriteLine("valor2: " + valor2);
 
+            Pessoa p1 = new Pessoa("Guilherme", 21);
+
+            Console.WriteLine(p1.nome);
+            Console.WriteLine(p1.idade);
+            Console.WriteLine(p1.anonascimento);
+
+            
+
 
             Console.ReadLine();
 

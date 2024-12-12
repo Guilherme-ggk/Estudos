@@ -36,38 +36,41 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(184, 122);
+            this.label1.Location = new System.Drawing.Point(112, 43);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 16);
+            this.label1.Size = new System.Drawing.Size(95, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Impressora Padrao";
             // 
             // LblImpressoraPadrao
             // 
             this.LblImpressoraPadrao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblImpressoraPadrao.Location = new System.Drawing.Point(159, 151);
+            this.LblImpressoraPadrao.Location = new System.Drawing.Point(84, 67);
+            this.LblImpressoraPadrao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblImpressoraPadrao.Name = "LblImpressoraPadrao";
-            this.LblImpressoraPadrao.Size = new System.Drawing.Size(181, 25);
+            this.LblImpressoraPadrao.Size = new System.Drawing.Size(136, 21);
             this.LblImpressoraPadrao.TabIndex = 1;
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(159, 191);
+            this.listBox1.Location = new System.Drawing.Point(84, 90);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(181, 148);
+            this.listBox1.Size = new System.Drawing.Size(137, 121);
             this.listBox1.TabIndex = 2;
             this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.LblImpressoraPadrao);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

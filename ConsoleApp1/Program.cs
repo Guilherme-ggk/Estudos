@@ -28,6 +28,19 @@ namespace ConsoleApp1
             Console.WriteLine(p1.idade);
             Console.WriteLine(p1.anonascimento);
 
+            Pessoa.maioridade = 21;
+
+            Pessoa p5 = new Pessoa();
+
+            p5.nome = "Giovana";
+            p5.idade = Pessoa.CalcularIdade(2002);
+
+            Console.WriteLine(p5.nome);
+            Console.WriteLine(p5.idade);
+
+
+            
+
             
 
 

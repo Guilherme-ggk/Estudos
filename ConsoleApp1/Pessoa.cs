@@ -32,6 +32,12 @@ namespace ConsoleApp1
             return 2024 - anonascimento;
         }
 
+        public static int maioridade = 18;
+
+        public static int CalcularIdade(int AnoNascimento)
+        {
+            return DateTime.Now.Year - AnoNascimento;
+        }
         
     }
 }

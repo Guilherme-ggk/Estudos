@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Propriedades GetSet\bin\Debug\Propriedades GetSet.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Propriedades GetSet\bin\Debug\Propriedades GetSet.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Propriedades GetSet\bin\Debug\Propriedades GetSet.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Propriedades GetSet\obj\Debug\Propriedades GetSet.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Propriedades GetSet\obj\Debug\Propriedades GetSet.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Propriedades GetSet\obj\Debug\Propriedades GetSet.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Propriedades GetSet\obj\Debug\Propriedades GetSet.pdb

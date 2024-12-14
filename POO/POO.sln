@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosDados", "..\MetodosD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{222CDAAF-0515-42C1-8A9C-814EB39C1162}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propriedades GetSet", "..\Propriedades GetSet\Propriedades GetSet.csproj", "{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{222CDAAF-0515-42C1-8A9C-814EB39C1162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222CDAAF-0515-42C1-8A9C-814EB39C1162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222CDAAF-0515-42C1-8A9C-814EB39C1162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,13 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\POO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}|..\\Propriedades GetSet\\Propriedades GetSet.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\propriedades getset\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}|..\\Propriedades GetSet\\Propriedades GetSet.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\propriedades getset\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\pessoametodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\pessoaatributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\maioridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,39 +33,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Maioridade.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Maioridade.cs",
-              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Maioridade.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Maioridade.cs*",
-              "RelativeToolTip": "..\\ConsoleApp1\\Maioridade.cs*",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "DocumentIndex": 0,
+              "Title": "Teste.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Teste.cs",
+              "RelativeDocumentMoniker": "..\\Propriedades GetSet\\Teste.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Teste.cs*",
+              "RelativeToolTip": "..\\Propriedades GetSet\\Teste.cs*",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwCYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T13:31:03.681Z",
+              "WhenOpened": "2024-12-14T14:14:34.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Propriedades GetSet\\Program.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Program.cs",
+              "RelativeToolTip": "..\\Propriedades GetSet\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T14:14:01.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PessoaMetodos.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaMetodos.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1\\PessoaMetodos.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaMetodos.cs",
+              "RelativeToolTip": "..\\ConsoleApp1\\PessoaMetodos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:56:07.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "..\\ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Program.cs*",
-              "RelativeToolTip": "..\\ConsoleApp1\\Program.cs*",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCcAAAAAAAAA",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "..\\ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwC4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T23:29:58.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Pessoa.cs",
-              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Pessoa.cs*",
-              "RelativeToolTip": "..\\ConsoleApp1\\Pessoa.cs*",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCQAAAAWAAAA",
+              "DocumentIndex": 3,
+              "Title": "PessoaAtributos.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaAtributos.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1\\PessoaAtributos.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaAtributos.cs",
+              "RelativeToolTip": "..\\ConsoleApp1\\PessoaAtributos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T23:26:02.642Z",
               "EditorCaption": ""

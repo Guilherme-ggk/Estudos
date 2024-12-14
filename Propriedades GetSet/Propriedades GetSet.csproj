@@ -7,7 +7,7 @@
     <ProjectGuid>{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Propriedades_GetSet</RootNamespace>
-    <AssemblyName>Propriedades_GetSet</AssemblyName>
+    <AssemblyName>Propriedades GetSet</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teste.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

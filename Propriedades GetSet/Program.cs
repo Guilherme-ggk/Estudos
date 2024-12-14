@@ -10,6 +10,15 @@ namespace Propriedades_GetSet
     {
         static void Main(string[] args)
         {
+            Teste t = new Teste();
+
+            t.Nome = "Guilherme";
+            t.Idade = 21;
+
+            Console.WriteLine($"{t.Nome} {t.Sobrenome}\n {t.Idade}");
+            
+            Console.ReadLine();
+
         }
     }
 }

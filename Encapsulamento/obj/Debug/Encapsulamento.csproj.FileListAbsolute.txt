@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Encapsulamento\bin\Debug\Encapsulamento.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Encapsulamento\bin\Debug\Encapsulamento.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Encapsulamento\bin\Debug\Encapsulamento.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Encapsulamento\obj\Debug\Encapsulamento.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Encapsulamento\obj\Debug\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Encapsulamento\obj\Debug\Encapsulamento.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Encapsulamento\obj\Debug\Encapsulamento.pdb

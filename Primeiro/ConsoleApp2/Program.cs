@@ -10,39 +10,27 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calculo IMC");
-            Console.WriteLine("Digite seu peso:");
-
+            Console.WriteLine("Digite o seu peso:");
             double peso = double.Parse(Console.ReadLine());
-            Console.WriteLine("Digite sua altura:");
-            double altura = double.Parse(Console.ReadLine());
 
-            double resultado = peso / (altura * altura);
-
-            if(resultado < 20)
+            if(peso <= 24)
             {
-                Console.WriteLine("IMC: " + resultado + ", abaixo do peso");
+                Console.WriteLine("Magro");
             }
-            else if((resultado >= 20) && (resultado <= 24))
+            else if(peso == 24)
             {
-                Console.WriteLine("IMC: " + resultado + ", peso normal");
+                Console.WriteLine("peso ideal");
             }
-            else if ((resultado) >= 25 && (resultado <= 29))
+            else if(peso >= 24 && peso <= 29)
             {
-                Console.WriteLine("IMC: " + resultado + ", acima do peso");
-            }
-            else if ((resultado) >= 30 && (resultado <= 34))
-            {
-                Console.WriteLine("IMC: " + resultado + ", obeso");
+                Console.WriteLine("Acima do peso");
             }
             else
             {
-                Console.WriteLine("????????????");
+                Console.WriteLine("Obeso");
             }
-            Console.ReadKey();
 
-
-
+            Console.ReadLine();
         }
     }
 }

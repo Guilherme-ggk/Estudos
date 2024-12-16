@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Henraca
+namespace Henranca
 {
     internal class Program
     {
@@ -13,9 +13,6 @@ namespace Henraca
             ClasseCarro c = new ClasseCarro();
             Bicicleta b = new Bicicleta();
             
-            
-
-           
         }
     }
 }

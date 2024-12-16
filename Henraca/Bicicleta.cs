@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Henraca
+namespace Henranca
 {
-    internal class Bicicleta : Veiculo
+    sealed class Bicicleta : Veiculo
     {
         public void Pedalar()
         {

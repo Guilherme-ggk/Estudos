@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Henraca
+namespace Henranca
 {
-    internal class Caminhonete
+    sealed class Caminhonete: ClasseCarro
     {
+        public bool CabineExtendida { get; set; }
     }
 }

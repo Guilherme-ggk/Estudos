@@ -3,25 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE3BC2E1-1C40-4A57-BB3B-5F6A715646E7}|..\\Encapsulamento\\Encapsulamento.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\encapsulamento\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{172838D2-8F80-425F-A0B8-FC667F351FA5}|..\\Henraca\\Heranca.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\henraca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE3BC2E1-1C40-4A57-BB3B-5F6A715646E7}|..\\Encapsulamento\\Encapsulamento.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\encapsulamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{172838D2-8F80-425F-A0B8-FC667F351FA5}|..\\Henraca\\Heranca.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\henraca\\bicicleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}|..\\Propriedades GetSet\\Propriedades GetSet.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\propriedades getset\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{172838D2-8F80-425F-A0B8-FC667F351FA5}|..\\Henraca\\Heranca.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\henraca\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD0C28-1235-44AD-B50E-77DD1F3654AE}|..\\Propriedades GetSet\\Propriedades GetSet.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\propriedades getset\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\pessoametodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\pessoaatributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222CDAAF-0515-42C1-8A9C-814EB39C1162}|..\\ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{172838D2-8F80-425F-A0B8-FC667F351FA5}|..\\Henraca\\Heranca.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\henraca\\classecarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,92 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContaBancaria.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Encapsulamento\\ContaBancaria.cs",
-              "RelativeDocumentMoniker": "..\\Encapsulamento\\ContaBancaria.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Encapsulamento\\ContaBancaria.cs",
-              "RelativeToolTip": "..\\Encapsulamento\\ContaBancaria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:46:14.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Encapsulamento\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Encapsulamento\\Program.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Encapsulamento\\Program.cs",
-              "RelativeToolTip": "..\\Encapsulamento\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAmwA8AAAAOAAAA",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Henraca\\Program.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Program.cs",
+              "RelativeToolTip": "..\\Henraca\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:45:40.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Teste.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Teste.cs",
-              "RelativeDocumentMoniker": "..\\Propriedades GetSet\\Teste.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Teste.cs",
-              "RelativeToolTip": "..\\Propriedades GetSet\\Teste.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAiwCYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:14:34.384Z",
+              "WhenOpened": "2024-12-16T14:34:21.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Propriedades GetSet\\Program.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Propriedades GetSet\\Program.cs",
-              "RelativeToolTip": "..\\Propriedades GetSet\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAcwA8AAAAXAAAA",
+              "Title": "ClasseCarro.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\ClasseCarro.cs",
+              "RelativeDocumentMoniker": "..\\Henraca\\ClasseCarro.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\ClasseCarro.cs",
+              "RelativeToolTip": "..\\Henraca\\ClasseCarro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:14:01.44Z",
+              "WhenOpened": "2024-12-16T14:34:16.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PessoaMetodos.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaMetodos.cs",
-              "RelativeDocumentMoniker": "..\\ConsoleApp1\\PessoaMetodos.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaMetodos.cs",
-              "RelativeToolTip": "..\\ConsoleApp1\\PessoaMetodos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Veiculo.cs",
+              "RelativeDocumentMoniker": "..\\Henraca\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Veiculo.cs",
+              "RelativeToolTip": "..\\Henraca\\Veiculo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T13:56:07.609Z",
+              "WhenOpened": "2024-12-16T14:28:17.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "..\\ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAIwC4AAAAfAAAA",
+              "DocumentIndex": 1,
+              "Title": "Bicicleta.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Bicicleta.cs",
+              "RelativeDocumentMoniker": "..\\Henraca\\Bicicleta.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Bicicleta.cs",
+              "RelativeToolTip": "..\\Henraca\\Bicicleta.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T23:29:58.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PessoaAtributos.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaAtributos.cs",
-              "RelativeDocumentMoniker": "..\\ConsoleApp1\\PessoaAtributos.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\ConsoleApp1\\PessoaAtributos.cs",
-              "RelativeToolTip": "..\\ConsoleApp1\\PessoaAtributos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T23:26:02.642Z",
+              "WhenOpened": "2024-12-16T13:57:15.237Z",
               "EditorCaption": ""
             }
           ]

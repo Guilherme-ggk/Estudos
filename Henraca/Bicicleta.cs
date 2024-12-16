@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Henraca
 {
-    internal class Bicicleta
+    internal class Bicicleta : Veiculo
     {
+        public void Pedalar()
+        {
+            Console.WriteLine("Pedalando");
+        }
+        public override void Acelerar() // e trocando o abstract por override
+        {
+            Console.WriteLine("Acelerou a bicicleta");
+        }
     }
 }

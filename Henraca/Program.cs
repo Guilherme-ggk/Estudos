@@ -10,7 +10,12 @@ namespace Henraca
     {
         static void Main(string[] args)
         {
+            ClasseCarro c = new ClasseCarro();
+            Bicicleta b = new Bicicleta();
+            
+            
 
+           
         }
     }
 }

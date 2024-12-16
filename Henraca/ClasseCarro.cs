@@ -13,5 +13,9 @@ namespace Henraca
         {
             Console.WriteLine("Motor ligado");
         }
+        public override void Acelerar()
+        {
+            Console.WriteLine("Acelerou o carro!");
+        }
     }
 }

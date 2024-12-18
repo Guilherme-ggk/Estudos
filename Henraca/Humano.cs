@@ -12,10 +12,29 @@ namespace Henraca
         {
             Console.WriteLine("Humano.olhos");
         }
+        public virtual void Cabelos()
+        {
+            Console.WriteLine("Humano.cabelos");
+        }
     }
 
     class Pessoa: Humano
     {
+        public sealed override void Olhos() // com o sealed aqui, ele não pode ser herdado diretamente da classe pessoa
+        {
+            Console.WriteLine("Humano.olhos");
+        }
+        public override void Cabelos()
+        {
+            Console.WriteLine("Humano.cabelos");
+        }
+    }
+    class Homem: Pessoa
+    {
+        /*public override void Olhos() // com o sealed aqui, ele não pode ser herdado diretamente da classe pessoa
+        {
+            Console.WriteLine("Humano.olhos");
+        }*/
         public override void Cabelos()
         {
             Console.WriteLine("Humano.cabelos");

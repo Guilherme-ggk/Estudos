@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Henraca\bin\Debug\Henraca.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Henraca\bin\Debug\Henraca.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Henraca\bin\Debug\Henraca.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Henraca\obj\Debug\Heranca.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Henraca\obj\Debug\Heranca.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Henraca\obj\Debug\Henraca.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Henraca\obj\Debug\Henraca.pdb

@@ -22,11 +22,11 @@ namespace Henraca
     {
         public sealed override void Olhos() // com o sealed aqui, ele não pode ser herdado diretamente da classe pessoa
         {
-            Console.WriteLine("Humano.olhos");
+            Console.WriteLine("Pessoa.olhos");
         }
         public override void Cabelos()
         {
-            Console.WriteLine("Humano.cabelos");
+            Console.WriteLine("Pessoa.cabelos");
         }
     }
     class Homem: Pessoa
@@ -37,7 +37,7 @@ namespace Henraca
         }*/
         public override void Cabelos()
         {
-            Console.WriteLine("Humano.cabelos");
+            Console.WriteLine("Homem.cabelos");
         }
     }
 }

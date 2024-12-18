@@ -24,8 +24,8 @@ namespace Henranca
             a.Cabelos();
 
             Console.WriteLine("Pessoa");
-            c.Olhos();
-            c.Cabelos();
+            b.Olhos();
+            b.Cabelos();
 
             Console.WriteLine("Homem");
             c.Olhos();

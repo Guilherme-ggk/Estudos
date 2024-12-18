@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Henraca
 {
-    internal class Humano
+    class Humano
     {
+        public virtual void Olhos()
+        {
+            Console.WriteLine("Humano.olhos");
+        }
+    }
+
+    class Pessoa: Humano
+    {
+        public override void Cabelos()
+        {
+            Console.WriteLine("Humano.cabelos");
+        }
     }
 }

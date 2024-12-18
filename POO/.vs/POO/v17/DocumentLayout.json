@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\POO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFDE231C-1EEC-4C8C-A26F-FD361042A379}|..\\Modificadores\\Modificadores.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\modificadores\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE231C-1EEC-4C8C-A26F-FD361042A379}|..\\Modificadores\\Modificadores.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\modificadores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{172838D2-8F80-425F-A0B8-FC667F351FA5}|..\\Henraca\\Heranca.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\henraca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,11 +31,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Modificadores\\Classes.cs",
+              "RelativeDocumentMoniker": "..\\Modificadores\\Classes.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Modificadores\\Classes.cs",
+              "RelativeToolTip": "..\\Modificadores\\Classes.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T13:00:16.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Modificadores\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Modificadores\\Program.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Modificadores\\Program.cs",
+              "RelativeToolTip": "..\\Modificadores\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:28:34.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Program.cs",
               "RelativeDocumentMoniker": "..\\Henraca\\Program.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Program.cs*",
-              "RelativeToolTip": "..\\Henraca\\Program.cs*",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Program.cs",
+              "RelativeToolTip": "..\\Henraca\\Program.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAiwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T12:18:40.806Z",
@@ -37,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Humano.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Henraca\\Humano.cs",
               "RelativeDocumentMoniker": "..\\Henraca\\Humano.cs",

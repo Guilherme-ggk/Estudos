@@ -12,6 +12,8 @@ namespace Metodos
         {
             string nome = args[0];
 
+            Console.WriteLine($"olá {nome}");
+
             Console.ReadKey();
         }
     }

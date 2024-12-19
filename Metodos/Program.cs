@@ -19,7 +19,7 @@ namespace Metodos
             }
             else
             {
-                Console.WriteLine($"olá {nome}");
+                Console.WriteLine($"olá {args[0]}");
             }
         }
     }

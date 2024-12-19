@@ -10,11 +10,17 @@ namespace Metodos
     {
         static void Main(string[] args)
         {
-            string nome = args[0];
+           // string nome = args[0];
+            string senha = "30755";
 
-            Console.WriteLine($"olá {nome}");
-
-            Console.ReadKey();
+            if(senha != args[1])
+            {
+                Console.WriteLine("acesso negado");
+            }
+            else
+            {
+                Console.WriteLine($"olá {nome}");
+            }
         }
     }
 }

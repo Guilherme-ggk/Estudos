@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C28BE65-9633-4676-949F-EB285A06A479}</ProjectGuid>
+    <ProjectGuid>{10AD6FF2-C558-420B-B1D6-57D6CB5DBD56}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Polimorfismo</RootNamespace>
-    <AssemblyName>Polimorfismo</AssemblyName>
+    <RootNamespace>Metodos</RootNamespace>
+    <AssemblyName>Metodos</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes.cs" />
-    <Compile Include="Conta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

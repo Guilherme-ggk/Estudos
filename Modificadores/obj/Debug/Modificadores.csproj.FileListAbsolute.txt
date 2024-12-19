@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Modificadores\bin\Debug\Modificadores.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Modificadores\bin\Debug\Modificadores.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Modificadores\bin\Debug\Modificadores.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Modificadores\obj\Debug\Modificadores.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Modificadores\obj\Debug\Modificadores.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Modificadores\obj\Debug\Modificadores.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Modificadores\obj\Debug\Modificadores.pdb

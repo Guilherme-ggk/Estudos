@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\bin\Debug\EstudandoForms.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\bin\Debug\EstudandoForms.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\bin\Debug\EstudandoForms.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\obj\Debug\EstudandoForms.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\obj\Debug\EstudandoForms.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\obj\Debug\EstudandoForms.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\obj\Debug\EstudandoForms.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\obj\Debug\EstudandoForms.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\obj\Debug\EstudandoForms.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\EstudandoForms\obj\Debug\EstudandoForms.pdb

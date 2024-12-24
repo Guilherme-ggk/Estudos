@@ -26,5 +26,7 @@ namespace EstudandoForms
         {
             this.Text = "mudando";
         }
+
+      
     }
 }

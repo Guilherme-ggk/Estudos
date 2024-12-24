@@ -21,5 +21,10 @@ namespace EstudandoForms
         {
             this.Text = "CLICADO";
         }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            this.Text = "mudando";
+        }
     }
 }

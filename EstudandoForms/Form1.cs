@@ -29,7 +29,12 @@ namespace EstudandoForms
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            this.Text = "Entrou";
+            this.Text = "saiu";
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            this.Text = "entrou";
         }
     }
 }

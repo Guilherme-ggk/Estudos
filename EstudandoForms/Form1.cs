@@ -20,6 +20,19 @@ namespace EstudandoForms
         private void button1_Click(object sender, EventArgs e)
         {
             this.Text = "CLICADO";
+
+            string res = "contem tipos";
+
+            if(res.Contains("tipo"))
+            {
+                Console.WriteLine("Contém");
+                label1.Text = "contem";
+            }
+            else
+            {
+                Console.WriteLine("Não contém");
+                label1.Text = "nn contem";
+            }
         }
 
         private void Form1_Click(object sender, EventArgs e)

@@ -23,7 +23,7 @@ namespace EstudandoForms
 
             string res = "contem tipos";
 
-            if(res.Contains("tipo"))
+            if(res.Contains("z"))
             {
                 Console.WriteLine("Contém");
                 label1.Text = "contem";

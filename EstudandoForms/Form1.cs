@@ -21,9 +21,15 @@ namespace EstudandoForms
         {
             this.Text = "CLICADO";
 
-            string res = "contem tipos";
+            int res = 5400;
+            bool res2 = false;
 
-            if(res.Contains("z"))
+            string resultado = res.ToString();
+            string resultado2 = res2.ToString();
+
+            label1.Text = resultado2;
+
+            /*if(res.Contains("z"))
             {
                 Console.WriteLine("Contém");
                 label1.Text = "contem";
@@ -32,7 +38,7 @@ namespace EstudandoForms
             {
                 Console.WriteLine("Não contém");
                 label1.Text = "nn contem";
-            }
+            }*/
         }
 
         private void Form1_Click(object sender, EventArgs e)

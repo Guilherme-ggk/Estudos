@@ -19,7 +19,17 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Text = "CLICADO";
+            string res = "Guilherme Henrique";
+
+           int indice = res.IndexOf('u');
+            int indice2 = res.LastIndexOf('u');
+
+            label1.Text = "indice" + indice2;
+            
+
+
+
+           /* this.Text = "CLICADO";
 
             int res = 5400;
             bool res2 = false;

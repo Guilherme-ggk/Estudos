@@ -19,12 +19,15 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nome = "Guilherme";
+            string nome = "Guilherme Henrique";
 
-            int tamanho = nome.Length;
+            string parte = nome.Substring(0, 9);
 
+            label1.Text = parte;
 
-            label1.Text = $"{tamanho}";
+            //int tamanho = nome.Length;
+
+            //label1.Text = $"{tamanho}";
 
 
             /*string nome = "Guilherme Henrique";

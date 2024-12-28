@@ -15,6 +15,7 @@ using Unimake.Business.DFe.Xml.NF3e;
 using Unimake.Business.DFe.Xml.NFe;
 using Unimake.Business.Security;
 using ConsStatServ = Unimake.Business.DFe.Xml.NFe.ConsStatServ;
+using Ide = Unimake.Business.DFe.Xml.NFe.Ide;
 
 
 namespace UnimakeDfeC_
@@ -93,5 +94,34 @@ namespace UnimakeDfeC_
             private set => throw new Exception("não é possivel carregar certificado digital, carregado automaticamente!");
         }
         #endregion
+
+        private void BtnEnviarNFeSincrono_Click(object sender, EventArgs e)
+        {
+            var xml = new EnviNFe
+            {
+                Versao = "4.00",
+                IdLote = "00000000000001",
+                IndSinc = SimNao.Sim,
+                NFe = new List<NFe>
+                {
+                    new NFe
+                    {
+                        InfNFe = new List<InfNFe>
+                        {
+                            new InfNFe
+                            {
+                                Versao = "4.00",
+                                Ide = new Ide
+                                {
+                                    CUF = UFBrasil.PR,
+                                    NatOp = "VENDA PRODUÇÃO. ESTABELEC",
+                                    Mod = ModeloDFe.NFe
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+        }
     }
 }

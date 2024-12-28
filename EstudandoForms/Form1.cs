@@ -19,12 +19,22 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string res = "Guilherme Henrique";
+
+            string nome = "Guilherme Henrique";
+
+            string res = nome.Insert(10 , " A ");
+
+            string res2 = nome.Replace("Guilherme", "Giovana");
+
+            label1.Text = res2;
+
+
+            /*string res = "Guilherme Henrique";
 
            int indice = res.IndexOf('u');
             int indice2 = res.LastIndexOf('u');
 
-            label1.Text = "indice" + indice2;
+            label1.Text = "indice" + indice2;*/
             
 
 

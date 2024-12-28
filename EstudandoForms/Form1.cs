@@ -21,7 +21,7 @@ namespace EstudandoForms
         {
             string nome = "Guilherme Henrique";
 
-            string parte = nome.Substring(0, 9);
+            string parte = nome.Substring(nome.IndexOf("g"), 5);
 
             label1.Text = parte;
 

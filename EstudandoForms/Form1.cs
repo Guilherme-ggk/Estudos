@@ -19,14 +19,21 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string nome = "Guilherme";
 
-            string nome = "Guilherme Henrique";
+            int tamanho = nome.Length;
+
+
+            label1.Text = $"{tamanho}";
+
+
+            /*string nome = "Guilherme Henrique";
 
             string res = nome.Insert(10 , " A ");
 
             string res2 = nome.Replace("Guilherme", "Giovana");
 
-            label1.Text = res2;
+            label1.Text = res2;*/
 
 
             /*string res = "Guilherme Henrique";
@@ -35,30 +42,30 @@ namespace EstudandoForms
             int indice2 = res.LastIndexOf('u');
 
             label1.Text = "indice" + indice2;*/
-            
 
 
 
-           /* this.Text = "CLICADO";
 
-            int res = 5400;
-            bool res2 = false;
+            /* this.Text = "CLICADO";
 
-            string resultado = res.ToString();
-            string resultado2 = res2.ToString();
+             int res = 5400;
+             bool res2 = false;
 
-            label1.Text = resultado2;
+             string resultado = res.ToString();
+             string resultado2 = res2.ToString();
 
-            /*if(res.Contains("z"))
-            {
-                Console.WriteLine("Contém");
-                label1.Text = "contem";
-            }
-            else
-            {
-                Console.WriteLine("Não contém");
-                label1.Text = "nn contem";
-            }*/
+             label1.Text = resultado2;
+
+             /*if(res.Contains("z"))
+             {
+                 Console.WriteLine("Contém");
+                 label1.Text = "contem";
+             }
+             else
+             {
+                 Console.WriteLine("Não contém");
+                 label1.Text = "nn contem";
+             }*/
         }
 
         private void Form1_Click(object sender, EventArgs e)

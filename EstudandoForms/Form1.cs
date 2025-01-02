@@ -19,8 +19,19 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string nomes = "Guilherme Henrique Maximo dos Santos Almeida";
 
-            //Trim, TrimStart, TrimEnd
+            char[] separador = { ' ' };
+
+            string[] resultado = nomes.Split(separador);
+
+            foreach (char nome in separador)
+            {
+                label1.Text = ($"{nome} \n");
+            }
+
+
+            /*Trim, TrimStart, TrimEnd
             string nome = "      __Guilherme--       ";
 
             string nova = nome.Trim();
@@ -29,6 +40,7 @@ namespace EstudandoForms
 
 
             label1.Text = ">" + nova.Trim(c) + "<";
+            */
 
             /* StartWith, EndWith
             string nome = "Guilherme";

@@ -27,7 +27,7 @@ namespace EstudandoForms
 
             foreach (string nome in resultado)
             {
-                label1.Text = ($"{nome} \n");
+                label1.Text = ($"{nome}");
             }
 
 

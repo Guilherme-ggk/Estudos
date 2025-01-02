@@ -10,22 +10,33 @@ namespace Manipulação_de_Números
     {
         static void Main(string[] args)
         {
-       
+            //Try Parse
+
+            int num;
+
+            bool resposta = int.TryParse("1985", out num);
+
+            if(resposta)
+            {
+                Console.WriteLine(num);
+            }
+            else
+            {
+                Console.WriteLine("Erro na conversão");
+            }
+
+            //Format
+
+            decimal numD = 120.2m;
+
+            Console.WriteLine($"O valor do produto é {numD:3}");   
 
 
-           
-              string nomes = "Guilherme Henrique Maximo dos Santos Almeida";
+            Console.WriteLine($"Hoje é {DateTime.Now:D} e são {DateTime.Now:t}");
 
-              char[] separador = { ' ' };
+            Console.ReadLine();
 
-            string[] resultado = nomes.Split(separador);
-
-              foreach (string nome in resultado)
-              {
-                Console.WriteLine($"{nome} \n");
-              }
-
-              Console.ReadLine();
+            Console.ReadLine(); 
         }
     }
 }

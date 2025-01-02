@@ -19,9 +19,21 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nome = "Guilherme";
 
-            bool resultado = nome.StartsWith("s", StringComparison.OrdinalIgnoreCase);
+            //Trim, TrimStart, TrimEnd
+            string nome = "      __Guilherme--       ";
+
+            string nova = nome.Trim();
+
+            char[] c = { '_', '-' };
+
+
+            label1.Text = ">" + nova.Trim(c) + "<";
+
+            /* StartWith, EndWith
+            string nome = "Guilherme";
+            bool resultado = nome.EndsWith("s", StringComparison.OrdinalIgnoreCase);
+            bool resultado2 = nome.StartsWith("s", StringComparison.OrdinalIgnoreCase);
 
             if(resultado)
             {
@@ -30,7 +42,7 @@ namespace EstudandoForms
             else
             {
                 label1.Text = "Negativo";
-            }
+            }*/
 
 
             /*string nome = "Guilherme Henrique";

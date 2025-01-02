@@ -25,7 +25,7 @@ namespace EstudandoForms
 
             string[] resultado = nomes.Split(separador);
 
-            foreach (char nome in separador)
+            foreach (string nome in resultado)
             {
                 label1.Text = ($"{nome} \n");
             }

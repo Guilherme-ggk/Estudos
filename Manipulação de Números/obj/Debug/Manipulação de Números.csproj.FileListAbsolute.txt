@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Manipulação de Números\bin\Debug\Manipulação de Números.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Manipulação de Números\bin\Debug\Manipulação de Números.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Manipulação de Números\bin\Debug\Manipulação de Números.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Manipulação de Números\obj\Debug\Manipulação de Números.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Manipulação de Números\obj\Debug\Manipulação de Números.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Manipulação de Números\obj\Debug\Manipulação de Números.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Manipulação de Números\obj\Debug\Manipulação de Números.pdb

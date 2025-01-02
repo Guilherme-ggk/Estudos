@@ -21,7 +21,7 @@ namespace EstudandoForms
         {
             string nome = "Guilherme";
 
-            bool resultado = nome.StartsWith("G", StringComparison.OrdinalIgnoreCase);
+            bool resultado = nome.StartsWith("s", StringComparison.OrdinalIgnoreCase);
 
             if(resultado)
             {
@@ -100,6 +100,11 @@ namespace EstudandoForms
         private void button1_MouseEnter(object sender, EventArgs e)
         {
             this.Text = "entrou";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

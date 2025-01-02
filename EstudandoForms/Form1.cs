@@ -19,7 +19,21 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nome = "Guilherme Henrique";
+            string nome = "Guilherme";
+
+            bool resultado = nome.StartsWith("G");
+
+            if(resultado)
+            {
+                label1.Text = "Positivo";
+            }
+            else
+            {
+                label1.Text = "Negativo";
+            }
+
+
+            /*string nome = "Guilherme Henrique";
 
             string parte = nome.Substring(nome.IndexOf(" "), 5);
 

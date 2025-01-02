@@ -21,7 +21,7 @@ namespace EstudandoForms
         {
             string nome = "Guilherme";
 
-            bool resultado = nome.StartsWith("G");
+            bool resultado = nome.StartsWith("G", StringComparison.OrdinalIgnoreCase);
 
             if(resultado)
             {
@@ -42,6 +42,8 @@ namespace EstudandoForms
             //int tamanho = nome.Length;
 
             //label1.Text = $"{tamanho}";
+
+            */
 
 
             /*string nome = "Guilherme Henrique";

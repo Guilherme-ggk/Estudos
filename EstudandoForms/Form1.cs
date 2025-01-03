@@ -19,6 +19,7 @@ namespace EstudandoForms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Split
             string nomes = "Guilherme Henrique Maximo dos Santos Almeida";
 
             char[] separador = { ' ' };

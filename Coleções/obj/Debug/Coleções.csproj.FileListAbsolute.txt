@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\bin\Debug\Coleções.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\bin\Debug\Coleções.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\bin\Debug\Coleções.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\obj\Debug\Coleções.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\obj\Debug\Coleções.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\obj\Debug\Coleções.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\obj\Debug\Coleções.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\obj\Debug\Coleções.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\obj\Debug\Coleções.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\Coleções\obj\Debug\Coleções.pdb

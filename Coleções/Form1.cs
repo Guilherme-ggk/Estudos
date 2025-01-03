@@ -19,6 +19,40 @@ namespace Coleções
 
         private void BtnLista_Click(object sender, EventArgs e)
         {
+            // HashSet
+            // Não deixa repetir itens e nem acessa-los por indices, apenas usando ElementAt
+
+            HashSet<string> veiculos = new HashSet<string>()
+            {
+                "carro","moto","avião","barco","helicoptero"
+            };
+
+            Console.WriteLine(veiculos.ElementAt(2));
+            Console.WriteLine(veiculos.Count());
+
+            if (veiculos.Contains("barco"))
+            {
+                Console.WriteLine("Contém");
+            }
+            else
+            {
+                Console.WriteLine("Não Contém");
+            }
+
+
+            if (veiculos.Add("carro"))
+            {
+                Console.WriteLine("Adicionado com sucesso");
+            }
+            else
+            {
+                Console.WriteLine("Já existe esse item!");
+            }
+
+            foreach (var item in veiculos)
+            {
+                Console.WriteLine(item);
+            }
             listBox1.Items.Clear();
 
             //Array

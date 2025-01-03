@@ -19,6 +19,7 @@ namespace Coleções
 
         private void BtnLista_Click(object sender, EventArgs e)
         {
+            //Dicitnary
             // HashSet
             // Não deixa repetir itens e nem acessa-los por indices, apenas usando ElementAt
 

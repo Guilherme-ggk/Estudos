@@ -24,7 +24,7 @@ namespace Coleções
             string[] nomes = new string[3];
 
             nomes[0] = "Guilherme";
-            nomes[1] = "Giovana";
+            nomes[1] = "A";
             nomes[2] = "Vera";
 
             //List
@@ -54,6 +54,12 @@ namespace Coleções
             {
                 MessageBox.Show("Não contém");
             }
+
+            MessageBox.Show($"A lista contém {nomes2.Count()}");
+
+            MessageBox.Show($"Vera está no indice {nomes2.IndexOf("Vera")}");
+
+            nomes2.Sort();
 
             /* listBox1.Items.Add(nomes2[0]);
              listBox1.Items.Add(nomes2[1]);

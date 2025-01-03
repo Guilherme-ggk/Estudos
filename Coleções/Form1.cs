@@ -19,6 +19,8 @@ namespace Coleções
 
         private void BtnLista_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
+
             //Array
 
             string[] nomes = new string[3];
@@ -54,6 +56,8 @@ namespace Coleções
             {
                 MessageBox.Show("Não contém");
             }
+
+            nomes2.Insert(2, "Marley");
 
             MessageBox.Show($"A lista contém {nomes2.Count()}");
 

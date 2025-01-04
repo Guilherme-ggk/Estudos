@@ -159,5 +159,42 @@ namespace Coleções
                 listBox1.Items.Add(aluno);
             }
         }
+
+        private void BtnSortedDictionary_Click(object sender, EventArgs e)
+        {
+            SortedDictionary<int, string> alunos = new SortedDictionary<int, string>()
+            {
+                {12,"Giovana"},
+                {15,"Guilherme"},
+                {20,"Kira" }
+            };
+
+            alunos.Add(21, "Cush");
+
+            foreach (KeyValuePair<int, string> aluno in alunos)
+            {
+                listBox1.Items.Add(aluno);
+            }
+        }
+
+        private void BtnSortedSet_Click(object sender, EventArgs e)
+        {
+            SortedSet<string> alunos = new SortedSet<string>()
+            {
+                "Guilherme",
+                "Giovana",
+                "Vera"
+            };
+
+            alunos.Add("Kira");
+
+
+             MessageBox.Show( alunos.ElementAt(0));
+
+            foreach(string aluno in alunos.Reverse())
+            {
+                listBox1.Items.Add(aluno);
+            }
+        }
     }
 }

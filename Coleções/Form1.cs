@@ -19,41 +19,49 @@ namespace Coleções
 
         private void BtnLista_Click(object sender, EventArgs e)
         {
-            //Dicitnary
-            // HashSet
-            // Não deixa repetir itens e nem acessa-los por indices, apenas usando ElementAt
+            //Dictionary
 
-            HashSet<string> veiculos = new HashSet<string>()
+            Dictionary<int, string> alunos = new Dictionary<int, string>()
             {
-                "carro","moto","avião","barco","helicoptero"
+                { 80, "Giovana" },
+                { 90, "Guilherme" }
             };
 
-            Console.WriteLine(veiculos.ElementAt(2));
-            Console.WriteLine(veiculos.Count());
+            alunos.Add(100, "Kira");
 
-            if (veiculos.Contains("barco"))
+            KeyValuePair<int, string> primeiro = alunos.First();
+
+            MessageBox.Show(primeiro.Key + " " + primeiro.Value);
+
+            if(alunos.ContainsKey(80))
             {
-                Console.WriteLine("Contém");
+                MessageBox.Show("Contém");
             }
             else
             {
-                Console.WriteLine("Não Contém");
+                MessageBox.Show("Não Contém");
+            }
+
+            foreach(KeyValuePair<int, string> aluno in alunos)
+            {
+                listBox1.Items.Add(aluno.Value);
             }
 
 
-            if (veiculos.Add("carro"))
-            {
-                Console.WriteLine("Adicionado com sucesso");
-            }
-            else
-            {
-                Console.WriteLine("Já existe esse item!");
-            }
 
-            foreach (var item in veiculos)
-            {
-                Console.WriteLine(item);
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+            
             listBox1.Items.Clear();
 
             //Array
@@ -106,10 +114,48 @@ namespace Coleções
              listBox1.Items.Add(nomes2[3]);
              listBox1.Items.Add(nomes2[4]);*/
 
-            foreach (string nome in nomes2)
+           /* foreach (string nome in nomes2)
             {
                 listBox1.Items.Add(nome);
-            }
+            }*/
+        }
+
+        private void BtnHashSet_Click(object sender, EventArgs e)
+        {
+            // HashSet
+            // Não deixa repetir itens e nem acessa-los por indices, apenas usando ElementAt
+
+             HashSet<string> veiculos = new HashSet<string>()
+              {
+                  "carro","moto","avião","barco","helicoptero"
+              };
+
+              Console.WriteLine(veiculos.ElementAt(2));
+              Console.WriteLine(veiculos.Count());
+
+              if (veiculos.Contains("barco"))
+              {
+                  Console.WriteLine("Contém");
+              }
+              else
+              {
+                  Console.WriteLine("Não Contém");
+              }
+
+
+              if (veiculos.Add("carro"))
+              {
+                  Console.WriteLine("Adicionado com sucesso");
+              }
+              else
+              {
+                  Console.WriteLine("Já existe esse item!");
+              }
+
+              foreach (var item in veiculos)
+              {
+                  Console.WriteLine(item);
+              }
         }
     }
 }

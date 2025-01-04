@@ -18,54 +18,10 @@ namespace Coleções
         }
 
         private void BtnLista_Click(object sender, EventArgs e)
-        {
-            //Dictionary
-
-            Dictionary<int, string> alunos = new Dictionary<int, string>()
-            {
-                { 80, "Giovana" },
-                { 90, "Guilherme" }
-            };
-
-            alunos.Add(100, "Kira");
-
-            KeyValuePair<int, string> primeiro = alunos.First();
-
-            MessageBox.Show(primeiro.Key + " " + primeiro.Value);
-
-            if(alunos.ContainsKey(80))
-            {
-                MessageBox.Show("Contém");
-            }
-            else
-            {
-                MessageBox.Show("Não Contém");
-            }
-
-            foreach(KeyValuePair<int, string> aluno in alunos)
-            {
-                listBox1.Items.Add(aluno.Value);
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+        {   
             listBox1.Items.Clear();
 
             //Array
-
             string[] nomes = new string[3];
 
             nomes[0] = "Guilherme";
@@ -156,6 +112,52 @@ namespace Coleções
               {
                   Console.WriteLine(item);
               }
+        }
+
+        private void BtnDictionary_Click(object sender, EventArgs e)
+        {
+            //Dictionary
+
+            Dictionary<int, string> alunos = new Dictionary<int, string>()
+            {
+                { 80, "Giovana" },
+                { 90, "Guilherme" }
+            };
+
+            alunos.Add(100, "Kira");
+
+            KeyValuePair<int, string> primeiro = alunos.First();
+
+            MessageBox.Show(primeiro.Key + " " + primeiro.Value);
+
+            if (alunos.ContainsKey(80))
+            {
+                MessageBox.Show("Contém");
+            }
+            else
+            {
+                MessageBox.Show("Não Contém");
+            }
+
+            foreach (KeyValuePair<int, string> aluno in alunos)
+            {
+                listBox1.Items.Add(aluno.Value);
+            }
+        }
+
+        private void BtnSorted_Click(object sender, EventArgs e)
+        {
+            SortedList<int, string> alunos = new SortedList<int, string>()
+            {
+                {20,  "C"},
+                {15,  "B"},
+                {10,  "A"}
+            };
+
+            foreach (KeyValuePair<int, string> aluno in alunos.Reverse())
+            {
+                listBox1.Items.Add(aluno);
+            }
         }
     }
 }

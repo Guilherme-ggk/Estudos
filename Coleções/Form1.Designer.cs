@@ -31,6 +31,8 @@
             this.BtnLista = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.BtnHashSet = new System.Windows.Forms.Button();
+            this.BtnDictionary = new System.Windows.Forms.Button();
+            this.BtnSorted = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnLista
@@ -66,11 +68,35 @@
             this.BtnHashSet.UseVisualStyleBackColor = true;
             this.BtnHashSet.Click += new System.EventHandler(this.BtnHashSet_Click);
             // 
+            // BtnDictionary
+            // 
+            this.BtnDictionary.Location = new System.Drawing.Point(791, 157);
+            this.BtnDictionary.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnDictionary.Name = "BtnDictionary";
+            this.BtnDictionary.Size = new System.Drawing.Size(253, 58);
+            this.BtnDictionary.TabIndex = 3;
+            this.BtnDictionary.Text = "Dictionary";
+            this.BtnDictionary.UseVisualStyleBackColor = true;
+            this.BtnDictionary.Click += new System.EventHandler(this.BtnDictionary_Click);
+            // 
+            // BtnSorted
+            // 
+            this.BtnSorted.Location = new System.Drawing.Point(791, 236);
+            this.BtnSorted.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSorted.Name = "BtnSorted";
+            this.BtnSorted.Size = new System.Drawing.Size(253, 58);
+            this.BtnSorted.TabIndex = 4;
+            this.BtnSorted.Text = "SortedList";
+            this.BtnSorted.UseVisualStyleBackColor = true;
+            this.BtnSorted.Click += new System.EventHandler(this.BtnSorted_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.BtnSorted);
+            this.Controls.Add(this.BtnDictionary);
             this.Controls.Add(this.BtnHashSet);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.BtnLista);
@@ -88,6 +114,8 @@
         private System.Windows.Forms.Button BtnLista;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button BtnHashSet;
+        private System.Windows.Forms.Button BtnDictionary;
+        private System.Windows.Forms.Button BtnSorted;
     }
 }
 

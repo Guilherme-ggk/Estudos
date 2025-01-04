@@ -196,5 +196,56 @@ namespace Coleções
                 listBox1.Items.Add(aluno);
             }
         }
+
+        private void BtnQueue_Click(object sender, EventArgs e)
+        {
+            Queue<string> fila = new Queue<string>();
+
+            fila.Enqueue("AA");
+            fila.Enqueue("BB");
+            fila.Enqueue("CC");
+
+
+          //  MessageBox.Show(fila.Count.ToString());
+            //MessageBox.Show(fila.Dequeue());
+
+
+           /*foreach (string item in fila)
+            {
+                listBox1.Items.Add(item);
+            }*/
+
+            while(fila.Count > 0)
+            {
+                MessageBox.Show("Primeiro da fila: " + fila.Dequeue());
+                MessageBox.Show(fila.Count.ToString());
+                listBox1.Items.Clear();
+                foreach(string item in fila)
+                {
+                    listBox1.Items.Add(item);
+                }
+            }
+
+
+
+        }
+
+        private void BtnStack_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+
+            Stack<string> pilha = new Stack<string>();
+
+            pilha.Push("Giovana");
+            pilha.Push("Guilherme");
+            pilha.Push("Kira");
+
+            MessageBox.Show(pilha.Count.ToString());
+
+            foreach(string item in pilha)
+            {
+                listBox1.Items.Add(item);
+            }
+        }
     }
 }

@@ -232,6 +232,7 @@ namespace Coleções
 
         private void BtnStack_Click(object sender, EventArgs e)
         {
+            //Pilha, o primeiro a entrar, é o ultimo a sair
             listBox1.Items.Clear();
 
             Stack<string> pilha = new Stack<string>();

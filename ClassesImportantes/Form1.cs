@@ -35,12 +35,6 @@ namespace ClassesImportantes
 
             MessageBox.Show("Deseja sair?", "Titulo da Mensagem", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnAleatorio_Click(object sender, EventArgs e)
         {
             Random r = new Random();
@@ -50,6 +44,11 @@ namespace ClassesImportantes
             
 
             LblResultado.Text = valor2.ToString();
+        }
+
+        private void BtnTimeSpan_Click(object sender, EventArgs e)
+        {
+            LblResultado.Text = TimeSpan.FromMinutes(90).ToString();
         }
     }
 }

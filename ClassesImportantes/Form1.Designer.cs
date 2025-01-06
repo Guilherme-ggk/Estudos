@@ -32,8 +32,8 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.BtnMessageBox = new System.Windows.Forms.Button();
             this.LblResultado = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.BtnAleatorio = new System.Windows.Forms.Button();
+            this.BtnTimeSpan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnMessageBox
@@ -58,20 +58,9 @@
             this.LblResultado.TabIndex = 1;
             this.LblResultado.Text = "resultado";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(454, 80);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 54);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Message Box";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // BtnAleatorio
             // 
-            this.BtnAleatorio.Location = new System.Drawing.Point(453, 138);
+            this.BtnAleatorio.Location = new System.Drawing.Point(454, 95);
             this.BtnAleatorio.Margin = new System.Windows.Forms.Padding(2);
             this.BtnAleatorio.Name = "BtnAleatorio";
             this.BtnAleatorio.Size = new System.Drawing.Size(136, 54);
@@ -80,13 +69,24 @@
             this.BtnAleatorio.UseVisualStyleBackColor = true;
             this.BtnAleatorio.Click += new System.EventHandler(this.BtnAleatorio_Click);
             // 
+            // BtnTimeSpan
+            // 
+            this.BtnTimeSpan.Location = new System.Drawing.Point(454, 165);
+            this.BtnTimeSpan.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnTimeSpan.Name = "BtnTimeSpan";
+            this.BtnTimeSpan.Size = new System.Drawing.Size(136, 54);
+            this.BtnTimeSpan.TabIndex = 4;
+            this.BtnTimeSpan.Text = "TIme Span";
+            this.BtnTimeSpan.UseVisualStyleBackColor = true;
+            this.BtnTimeSpan.Click += new System.EventHandler(this.BtnTimeSpan_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.BtnTimeSpan);
             this.Controls.Add(this.BtnAleatorio);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.LblResultado);
             this.Controls.Add(this.BtnMessageBox);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -103,8 +103,8 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Windows.Forms.Button BtnMessageBox;
         private System.Windows.Forms.Label LblResultado;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BtnAleatorio;
+        private System.Windows.Forms.Button BtnTimeSpan;
     }
 }
 

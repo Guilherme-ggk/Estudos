@@ -35,5 +35,19 @@ namespace ClassesImportantes
 
             MessageBox.Show("Deseja sair?", "Titulo da Mensagem", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnAleatorio_Click(object sender, EventArgs e)
+        {
+            Random r = new Random();
+
+            int valor = r.Next(0, 255);
+
+            LblResultado.Text = valor.ToString();
+        }
     }
 }

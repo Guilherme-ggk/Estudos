@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnMessageBox = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.BtnMessageBox = new System.Windows.Forms.Button();
+            this.LblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnMessageBox
@@ -43,24 +44,36 @@
             this.BtnMessageBox.UseVisualStyleBackColor = true;
             this.BtnMessageBox.Click += new System.EventHandler(this.BtnMessageBox_Click);
             // 
+            // LblResultado
+            // 
+            this.LblResultado.AutoSize = true;
+            this.LblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblResultado.Location = new System.Drawing.Point(12, 9);
+            this.LblResultado.Name = "LblResultado";
+            this.LblResultado.Size = new System.Drawing.Size(101, 25);
+            this.LblResultado.TabIndex = 1;
+            this.LblResultado.Text = "resultado";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LblResultado);
             this.Controls.Add(this.BtnMessageBox);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button BtnMessageBox;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private System.Windows.Forms.Button BtnMessageBox;
+        private System.Windows.Forms.Label LblResultado;
     }
 }
 

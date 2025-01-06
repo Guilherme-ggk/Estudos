@@ -19,7 +19,21 @@ namespace ClassesImportantes
 
         private void BtnMessageBox_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Hello Word!");
+            MessageBox.Show("Olá meus amigos!", "Titulo da mensagem");
 
+            DialogResult res = MessageBox.Show("teste", "titulo da mensagem", MessageBoxButtons.OKCancel);
+
+            if(res == DialogResult.OK)
+            {
+                LblResultado.Text = "Clicou em OK";
+            }
+            else if(res == DialogResult.Cancel)
+            {
+                LblResultado.Text = "Clicou em CANCELAR";
+            }
+
+            MessageBox.Show("Deseja sair?", "Titulo da Mensagem", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
         }
     }
 }

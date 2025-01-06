@@ -44,10 +44,12 @@ namespace ClassesImportantes
         private void BtnAleatorio_Click(object sender, EventArgs e)
         {
             Random r = new Random();
+          
+            double valor2 = r.NextDouble();
+            int valor = r.Next();
+            
 
-            int valor = r.Next(0, 255);
-
-            LblResultado.Text = valor.ToString();
+            LblResultado.Text = valor2.ToString();
         }
     }
 }

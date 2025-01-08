@@ -70,9 +70,15 @@ namespace ClassesImportantes
             //LblResultado.Text = DateTime.Now.ToShortTimeString();
             //LblResultado.Text = DateTime.Now.ToShortDateString().ToString();
 
+
+
             DateTime data = new DateTime(1985, 01, 24, 14, 35, 20);
 
-            LblResultado.Text = data.DayOfWeek.ToString();
+            TimeSpan tempo = new TimeSpan(1, 0, 0);
+
+           // LblResultado.Text = data.DayOfWeek.ToString();
+
+
 
             
 

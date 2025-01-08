@@ -62,10 +62,12 @@ namespace ClassesImportantes
 
         private void BtnDateTime_Click(object sender, EventArgs e)
         {
-            LblResultado.Text = DateTime.Now.ToString();
-            LblResultado.Text = DateTime.Today.ToString();
-            LblResultado.Text = DateTime.DaysInMonth(2022 ,08).ToString();
-            LblResultado.Text = DateTime.IsLeapYear(2016).ToString();
+            //LblResultado.Text = DateTime.Now.ToString();
+            //LblResultado.Text = DateTime.Today.ToString();
+            //LblResultado.Text = DateTime.DaysInMonth(2022 ,08).ToString();
+            //LblResultado.Text = DateTime.IsLeapYear(2016).ToString();
+            LblResultado.Text = DateTime.Now.ToUniversalTime().ToString();
+
         }
     }
 }

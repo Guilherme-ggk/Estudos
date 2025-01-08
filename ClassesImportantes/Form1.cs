@@ -66,8 +66,9 @@ namespace ClassesImportantes
             //LblResultado.Text = DateTime.Today.ToString();
             //LblResultado.Text = DateTime.DaysInMonth(2022 ,08).ToString();
             //LblResultado.Text = DateTime.IsLeapYear(2016).ToString();
-            LblResultado.Text = DateTime.Now.ToUniversalTime().ToString();
-
+            //LblResultado.Text = DateTime.Now.ToUniversalTime().ToString();
+            //LblResultado.Text = DateTime.Now.ToShortTimeString();
+            LblResultado.Text = DateTime.Now.ToShortDateString();
         }
     }
 }

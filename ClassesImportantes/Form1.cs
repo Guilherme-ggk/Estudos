@@ -68,7 +68,14 @@ namespace ClassesImportantes
             //LblResultado.Text = DateTime.IsLeapYear(2016).ToString();
             //LblResultado.Text = DateTime.Now.ToUniversalTime().ToString();
             //LblResultado.Text = DateTime.Now.ToShortTimeString();
-            LblResultado.Text = DateTime.Now.ToShortDateString();
+            //LblResultado.Text = DateTime.Now.ToShortDateString().ToString();
+
+            DateTime data = new DateTime(1985, 01, 24, 14, 35, 20);
+
+            LblResultado.Text = data.DayOfWeek.ToString();
+
+            
+
         }
     }
 }

@@ -36,6 +36,8 @@
             this.BtnTimeSpan = new System.Windows.Forms.Button();
             this.BtnDateTime = new System.Windows.Forms.Button();
             this.BtnColors = new System.Windows.Forms.Button();
+            this.BtnFont = new System.Windows.Forms.Button();
+            this.BtnApp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnMessageBox
@@ -104,11 +106,35 @@
             this.BtnColors.UseVisualStyleBackColor = true;
             this.BtnColors.Click += new System.EventHandler(this.BtnColors_Click);
             // 
+            // BtnFont
+            // 
+            this.BtnFont.Location = new System.Drawing.Point(303, 301);
+            this.BtnFont.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnFont.Name = "BtnFont";
+            this.BtnFont.Size = new System.Drawing.Size(136, 54);
+            this.BtnFont.TabIndex = 9;
+            this.BtnFont.Text = "Font";
+            this.BtnFont.UseVisualStyleBackColor = true;
+            this.BtnFont.Click += new System.EventHandler(this.BtnFont_Click);
+            // 
+            // BtnApp
+            // 
+            this.BtnApp.Location = new System.Drawing.Point(149, 301);
+            this.BtnApp.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnApp.Name = "BtnApp";
+            this.BtnApp.Size = new System.Drawing.Size(136, 54);
+            this.BtnApp.TabIndex = 10;
+            this.BtnApp.Text = "Application";
+            this.BtnApp.UseVisualStyleBackColor = true;
+            this.BtnApp.Click += new System.EventHandler(this.BtnApp_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.BtnApp);
+            this.Controls.Add(this.BtnFont);
             this.Controls.Add(this.BtnColors);
             this.Controls.Add(this.BtnDateTime);
             this.Controls.Add(this.BtnTimeSpan);
@@ -134,6 +160,8 @@
         private System.Windows.Forms.Button BtnTimeSpan;
         private System.Windows.Forms.Button BtnDateTime;
         private System.Windows.Forms.Button BtnColors;
+        private System.Windows.Forms.Button BtnFont;
+        private System.Windows.Forms.Button BtnApp;
     }
 }
 

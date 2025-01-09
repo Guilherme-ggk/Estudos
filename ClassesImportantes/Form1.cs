@@ -103,5 +103,31 @@ namespace ClassesImportantes
             this.BackColor = color1;
 
         }
+
+        private void BtnFont_Click(object sender, EventArgs e)
+        {
+            //Font fonte = new Font("Arial", 15, FontStyle.Underline | FontStyle.Bold, GraphicsUnit.Pixel);
+
+            Font fonte2 = new Font(FontFamily.GenericMonospace, 36,FontStyle.Regular,GraphicsUnit.Pixel);
+
+
+
+            LblResultado.Text = "Guilherme Henrique Maximo dos Santos Almeida";
+
+            LblResultado.Font = fonte2;
+        }
+
+        private void BtnApp_Click(object sender, EventArgs e)
+        {
+            /*Application.Exit();
+           
+            Application.Restart();
+
+            
+            string PATH = Application.StartupPath;*/
+            string EXE = Application.ExecutablePath;
+
+            LblResultado.Text = EXE;
+        }
     }
 }

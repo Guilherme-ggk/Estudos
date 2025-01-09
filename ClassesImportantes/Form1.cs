@@ -132,7 +132,33 @@ namespace ClassesImportantes
 
         private void BtnEnvironment_Click(object sender, EventArgs e)
         {
-            Envir
+            string MeusDocs = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+
+            Environment.CurrentDirectory = "C:\\";
+            string DirAtual = Environment.CurrentDirectory;
+
+            //Environment.NewLine
+
+            string VarAmb = Environment.GetEnvironmentVariable("Patch");
+
+            string[] discos = Environment.GetLogicalDrives();
+
+            string Usuario = Environment.UserName;
+            string Dominio = Environment.UserDomainName;
+            int Processadores = Environment.ProcessorCount;
+
+            LblResultado.Text = Processadores.ToString();
+
+            LblResultado.Text = DirAtual + " " + MeusDocs; 
+
+
+            foreach(string item in discos)
+            {
+                LblResultado.Text += "\n" + item;
+            }
+
+
+
         }
     }
 }

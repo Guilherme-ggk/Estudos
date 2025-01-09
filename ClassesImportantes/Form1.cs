@@ -91,6 +91,12 @@ namespace ClassesImportantes
 
         private void BtnColors_Click(object sender, EventArgs e)
         {
+            Color azul = Color.Blue;
+
+            Color color1 = Color.FromName("Red");
+
+
+            this.BackColor = color1;
 
         }
     }

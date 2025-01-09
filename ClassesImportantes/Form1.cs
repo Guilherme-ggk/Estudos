@@ -94,6 +94,10 @@ namespace ClassesImportantes
             Color azul = Color.Blue;
 
             Color color1 = Color.FromName("Red");
+            Color color2 = Color.FromKnownColor(KnownColor.AliceBlue);
+            Color color3 = Color.FromArgb(255, 255, 255, 255);
+            Color color4 = Color.FromArgb(100, Color.Black);
+
 
 
             this.BackColor = color1;

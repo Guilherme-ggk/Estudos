@@ -12,23 +12,26 @@ namespace ThreadTasks
         static void Main(string[] args)
         {
             Thread tarefa = new Thread(Tarefa);
-            tarefa.IsBackground = true; 
-            tarefa.Start();
+            tarefa.IsBackground = true; //Executa até acabar o principal independente do valor da Tarefa 
+            tarefa.Start(); // Inicia a tarefa
+            tarefa.Join(); // Dá prioridade primeiro para a Tarefa e deixando a pricipal para depois
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Principal");
+                Thread.Sleep(1000);
             }
 
-
-            Console.ReadKey();
+            
+            //Console.ReadKey()
         }
 
         static void Tarefa()
         {
-            for (int i = 0; i < 5555; i++)
+            for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine("Tarefa executada");
+                Thread.Sleep(500);
             }
         }
     }

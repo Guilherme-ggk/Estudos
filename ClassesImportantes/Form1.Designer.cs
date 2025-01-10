@@ -37,8 +37,8 @@
             this.BtnDateTime = new System.Windows.Forms.Button();
             this.BtnColors = new System.Windows.Forms.Button();
             this.BtnFont = new System.Windows.Forms.Button();
-            this.BtnApp = new System.Windows.Forms.Button();
             this.BtnEnvironment = new System.Windows.Forms.Button();
+            this.BtnApp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnMessageBox
@@ -118,17 +118,6 @@
             this.BtnFont.UseVisualStyleBackColor = true;
             this.BtnFont.Click += new System.EventHandler(this.BtnFont_Click);
             // 
-            // BtnApp
-            // 
-            this.BtnApp.Location = new System.Drawing.Point(149, 301);
-            this.BtnApp.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnApp.Name = "BtnApp";
-            this.BtnApp.Size = new System.Drawing.Size(136, 54);
-            this.BtnApp.TabIndex = 10;
-            this.BtnApp.Text = "Application";
-            this.BtnApp.UseVisualStyleBackColor = true;
-            this.BtnApp.Click += new System.EventHandler(this.BtnApp_Click);
-            // 
             // BtnEnvironment
             // 
             this.BtnEnvironment.Location = new System.Drawing.Point(303, 243);
@@ -139,6 +128,17 @@
             this.BtnEnvironment.Text = "Environment";
             this.BtnEnvironment.UseVisualStyleBackColor = true;
             this.BtnEnvironment.Click += new System.EventHandler(this.BtnEnvironment_Click);
+            // 
+            // BtnApp
+            // 
+            this.BtnApp.Location = new System.Drawing.Point(149, 301);
+            this.BtnApp.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnApp.Name = "BtnApp";
+            this.BtnApp.Size = new System.Drawing.Size(136, 54);
+            this.BtnApp.TabIndex = 10;
+            this.BtnApp.Text = "Application";
+            this.BtnApp.UseVisualStyleBackColor = true;
+            this.BtnApp.Click += new System.EventHandler(this.BtnApp_Click);
             // 
             // Form1
             // 
@@ -174,8 +174,8 @@
         private System.Windows.Forms.Button BtnDateTime;
         private System.Windows.Forms.Button BtnColors;
         private System.Windows.Forms.Button BtnFont;
-        private System.Windows.Forms.Button BtnApp;
         private System.Windows.Forms.Button BtnEnvironment;
+        private System.Windows.Forms.Button BtnApp;
     }
 }
 

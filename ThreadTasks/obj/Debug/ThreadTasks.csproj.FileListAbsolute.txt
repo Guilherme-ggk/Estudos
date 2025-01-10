@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ThreadTasks\bin\Debug\ThreadTasks.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ThreadTasks\bin\Debug\ThreadTasks.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ThreadTasks\bin\Debug\ThreadTasks.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ThreadTasks\obj\Debug\ThreadTasks.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ThreadTasks\obj\Debug\ThreadTasks.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ThreadTasks\obj\Debug\ThreadTasks.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\ThreadTasks\obj\Debug\ThreadTasks.pdb

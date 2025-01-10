@@ -12,6 +12,7 @@ namespace ThreadTasks
         static void Main(string[] args)
         {
             Thread tarefa = new Thread(Tarefa);
+            tarefa.IsBackground = true; 
             tarefa.Start();
 
             for (int i = 0; i < 10; i++)
@@ -25,7 +26,7 @@ namespace ThreadTasks
 
         static void Tarefa()
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5555; i++)
             {
                 Console.WriteLine("Tarefa executada");
             }

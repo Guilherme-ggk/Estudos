@@ -35,11 +35,10 @@
             // 
             // LblResultado
             // 
-            this.LblResultado.AutoSize = true;
             this.LblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblResultado.Location = new System.Drawing.Point(12, 9);
+            this.LblResultado.Location = new System.Drawing.Point(7, 4);
             this.LblResultado.Name = "LblResultado";
-            this.LblResultado.Size = new System.Drawing.Size(115, 25);
+            this.LblResultado.Size = new System.Drawing.Size(781, 245);
             this.LblResultado.TabIndex = 0;
             this.LblResultado.Text = "Resultado:";
             // 
@@ -75,8 +74,8 @@
             this.Controls.Add(this.LblResultado);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

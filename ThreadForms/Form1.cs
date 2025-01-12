@@ -50,8 +50,9 @@ namespace ThreadForms
         {
             while (true)
             {
-                //LblResultado.Text = DateTime.Now.Second.ToString();
-                DefineValor(LblResultado, "Text", DateTime.Now.Second.ToString());
+               // LblResultado.Text = DateTime.Now.Second.ToString();
+                // DefineValor(LblResultado, "Text", DateTime.Now.Second.ToString());
+                LblResultado.Invoke(new Action(() => LblResultado.Text = DateTime.Now.Second.ToString()));
             }
         }
 

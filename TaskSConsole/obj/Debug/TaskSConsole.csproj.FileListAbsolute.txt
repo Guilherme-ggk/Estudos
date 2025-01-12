@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\bin\Debug\TaskSConsole.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\bin\Debug\TaskSConsole.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\bin\Debug\TaskSConsole.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSConsole.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSConsole.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSConsole.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSConsole.pdb

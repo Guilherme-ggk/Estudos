@@ -65,17 +65,17 @@ namespace ThreadForms
             }
             else // se nn requer o invoke
             {
-                Type TipoDoControle = controle.GetType();// verifica o tipo 
-                PropertyInfo[] PropriedadesTipo = TipoDoControle.GetProperties();
+                //Type TipoDoControle = controle.GetType();// verifica o tipo 
+                //PropertyInfo[] PropriedadesTipo = TipoDoControle.GetProperties();
 
-                foreach (PropertyInfo p in PropriedadesTipo)// passa pelo array propriedades de tipo
-                {
-                    if (p.Name.ToUpper() == propriedade.ToUpper())
-                    {
-                        p.SetValue(controle, valor, null); // retorna o valor
-                    }
+                //foreach (PropertyInfo p in PropriedadesTipo)// passa pelo array propriedades de tipo
+                //{
+                //    if (p.Name.ToUpper() == propriedade.ToUpper())
+                //    {
+                //        p.SetValue(controle, valor, null); // retorna o valor
+                //    }
 
-                }
+                //}
             }
         }
         private void Form1_Load(object sender, EventArgs e)

@@ -46,7 +46,7 @@ namespace UnimakeDfeC_
             var StatusServico = new StatusServico(xml, configuracao);
             StatusServico.Executar();
 
-            MessageBox.Show(StatusServico.Result.CStat + " " + StatusServico.Result.XMotivo);
+            MessageBox.Show(StatusServico.Result.CStat + " - " + StatusServico.Result.XMotivo);
 
                 
         }
@@ -71,14 +71,17 @@ namespace UnimakeDfeC_
             var ConsultaProtocolo = new ConsultaProtocolo(xml, configuracao);
             ConsultaProtocolo.Executar();
 
-            MessageBox.Show(ConsultaProtocolo.Result.CStat + " " + ConsultaProtocolo.Result.XMotivo);
+            MessageBox.Show(ConsultaProtocolo.Result.CStat + " - " + ConsultaProtocolo.Result.XMotivo);
         }
 
-        #region
+        #region Certificado Digital
 
+        //Caminho do Certificado Digital
         private static string PathCertificadoDigital { get; set; } = "C:\\Users\\30755\\Downloads\\HS BERNARDO - COMERCIO DE CARNES LTDA Senha 30163001 Val 19.11.2025 1006927767.pfx";
+        //Senha do certificado Digital
         private static string SenhaCertificado { get; set; } = "30163001";
 
+        //Campo do Certificado Digital
         public static X509Certificate2 CertificadoDigitalField;
 
         public static X509Certificate2 CertificadoSelecionado
@@ -93,6 +96,7 @@ namespace UnimakeDfeC_
             }
             private set => throw new Exception("não é possivel carregar certificado digital, carregado automaticamente!");
         }
+
         #endregion
 
         private void BtnEnviarNFeSincrono_Click(object sender, EventArgs e)

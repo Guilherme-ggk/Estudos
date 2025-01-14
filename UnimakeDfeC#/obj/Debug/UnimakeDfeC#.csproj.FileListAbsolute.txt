@@ -23,3 +23,5 @@ C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\obj\Debug\Unimake
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\obj\Debug\UnimakeD.3540CA42.Up2Date
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.exe
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\bin\Debug\ReaLTaiizor.dll
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\bin\Debug\ReaLTaiizor.xml

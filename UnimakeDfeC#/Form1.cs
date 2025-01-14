@@ -14,7 +14,11 @@ using Unimake.Business.DFe.Xml.GNRE;
 using Unimake.Business.DFe.Xml.NF3e;
 using Unimake.Business.DFe.Xml.NFe;
 using Unimake.Business.Security;
+using Unimake.Formatters;
 using ConsStatServ = Unimake.Business.DFe.Xml.NFe.ConsStatServ;
+using Dest = Unimake.Business.DFe.Xml.NFe.Dest;
+using Emit = Unimake.Business.DFe.Xml.NFe.Emit;
+using EnderEmit = Unimake.Business.DFe.Xml.NFe.EnderEmit;
 using Ide = Unimake.Business.DFe.Xml.NFe.Ide;
 
 
@@ -119,7 +123,49 @@ namespace UnimakeDfeC_
                                 {
                                     CUF = UFBrasil.PR,
                                     NatOp = "VENDA PRODUÇÃO. ESTABELEC",
-                                    Mod = ModeloDFe.NFe
+                                    Mod = ModeloDFe.NFe,
+                                    Serie = 1,
+                                    NNF = 57980,
+                                    DhEmi = DateTime.Now,
+                                    DhSaiEnt = DateTime.Now,
+                                    TpNF = TipoOperacao.Saida,
+                                    IdDest = DestinoOperacao.OperacaoInterestadual,
+                                    CMunFG = 4118402,
+                                    TpImp = FormatoImpressaoDANFE.NormalRetrato,
+                                    TpEmis = TipoEmissao.Normal,
+                                    TpAmb = TipoAmbiente.Homologacao,
+                                    FinNFe = FinalidadeNFe.Normal,
+                                    IndFinal = SimNao.Sim,
+                                    IndPres = IndicadorPresenca.OperacaoPresencial,
+                                    ProcEmi = ProcessoEmissao.AplicativoContribuinte,
+                                    VerProc = "TESTE 1.00"
+                                },
+                                Emit = new Emit
+                                {
+                                   CNPJ = "",
+                                   XNome = "",
+                                   XFant = "",
+                                   EnderEmit = new EnderEmit
+                                   {
+                                       XLgr = "",
+                                       Nro = "1500",
+                                       XBairro = "",
+                                       CMun = 1,
+                                       XMun = "",
+                                       UF = UFBrasil.PR,
+                                       CEP = "",
+                                       Fone = ""
+
+                                   },
+                                   IE = "",
+                                   IM = "",
+                                   CNAE = "",
+                                   CRT = CRT.SimplesNacional
+                                  
+                                },
+                                Dest = new Dest
+                                {
+
                                 }
                             }
                         }

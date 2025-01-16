@@ -217,14 +217,12 @@ namespace UnimakeDfeC_
                                           {
                                               new ICMS
                                               {
-                                                  ICMSSN101 = new ICMSSN101
+                                                  ICMSSN102 = new ICMSSN102
                                                   {
-                                                      Orig = OrigemMercadoria.Nacional,
-                                                      PCredSN = 2.8255m,
-                                                      VCredICMSSN = 2.40m
+                                                      Orig = OrigemMercadoria.Nacional
                                                   }
                                               }
-                                          },
+                                          }
 
                                       }
 

@@ -135,7 +135,7 @@
             this.BtnConsultaSituacao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnConsultaSituacao.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnConsultaSituacao.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnConsultaSituacao.Location = new System.Drawing.Point(5, 73);
+            this.BtnConsultaSituacao.Location = new System.Drawing.Point(5, 52);
             this.BtnConsultaSituacao.Margin = new System.Windows.Forms.Padding(2);
             this.BtnConsultaSituacao.Name = "BtnConsultaSituacao";
             this.BtnConsultaSituacao.Size = new System.Drawing.Size(174, 31);
@@ -150,7 +150,7 @@
             this.BtnConsultaStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnConsultaStatus.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnConsultaStatus.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnConsultaStatus.Location = new System.Drawing.Point(5, 38);
+            this.BtnConsultaStatus.Location = new System.Drawing.Point(5, 17);
             this.BtnConsultaStatus.Margin = new System.Windows.Forms.Padding(2);
             this.BtnConsultaStatus.Name = "BtnConsultaStatus";
             this.BtnConsultaStatus.Size = new System.Drawing.Size(174, 31);
@@ -174,7 +174,7 @@
             this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.nightControlBox1.EnableMinimizeButton = true;
             this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.nightControlBox1.Location = new System.Drawing.Point(694, 3);
+            this.nightControlBox1.Location = new System.Drawing.Point(709, 0);
             this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
             this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));

@@ -12,16 +12,16 @@ namespace SideMenuC_
 {
     public partial class FrmPrincipal : Form
     {
-        private Form FrmAtivo;
+        private Form FrmAtivo; // Declado o objeto, vai controlar o form filho que está aberto dentro do formúlario principal
         public FrmPrincipal()
         {
             InitializeComponent();
         }
-        private void FormShow(Form frm)
+        private void FormShow(Form frm) // Método que vai mostrar o formúlario
         {
-            //  ActiveFormClose();
-            FrmAtivo = frm;
-            frm.TopLevel = false;
+             ActiveFormClose(); // fecha o formúlario ativo
+            FrmAtivo = frm; // recebe o frm que é passado do método Form frm
+            frm.TopLevel = true;
             PanelForm.Controls.Add(frm);
             FrmAtivo.BringToFront();
             frm.Show();

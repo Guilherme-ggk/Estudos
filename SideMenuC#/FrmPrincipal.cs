@@ -19,26 +19,26 @@ namespace SideMenuC_
         }
         private void FormShow(Form frm) // Método que vai mostrar o formúlario
         {
-             ActiveFormClose(); // fecha o formúlario ativo
+            ActiveFormClose(); // fecha o formúlario ativo
             FrmAtivo = frm; // recebe o frm que é passado do método Form frm
-            frm.TopLevel = true;
-            PanelForm.Controls.Add(frm);
-            FrmAtivo.BringToFront();
-            frm.Show();
+            frm.TopLevel = false; // precisa ser false para que o PanelForm possa adicionar o frm
+            PanelForm.Controls.Add(frm); // adiciona
+            FrmAtivo.BringToFront(); // traz o FrmAtivo para frente 
+            frm.Show(); // exibe o frm
         }
 
         private void ActiveFormClose()
         {
-            if(FrmAtivo != null)
+            if(FrmAtivo != null) // verifica se tem outro frm aberto e o fecha para exibir o principal
                 FrmAtivo.Close();
         }
 
         private void ActiveButton(Button FrmAtivo)
         {
-            foreach(Control ctrl in PanelPrincipal.Controls)
-                ctrl.ForeColor = Color.White;
+            foreach(Control ctrl in PanelPrincipal.Controls) // vai percorrer todos os controles/botões que estão dentro do PanelPrincipal
+                ctrl.ForeColor = Color.White; // os controles passam a ser brancos
 
-            FrmAtivo.ForeColor = Color.Red;
+            FrmAtivo.ForeColor = Color.Red; // quando o botao for acionado vai ficar vermelho
         }
 
         private void BtnHome_Click(object sender, EventArgs e)

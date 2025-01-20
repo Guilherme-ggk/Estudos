@@ -1,0 +1,13 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\bin\Debug\SideMenuC#.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\bin\Debug\SideMenuC#.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\bin\Debug\SideMenuC#.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC#.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC_.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC#.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC#.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC#.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC#.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC_.FrmPrincipal.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC_.FrmProdutos.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC_.FrmClientes.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenuC#\obj\Debug\SideMenuC_.FrmVendedores.resources

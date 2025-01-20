@@ -17,13 +17,9 @@ using Unimake.Business.Security;
 using Unimake.Formatters;
 using ConsStatServ = Unimake.Business.DFe.Xml.NFe.ConsStatServ;
 using Dest = Unimake.Business.DFe.Xml.NFe.Dest;
-using Det = Unimake.Business.DFe.Xml.NFe.Det;
 using Emit = Unimake.Business.DFe.Xml.NFe.Emit;
-using EnderDest = Unimake.Business.DFe.Xml.NFe.EnderDest;
 using EnderEmit = Unimake.Business.DFe.Xml.NFe.EnderEmit;
 using Ide = Unimake.Business.DFe.Xml.NFe.Ide;
-using Imposto = Unimake.Business.DFe.Xml.NFe.Imposto;
-using Prod = Unimake.Business.DFe.Xml.NFe.Prod;
 
 
 namespace UnimakeDfeC_
@@ -165,69 +161,11 @@ namespace UnimakeDfeC_
                                    IM = "",
                                    CNAE = "",
                                    CRT = CRT.SimplesNacional
-
+                                  
                                 },
                                 Dest = new Dest
                                 {
-                                    CNPJ = "",
-                                    XNome = "",
-                                    EnderDest = new EnderDest
-                                    {
-                                        XLgr = "AVENIDA DA SAUDADE",
-                                        Nro = "",
-                                        XBairro = "",
-                                        CMun = 1,
-                                        XMun = "",
-                                        UF = UFBrasil.PR,
-                                        CEP = "",
-                                        Fone = ""
-                                    },
-                                    IndIEDest = IndicadorIEDestinatario.ContribuinteICMS,
-                                    IE = "",
-                                    Email = "30755guilherme@gmail.com"
-                                },
-                                Det = new List<Det>
-                                {
-                                    new Det
-                                    {
-                                      NItem = 1,
-                                      Prod = new Prod
-                                      {
-                                          CProd = "01042",
-                                          CEAN = "SEM GTIN",
-                                          XProd = "NF-E EMITIDA EM AMBIENTE DE HOMOLOGAÇÃO - SEM VALOR FISCAL",
-                                          NCM = "",
-                                          CFOP = "",
-                                          UCom = "LU",
-                                          QCom = 1.00m,
-                                          VUnCom = 84.9000000000m,
-                                          VProd = 84.90,
-                                          CEANTrib = "SEM GTIN",
-                                          UTrib = "LU",
-                                          QTrib = 1.00m,
-                                          VUnTrib = 84.9000000000m,
-                                          IndTot = SimNao.Sim,
-                                          XPed = "300474",
-                                          NItemPed = "1"
-                                      },
-                                      Imposto = new Imposto
-                                      {
-                                          VTotTrib = 12.63,
-                                          ICMS = new List<ICMS>
-                                          {
-                                              new ICMS
-                                              {
-                                                  ICMSSN102 = new ICMSSN102
-                                                  {
-                                                      Orig = OrigemMercadoria.Nacional
-                                                  }
-                                              }
-                                          }
 
-                                      }
-
-
-                                    }
                                 }
                             }
                         }

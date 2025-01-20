@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
-      <HintPath>packages\BouncyCastle.Cryptography.2.5.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -59,20 +59,20 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Unimake.Business.DFe, Version=2025.1.15.1021, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Unimake.DFe.20250115.1021.1\lib\net472\Unimake.Business.DFe.dll</HintPath>
+    <Reference Include="Unimake.Business.DFe, Version=2024.11.13.1002, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Unimake.DFe.20241113.1002.42\lib\net472\Unimake.Business.DFe.dll</HintPath>
     </Reference>
-    <Reference Include="Unimake.Cryptography, Version=2025.1.6.1604, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Unimake.Cryptography.20250106.1604.51\lib\netstandard2.0\Unimake.Cryptography.dll</HintPath>
+    <Reference Include="Unimake.Cryptography, Version=2024.10.16.1016, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Unimake.Cryptography.20241016.1016.27\lib\netstandard2.0\Unimake.Cryptography.dll</HintPath>
     </Reference>
-    <Reference Include="Unimake.Extensions, Version=2025.1.6.1604, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Unimake.Extensions.20250106.1604.51\lib\netstandard2.0\Unimake.Extensions.dll</HintPath>
+    <Reference Include="Unimake.Extensions, Version=2024.10.16.1016, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Unimake.Extensions.20241016.1016.27\lib\netstandard2.0\Unimake.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unimake.Security.Platform, Version=2023.7.6.1027, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Unimake.Security.Platform.20230706.1027.33\lib\net\Unimake.Security.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="Unimake.Utils, Version=2025.1.6.1604, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Unimake.Utils.20250106.1604.51\lib\netstandard2.0\Unimake.Utils.dll</HintPath>
+    <Reference Include="Unimake.Utils, Version=2024.10.16.1016, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Unimake.Utils.20241016.1016.27\lib\netstandard2.0\Unimake.Utils.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

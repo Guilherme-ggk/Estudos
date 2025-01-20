@@ -25,30 +25,3 @@ C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\obj\Debug\Unimake
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.pdb
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\bin\Debug\ReaLTaiizor.dll
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\UnimakeDfeC#\bin\Debug\ReaLTaiizor.xml
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\UnimakeDfeC#.exe.config
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\UnimakeDfeC#.exe
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\UnimakeDfeC#.pdb
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\BouncyCastle.Cryptography.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Newtonsoft.Json.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\ReaLTaiizor.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\System.Security.Cryptography.Xml.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Business.DFe.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Cryptography.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Extensions.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Security.Platform.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Utils.dll
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\BouncyCastle.Cryptography.xml
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Newtonsoft.Json.xml
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\ReaLTaiizor.xml
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\System.Security.Cryptography.Xml.xml
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Business.DFe.pdb
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Business.DFe.xml
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\bin\Debug\Unimake.Security.Platform.xml
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.csproj.AssemblyReference.cache
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC_.Form1.resources
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC_.Properties.Resources.resources
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.csproj.GenerateResource.cache
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeD.3540CA42.Up2Date
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.exe
-C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDfeC#\obj\Debug\UnimakeDfeC#.pdb

@@ -3,16 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sidemenuc#\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\sidemenuc#\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|solutionrelative:frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4495C58-1F15-427B-9071-9CFF284AE67D}|..\\WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\windowsformsapp2\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4495C58-1F15-427B-9071-9CFF284AE67D}|..\\WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4495C58-1F15-427B-9071-9CFF284AE67D}|..\\WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|solutionrelative:frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,20 +51,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FrmProdutos.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmProdutos.cs",
               "RelativeDocumentMoniker": "FrmProdutos.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmProdutos.cs",
               "RelativeToolTip": "FrmProdutos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T14:13:45.669Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -64,31 +74,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FrmConfig.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\WindowsFormsApp2\\FrmConfig.cs",
+              "RelativeDocumentMoniker": "..\\WindowsFormsApp2\\FrmConfig.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\WindowsFormsApp2\\FrmConfig.cs [Design]",
+              "RelativeToolTip": "..\\WindowsFormsApp2\\FrmConfig.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T01:29:18.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\WindowsFormsApp2\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WindowsFormsApp2\\Form1.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\WindowsFormsApp2\\Form1.cs",
+              "RelativeToolTip": "..\\WindowsFormsApp2\\Form1.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T01:12:11.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\WindowsFormsApp2\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WindowsFormsApp2\\Form1.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\WindowsFormsApp2\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\WindowsFormsApp2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T01:06:36.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FrmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "FrmPrincipal.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmPrincipal.cs [Design]",
               "RelativeToolTip": "FrmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T22:16:56.334Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-16T22:16:56.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "FrmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "FrmPrincipal.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmPrincipal.cs",
               "RelativeToolTip": "FrmPrincipal.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAEwBgAAAAWAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAEwBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:17:58.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:17:58.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FrmClientes.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmClientes.cs",
               "RelativeDocumentMoniker": "FrmClientes.cs",
@@ -99,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FrmClientes.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmClientes.cs",
               "RelativeDocumentMoniker": "FrmClientes.cs",
@@ -111,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "FrmProdutos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmProdutos.cs",
               "RelativeDocumentMoniker": "FrmProdutos.cs",
@@ -122,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "FrmVendedores.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmVendedores.cs",
               "RelativeDocumentMoniker": "FrmVendedores.cs",
@@ -133,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FrmVendedores.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\SideMenuC#\\FrmVendedores.cs",
               "RelativeDocumentMoniker": "FrmVendedores.cs",

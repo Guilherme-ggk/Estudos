@@ -39,12 +39,14 @@
             this.BtnHome = new System.Windows.Forms.Button();
             this.PanelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.PanelForm = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opção1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opção2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PanelPrincipal.SuspendLayout();
             this.PanelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.PanelForm.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelPrincipal
@@ -59,9 +61,9 @@
             this.PanelPrincipal.Controls.Add(this.BtnHome);
             this.PanelPrincipal.Controls.Add(this.PanelLogo);
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.PanelPrincipal.Location = new System.Drawing.Point(0, 24);
             this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(233, 526);
+            this.PanelPrincipal.Size = new System.Drawing.Size(233, 502);
             this.PanelPrincipal.TabIndex = 0;
             // 
             // BtnSair
@@ -244,43 +246,60 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // PanelForm
+            // menuStrip1
             // 
-            this.PanelForm.Controls.Add(this.label1);
-            this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelForm.Location = new System.Drawing.Point(233, 0);
-            this.PanelForm.Name = "PanelForm";
-            this.PanelForm.Size = new System.Drawing.Size(751, 526);
-            this.PanelForm.TabIndex = 1;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.novoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.novoToolStripMenuItem;
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(984, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // label1
+            // novoToolStripMenuItem
             // 
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(244, 121);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 69);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Formúlario Principal";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.novoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.opção1ToolStripMenuItem,
+            this.opção2ToolStripMenuItem});
+            this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.novoToolStripMenuItem.Text = "Novo";
+            // 
+            // opção1ToolStripMenuItem
+            // 
+            this.opção1ToolStripMenuItem.Name = "opção1ToolStripMenuItem";
+            this.opção1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opção1ToolStripMenuItem.Text = "Opção 1";
+            this.opção1ToolStripMenuItem.Click += new System.EventHandler(this.opção1ToolStripMenuItem_Click_1);
+            // 
+            // opção2ToolStripMenuItem
+            // 
+            this.opção2ToolStripMenuItem.Name = "opção2ToolStripMenuItem";
+            this.opção2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opção2ToolStripMenuItem.Text = "Opção 2";
+            this.opção2ToolStripMenuItem.Click += new System.EventHandler(this.opção2ToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 526);
-            this.Controls.Add(this.PanelForm);
             this.Controls.Add(this.PanelPrincipal);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.IsMdiContainer = true;
             this.Name = "FrmPrincipal";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.PanelPrincipal.ResumeLayout(false);
             this.PanelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.PanelForm.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -296,8 +315,10 @@
         private System.Windows.Forms.Button BtnSair;
         private System.Windows.Forms.Button BtnConfig;
         private System.Windows.Forms.Button BtnFornecedores;
-        private System.Windows.Forms.Panel PanelForm;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem novoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opção1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opção2ToolStripMenuItem;
     }
 }
 

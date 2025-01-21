@@ -22,7 +22,7 @@ namespace SideMenuC_
             ActiveFormClose(); // fecha o formúlario ativo
             FrmAtivo = frm; // recebe o frm que é passado do método Form frm
             frm.TopLevel = false; // precisa ser false para que o PanelForm possa adicionar o frm
-            PanelForm.Controls.Add(frm); // adiciona
+           // PanelForm.Controls.Add(frm); // adiciona
             FrmAtivo.BringToFront(); // traz o FrmAtivo para frente 
             frm.Show(); // exibe o frm
         }
@@ -69,6 +69,41 @@ namespace SideMenuC_
         {
             ActiveButton(BtnVendedores);
             FormShow(new FrmVendedores());
+        }
+
+        private void opção1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void opção1ToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if(Application.OpenForms.OfType<FrmVendedores>().Count() == 0)
+            {
+                FrmVendedores frm = new FrmVendedores();
+                frm.MdiParent = this;
+                frm.Show(this);
+            }
+            else
+            {
+                Application.OpenForms.OfType<FrmVendedores>().First().WindowState = FormWindowState.Normal;
+                Application.OpenForms.OfType<FrmVendedores>().First().BringToFront();
+            }
+        }
+
+        private void opção2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<FrmClientes>().Count() == 0)
+            {
+                FrmClientes frm = new FrmClientes();
+                frm.MdiParent = this;
+                frm.Show(this);
+            }
+            else
+            {
+                Application.OpenForms.OfType<FrmClientes>().First().WindowState = FormWindowState.Normal;
+                Application.OpenForms.OfType<FrmClientes>().First().BringToFront();
+            }
         }
     }
 }

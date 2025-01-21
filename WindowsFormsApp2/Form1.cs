@@ -13,6 +13,8 @@ namespace WindowsFormsApp2
     public partial class Form1 : Form
     {
         private Form FRMATIVO;
+
+        
         public Form1()
         {
             InitializeComponent();
@@ -26,38 +28,40 @@ namespace WindowsFormsApp2
             PanelForm.Controls.Add(FRM);
             FRM.BringToFront();
             FRM.Show();
-
         }
 
-        private void ActiveButton(Button FRMATIVO)
+        private void ButtonActive(Button FRMATIVO)
         {
-            foreach (Control c in PanelPrincipal.Controls) ;
-              //  c.ForeColor = Color.Black;
+            foreach(Control controle in PanelPrincipal.Controls)
+                controle.ForeColor = Color.White;
 
-           // FRMATIVO.ForeColor = Color.Black;
+            FRMATIVO.ForeColor = Color.Red;
         }
-
         private void ButtonClose()
         {
-            if (FRMATIVO != null)
-                FRMATIVO.Close();
+            if(FRMATIVO != null)
+               FRMATIVO.Close();
         }
+
+        private void BtnConfig_Click(object sender, EventArgs e)
+        {
+            ButtonActive(BtnConfig);
+            FormShow(new FrmConfig());
+        }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            ButtonActive(BtnHome);
+            ButtonClose();
+        }
+
 
         private void BtnSair_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void BtnHome_Click(object sender, EventArgs e)
-        {
-            ActiveButton(BtnHome);
-            ButtonClose();
-        }
 
-        private void BtnConfig_Click(object sender, EventArgs e)
-        {
-            ActiveButton(BtnConfig);
-            FormShow(new FrmConfig());
-        }
+
     }
 }

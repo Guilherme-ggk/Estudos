@@ -1,4 +1,6 @@
-﻿namespace WindowsFormsApp2
+﻿using System;
+
+namespace WindowsFormsApp2
 {
     partial class Form1
     {
@@ -134,6 +136,8 @@
             this.ResumeLayout(false);
 
         }
+
+        
 
         #endregion
 

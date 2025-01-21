@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\user\Desktop\Gege08K\Estudos\UnimakeDFE\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.FrmConfig.resources

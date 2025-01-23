@@ -96,6 +96,7 @@
             this.BtnSair.TabIndex = 2;
             this.BtnSair.Text = "Sair";
             this.BtnSair.UseVisualStyleBackColor = false;
+            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
             // 
             // PanelForm
             // 
@@ -125,6 +126,7 @@
             this.Controls.Add(this.PanelPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.PanelPrincipal.ResumeLayout(false);
             this.PanelForm.ResumeLayout(false);

@@ -55,5 +55,10 @@ namespace SideMenAppMdi
             ButtonActive(BtnConfig);
             FormShow(new FrmConfig());
         }
+
+        private void BtnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

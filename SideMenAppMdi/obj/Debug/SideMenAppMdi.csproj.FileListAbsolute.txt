@@ -1,0 +1,11 @@
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\bin\Debug\SideMenAppMdi.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\bin\Debug\SideMenAppMdi.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\bin\Debug\SideMenAppMdi.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.FrmConfig.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.exe
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\SideMenAppMdi\obj\Debug\SideMenAppMdi.pdb

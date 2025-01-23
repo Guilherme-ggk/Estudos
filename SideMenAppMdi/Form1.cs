@@ -12,53 +12,53 @@ namespace SideMenAppMdi
 {
     public partial class Form1 : Form
     {
-        private Form FrmAtivo;
+        
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void FormShow(Form Frm)
-        {
-            ButtonClose();
-            FrmAtivo = Frm;
-            Frm.TopLevel = false;
-            PanelForm.Controls.Add(Frm);
-            Frm.BringToFront();
-            Frm.Show();
-        }
+      
         
-        private void ButtonClose()
+      
+
+       
+
+
+        private void button1_Click(object sender, EventArgs e)
         {
-            if(FrmAtivo != null)
-                FrmAtivo.Close();
+            this.Close();
         }
 
-        private void ButtonActive(Button FrmAtivo)
+        private void op1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            foreach(Control controle in PanelPrincipal.Controls)
-                controle.ForeColor = Color.Black;
-
-                FrmAtivo.ForeColor = Color.Blue;
-
+            if(Application.OpenForms.OfType<FrmConfig>().Count() == 0)
+            {
+                FrmConfig frm = new FrmConfig();
+                frm.MdiParent = this;
+                frm.Show();
+            }
+            else
+            {
+                Application.OpenForms.OfType<FrmConfig>().First().WindowState = FormWindowState.Normal;
+                Application.OpenForms.OfType<FrmConfig>().First().BringToFront();
+            }
         }
 
-        private void BtnHome_Click(object sender, EventArgs e)
+        private void op2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ButtonActive(BtnHome);
-            ButtonClose();
-        }
-
-        private void BtnConfig_Click(object sender, EventArgs e)
-        {
-            ButtonActive(BtnConfig);
-            FormShow(new FrmConfig());
-        }
-
-        private void BtnSair_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            if (Application.OpenForms.OfType<Form2>().Count() == 0)
+            {
+                Form2 frm = new Form2();
+                frm.MdiParent = this;
+                frm.Show();
+            }
+            else
+            {
+                Application.OpenForms.OfType<Form2>().First().WindowState = FormWindowState.Normal;
+                Application.OpenForms.OfType<Form2>().First().BringToFront();
+            }
         }
     }
 }

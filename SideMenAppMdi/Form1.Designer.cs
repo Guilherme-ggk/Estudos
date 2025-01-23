@@ -28,121 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PanelPrincipal = new System.Windows.Forms.Panel();
-            this.BtnHome = new System.Windows.Forms.Button();
-            this.BtnConfig = new System.Windows.Forms.Button();
-            this.BtnSair = new System.Windows.Forms.Button();
-            this.PanelForm = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.PanelPrincipal.SuspendLayout();
-            this.PanelForm.SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.op1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.op2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // PanelPrincipal
+            // button1
             // 
-            this.PanelPrincipal.BackColor = System.Drawing.Color.Orange;
-            this.PanelPrincipal.Controls.Add(this.BtnSair);
-            this.PanelPrincipal.Controls.Add(this.BtnConfig);
-            this.PanelPrincipal.Controls.Add(this.BtnHome);
-            this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelPrincipal.Location = new System.Drawing.Point(0, 0);
-            this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(200, 450);
-            this.PanelPrincipal.TabIndex = 0;
+            this.button1.Location = new System.Drawing.Point(12, 409);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(109, 29);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "sair";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // BtnHome
+            // menuStrip1
             // 
-            this.BtnHome.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnHome.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnHome.FlatAppearance.BorderSize = 0;
-            this.BtnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.BtnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnHome.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnHome.Location = new System.Drawing.Point(0, 0);
-            this.BtnHome.Name = "BtnHome";
-            this.BtnHome.Size = new System.Drawing.Size(200, 38);
-            this.BtnHome.TabIndex = 0;
-            this.BtnHome.Text = "Home";
-            this.BtnHome.UseVisualStyleBackColor = false;
-            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.novoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.novoToolStripMenuItem;
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // BtnConfig
+            // novoToolStripMenuItem
             // 
-            this.BtnConfig.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnConfig.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnConfig.FlatAppearance.BorderSize = 0;
-            this.BtnConfig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.BtnConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnConfig.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnConfig.Location = new System.Drawing.Point(0, 38);
-            this.BtnConfig.Name = "BtnConfig";
-            this.BtnConfig.Size = new System.Drawing.Size(200, 38);
-            this.BtnConfig.TabIndex = 1;
-            this.BtnConfig.Text = "Config";
-            this.BtnConfig.UseVisualStyleBackColor = false;
-            this.BtnConfig.Click += new System.EventHandler(this.BtnConfig_Click);
+            this.novoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.op1ToolStripMenuItem,
+            this.op2ToolStripMenuItem});
+            this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.novoToolStripMenuItem.Text = "Novo";
             // 
-            // BtnSair
+            // op1ToolStripMenuItem
             // 
-            this.BtnSair.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnSair.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BtnSair.FlatAppearance.BorderSize = 0;
-            this.BtnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.BtnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSair.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSair.Location = new System.Drawing.Point(0, 412);
-            this.BtnSair.Name = "BtnSair";
-            this.BtnSair.Size = new System.Drawing.Size(200, 38);
-            this.BtnSair.TabIndex = 2;
-            this.BtnSair.Text = "Sair";
-            this.BtnSair.UseVisualStyleBackColor = false;
-            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
+            this.op1ToolStripMenuItem.Name = "op1ToolStripMenuItem";
+            this.op1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.op1ToolStripMenuItem.Text = "Op 1";
+            this.op1ToolStripMenuItem.Click += new System.EventHandler(this.op1ToolStripMenuItem_Click);
             // 
-            // PanelForm
+            // op2ToolStripMenuItem
             // 
-            this.PanelForm.Controls.Add(this.label1);
-            this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelForm.Location = new System.Drawing.Point(200, 0);
-            this.PanelForm.Name = "PanelForm";
-            this.PanelForm.Size = new System.Drawing.Size(600, 450);
-            this.PanelForm.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Home Principal";
+            this.op2ToolStripMenuItem.Name = "op2ToolStripMenuItem";
+            this.op2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.op2ToolStripMenuItem.Text = "Op2";
+            this.op2ToolStripMenuItem.Click += new System.EventHandler(this.op2ToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.PanelForm);
-            this.Controls.Add(this.PanelPrincipal);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.PanelPrincipal.ResumeLayout(false);
-            this.PanelForm.ResumeLayout(false);
-            this.PanelForm.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel PanelPrincipal;
-        private System.Windows.Forms.Button BtnSair;
-        private System.Windows.Forms.Button BtnConfig;
-        private System.Windows.Forms.Button BtnHome;
-        private System.Windows.Forms.Panel PanelForm;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem novoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem op1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem op2ToolStripMenuItem;
     }
 }
 

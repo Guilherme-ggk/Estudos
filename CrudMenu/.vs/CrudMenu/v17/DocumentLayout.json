@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\crudmenu\\conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\crudmenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Conn.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Conn.cs",
+              "RelativeDocumentMoniker": "Conn.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Conn.cs",
+              "RelativeToolTip": "Conn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:49:31.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

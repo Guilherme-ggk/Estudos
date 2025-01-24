@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\bin\Debug\Crud_Pleno.exe.config
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\bin\Debug\Crud_Pleno.exe
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\bin\Debug\Crud_Pleno.pdb
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.Form1.resources
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.Properties.Resources.resources
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.exe
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.pdb
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\bin\Debug\ReaLTaiizor.dll
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\bin\Debug\ReaLTaiizor.xml
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\Crud_Pleno\obj\Debug\Crud_Pleno.csproj.Up2Date

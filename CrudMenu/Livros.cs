@@ -11,40 +11,28 @@ namespace CrudMenu
 {
     class Livros
     {
-        public int Id { get; set; }
-        public string Isbn { get; set; }
-        public string Titulo { get; set; }
-        public string Autores { get; set; }
-        public decimal Unitario { get; set; }
-        public int Estoque_minimo { get; set; }
-        public int Saldo_inicial { get; set; }
-        public DateTime Data_saldo_inicial { get; set; }
-        public int Saldo_atual { get; set; }
-        public Char Ativo { get; set; }
-
-        public static DataTable GetLivros( bool ativos )
-        {
+      static public DataTable GetLivros(bool ativos)
+      {
             var dt = new DataTable();
 
-            var sql = "SELECT id, isbn, titulo FROM livros.livros";
+            var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo FROM livros.livros";
 
             try
             {
-                using (var cn = new MySqlConnection(Conn.strCon))
+                using (var cn = new MySqlConnection(Conn.strConn))
                 {
                     cn.Open();
                     using (var da = new MySqlDataAdapter(sql, cn))
                     {
                         da.Fill(dt);
                     }
-
                 }
             }
-            catch ( Exception ex )
+            catch (Exception ex)
             {
-                MessageBox.Show( ex.Message );
+                MessageBox.Show(ex.Message);
             }
             return dt;
-        }
+      }
     }
 }

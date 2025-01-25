@@ -48,7 +48,7 @@
             this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.nightControlBox1.EnableMinimizeButton = true;
             this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.nightControlBox1.Location = new System.Drawing.Point(662, 0);
+            this.nightControlBox1.Location = new System.Drawing.Point(1356, 0);
             this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
             this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -61,21 +61,25 @@
             // 
             this.dgvLivros.AllowUserToAddRows = false;
             this.dgvLivros.AllowUserToDeleteRows = false;
+            this.dgvLivros.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvLivros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLivros.Location = new System.Drawing.Point(31, 50);
+            this.dgvLivros.Location = new System.Drawing.Point(41, 62);
+            this.dgvLivros.Margin = new System.Windows.Forms.Padding(4);
             this.dgvLivros.Name = "dgvLivros";
             this.dgvLivros.ReadOnly = true;
-            this.dgvLivros.Size = new System.Drawing.Size(730, 344);
+            this.dgvLivros.RowHeadersWidth = 51;
+            this.dgvLivros.Size = new System.Drawing.Size(1406, 423);
             this.dgvLivros.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1477, 554);
             this.Controls.Add(this.dgvLivros);
             this.Controls.Add(this.nightControlBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

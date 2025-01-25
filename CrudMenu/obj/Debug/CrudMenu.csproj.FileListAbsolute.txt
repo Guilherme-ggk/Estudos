@@ -43,3 +43,4 @@ C:\Users\30755\OneDrive\Área de Trabalho\Estudos\CrudMenu\obj\Debug\CrudMenu.cs
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\CrudMenu\obj\Debug\CrudMenu.csproj.Up2Date
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\CrudMenu\obj\Debug\CrudMenu.exe
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\CrudMenu\obj\Debug\CrudMenu.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\Estudos\CrudMenu\obj\Debug\CrudMenu.FrmDataBase.resources

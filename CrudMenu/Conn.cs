@@ -15,7 +15,7 @@ namespace CrudMenu
         private const string bancoDados = "livros";
         private const string usuario = "root";
         private const string senha = "@Guilherme30755";
-    
+
         static public string strConn = $"server={servidor};database={bancoDados};userid={usuario};password={senha}";
     }
 }

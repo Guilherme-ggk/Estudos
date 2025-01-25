@@ -37,19 +37,20 @@
             this.dvgLivros.AllowUserToAddRows = false;
             this.dvgLivros.AllowUserToDeleteRows = false;
             this.dvgLivros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgLivros.Location = new System.Drawing.Point(232, 63);
+            this.dvgLivros.Location = new System.Drawing.Point(12, 63);
             this.dvgLivros.Name = "dvgLivros";
             this.dvgLivros.ReadOnly = true;
             this.dvgLivros.RowHeadersWidth = 51;
             this.dvgLivros.RowTemplate.Height = 24;
-            this.dvgLivros.Size = new System.Drawing.Size(502, 352);
+            this.dvgLivros.Size = new System.Drawing.Size(1299, 361);
             this.dvgLivros.TabIndex = 0;
+            this.dvgLivros.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgLivros_CellContentClick);
             // 
             // FrmDataBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1325, 507);
+            this.ClientSize = new System.Drawing.Size(1447, 507);
             this.Controls.Add(this.dvgLivros);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmDataBase";

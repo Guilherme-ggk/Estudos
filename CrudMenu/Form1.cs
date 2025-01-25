@@ -12,7 +12,8 @@ namespace CrudMenu
 {
     public partial class Form1 : Form
     {
-        private Form FrmAtivo;
+        private Form Frmativo;
+        
         public Form1()
         {
             InitializeComponent();
@@ -20,25 +21,24 @@ namespace CrudMenu
 
         private void ButtonClose()
         {
-            if(FrmAtivo != null)
-                FrmAtivo.Close();
+            if(Frmativo != null)
+                Frmativo.Close();
         }
         private void ButtonActive(Button FRMAITVO)
-        {
+        {   
             foreach(Control controle in PanelPrincipal.Controls)
                 controle.ForeColor = Color.Black;
 
-            FRMAITVO.ForeColor = Color.Red;   
+            FRMAITVO.ForeColor = Color.Red;
         }
         private void FormShow(Form frm)
         {
             ButtonClose();
-            FrmAtivo = frm;
+            Frmativo = frm;
             frm.TopLevel = false;
             PanelForm.Controls.Add(frm);
             frm.BringToFront();
             frm.Show();
-
         }
 
         private void BtnSair_Click(object sender, EventArgs e)

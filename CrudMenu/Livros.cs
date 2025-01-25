@@ -12,13 +12,14 @@ namespace CrudMenu
     class Livros
     {
        static public DataTable GetLivros(bool ativos)
-        {
+       {
             var dt = new DataTable();
-            var sql = "SELECT id, isbn, titulo FROM livros.livros";
+
+            var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial FROM livros.livros";
 
             try
             {
-                using (var cn = new MySqlConnection(Conn.strConn))
+                using (var cn = new MySqlConnection(Conn.StrConn))
                 {
                     cn.Open();
                     using (var da = new MySqlDataAdapter(sql, cn))
@@ -27,12 +28,11 @@ namespace CrudMenu
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
             return dt;
-
-        }
+       }
     }
 }

@@ -12,9 +12,19 @@ namespace CrudMenu
 {
     public partial class Form1 : Form
     {
+        DataTable dt = new DataTable();
+        
         public Form1()
         {
             InitializeComponent();
+            Inicializar();
+        }
+
+        private void Inicializar()
+        {
+            dt = Livros.GetLivros(true);
+            dgvLivros.DataSource = dt;
+
         }
     }
 }

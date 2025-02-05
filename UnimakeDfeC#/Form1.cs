@@ -165,7 +165,131 @@ namespace UnimakeDfeC_
                                 },
                                 Dest = new Dest
                                 {
+                                    CNPJ = "",
+                                    XNome = "",
+                                    EnderDest = new Unimake.Business.DFe.Xml.NFe.EnderDest
+                                    {
+                                        XLgr = "",
+                                        Nro = "",
+                                        XBairro = "",
+                                        CMun = 1,
+                                        XMun = "",
+                                        UF = UFBrasil.PR,
+                                        CEP = "",
+                                        Fone = ""
 
+                                    },
+                                    IndIEDest = IndicadorIEDestinatario.ContribuinteICMS,
+                                    IE = "",
+                                    Email = ""
+                                   
+                                },
+                                Det = new List<Unimake.Business.DFe.Xml.NFe.Det>
+                                {
+                                    new Unimake.Business.DFe.Xml.NFe.Det
+                                    {
+                                        NItem = 1,
+                                        Prod = new Unimake.Business.DFe.Xml.NFe.Prod
+                                        {
+                                            CProd = "",
+                                            CEAN = "",
+                                            XProd = "",
+                                            NCM = "",
+                                            CFOP = "",
+                                            UCom = "",
+                                            QCom = 1,
+                                            VUnCom = 84.9000000000m,
+                                            VProd = 84.90,
+                                            CEANTrib = "SEM GTIN",
+                                            UTrib = "LU",
+                                            QTrib = 1.00m,
+                                            VUnTrib = 84.9000000000m,
+                                            IndTot = SimNao.Sim,
+                                            XPed = "",
+                                            NItemPed = "1"
+
+                                        }, 
+                                        Imposto = new Unimake.Business.DFe.Xml.NFe.Imposto
+                                        {
+                                            VTotTrib = 12.63,
+                                            ICMS = new List<ICMS>
+                                            {
+                                                new ICMS
+                                                {
+                                                    ICMSSN101 = new ICMSSN101
+                                                    {
+                                                        Orig = OrigemMercadoria.Nacional,
+                                                        PCredSN = 2.8255,
+                                                        VCredICMSSN = 2.40
+                                                    }
+                                                }
+                                            },
+                                            PIS = new Unimake.Business.DFe.Xml.NFe.PIS
+                                            {
+                                                PISOutr = new PISOutr
+                                                {
+                                                    CST = "99",
+                                                    VBC = 0.00,
+                                                    PPIS = 0.00,
+                                                    VPIS = 0.00
+                                                }
+                                            }, 
+                                            COFINS = new COFINS
+                                            {
+                                                COFINSOutr = new COFINSOutr
+                                                {
+                                                    CST = "99",
+                                                    VBC = 0.00,
+                                                    PCOFINS = 0.00,
+                                                    VCOFINS = 0.00
+                                                }
+                                            }
+                                        }
+
+                                    },
+                                    new Unimake.Business.DFe.Xml.NFe.Det
+                                    {
+                                        NItem = 2,
+                                        Prod = new Unimake.Business.DFe.Xml.NFe.Prod
+                                        {
+                                            CProd = "11111",
+                                            CEAN = "SEM GTIN",
+                                            XProd = "TESTE DO PRODUTO DO ITEM 2",
+                                            NCM = "84714900",
+                                            CFOP = "6101",
+                                            UCom = "LU",
+                                            QCom = 1.00m,
+                                            VUnCom = 84.9000000000m,
+                                            VProd = 84.90,
+                                            CEANTrib = "SEM GTIN",
+                                            UTrib = "LU",
+                                            QTrib = 1.00m,
+                                            VUnTrib = 84.9000000000m,
+                                            IndTot = SimNao.Sim,
+                                            XPed = "300474",
+                                            NItemPed = "1"
+                                        },
+                                        Imposto = new Unimake.Business.DFe.Xml.NFe.Imposto
+                                        {
+                                            VTotTrib = 12.63,
+                                            ICMS = new List<ICMS>
+                                            {
+                                                new ICMS
+                                                {
+                                                    ICMSSN101 = new ICMSSN101
+                                                    {
+                                                        Orig = OrigemMercadoria.Nacional,
+                                                        PCredSN = 2.8255,
+                                                        VCredICMSSN = 2.40
+                                                    }
+                                                }
+                                            },
+                                            PIS = new Unimake.Business.DFe.Xml.NFe.PIS
+                                            {
+                                                PISOutr = new PISOutr
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }

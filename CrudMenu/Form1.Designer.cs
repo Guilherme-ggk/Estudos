@@ -30,9 +30,9 @@
         {
             this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
-            this.BtnHome = new System.Windows.Forms.Button();
-            this.BtnBanco = new System.Windows.Forms.Button();
             this.BtnSair = new System.Windows.Forms.Button();
+            this.BtnBanco = new System.Windows.Forms.Button();
+            this.BtnHome = new System.Windows.Forms.Button();
             this.PanelForm = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.PanelPrincipal.SuspendLayout();
@@ -54,7 +54,7 @@
             this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.nightControlBox1.EnableMinimizeButton = true;
             this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.nightControlBox1.Location = new System.Drawing.Point(1356, 0);
+            this.nightControlBox1.Location = new System.Drawing.Point(1016, 0);
             this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
             this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -70,9 +70,44 @@
             this.PanelPrincipal.Controls.Add(this.BtnHome);
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.PanelPrincipal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(134, 554);
+            this.PanelPrincipal.Size = new System.Drawing.Size(100, 450);
             this.PanelPrincipal.TabIndex = 1;
+            // 
+            // BtnSair
+            // 
+            this.BtnSair.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnSair.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.BtnSair.FlatAppearance.BorderSize = 0;
+            this.BtnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSair.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSair.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnSair.Location = new System.Drawing.Point(0, 412);
+            this.BtnSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnSair.Name = "BtnSair";
+            this.BtnSair.Size = new System.Drawing.Size(100, 38);
+            this.BtnSair.TabIndex = 4;
+            this.BtnSair.Text = "Close";
+            this.BtnSair.UseVisualStyleBackColor = false;
+            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
+            // 
+            // BtnBanco
+            // 
+            this.BtnBanco.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnBanco.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnBanco.FlatAppearance.BorderSize = 0;
+            this.BtnBanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBanco.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBanco.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnBanco.Location = new System.Drawing.Point(0, 38);
+            this.BtnBanco.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnBanco.Name = "BtnBanco";
+            this.BtnBanco.Size = new System.Drawing.Size(100, 38);
+            this.BtnBanco.TabIndex = 3;
+            this.BtnBanco.Text = "Database";
+            this.BtnBanco.UseVisualStyleBackColor = false;
+            this.BtnBanco.Click += new System.EventHandler(this.BtnBanco_Click);
             // 
             // BtnHome
             // 
@@ -83,73 +118,43 @@
             this.BtnHome.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnHome.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnHome.Location = new System.Drawing.Point(0, 0);
+            this.BtnHome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnHome.Name = "BtnHome";
-            this.BtnHome.Size = new System.Drawing.Size(134, 47);
+            this.BtnHome.Size = new System.Drawing.Size(100, 38);
             this.BtnHome.TabIndex = 2;
             this.BtnHome.Text = "Home";
             this.BtnHome.UseVisualStyleBackColor = false;
             this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
-            // BtnBanco
-            // 
-            this.BtnBanco.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnBanco.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnBanco.FlatAppearance.BorderSize = 0;
-            this.BtnBanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnBanco.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBanco.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnBanco.Location = new System.Drawing.Point(0, 47);
-            this.BtnBanco.Name = "BtnBanco";
-            this.BtnBanco.Size = new System.Drawing.Size(134, 47);
-            this.BtnBanco.TabIndex = 3;
-            this.BtnBanco.Text = "Database";
-            this.BtnBanco.UseVisualStyleBackColor = false;
-            this.BtnBanco.Click += new System.EventHandler(this.BtnBanco_Click);
-            // 
-            // BtnSair
-            // 
-            this.BtnSair.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnSair.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BtnSair.FlatAppearance.BorderSize = 0;
-            this.BtnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSair.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSair.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnSair.Location = new System.Drawing.Point(0, 507);
-            this.BtnSair.Name = "BtnSair";
-            this.BtnSair.Size = new System.Drawing.Size(134, 47);
-            this.BtnSair.TabIndex = 4;
-            this.BtnSair.Text = "Close";
-            this.BtnSair.UseVisualStyleBackColor = false;
-            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
-            // 
             // PanelForm
             // 
             this.PanelForm.Controls.Add(this.label1);
             this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelForm.Location = new System.Drawing.Point(134, 0);
+            this.PanelForm.Location = new System.Drawing.Point(100, 0);
+            this.PanelForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PanelForm.Name = "PanelForm";
-            this.PanelForm.Size = new System.Drawing.Size(1343, 554);
+            this.PanelForm.Size = new System.Drawing.Size(1008, 450);
             this.PanelForm.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(366, 270);
+            this.label1.Location = new System.Drawing.Point(455, 174);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 16);
+            this.label1.Size = new System.Drawing.Size(78, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Home Principal";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1477, 554);
+            this.ClientSize = new System.Drawing.Size(1108, 450);
             this.Controls.Add(this.PanelForm);
             this.Controls.Add(this.PanelPrincipal);
             this.Controls.Add(this.nightControlBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

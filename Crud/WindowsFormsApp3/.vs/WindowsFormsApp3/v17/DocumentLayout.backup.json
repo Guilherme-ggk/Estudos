@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\frmbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:frmbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\frmbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:frmbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\frmcadastrolivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:frmcadastrolivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|c:\\users\\user\\desktop\\gege08k\\estudos\\crud\\windowsformsapp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\frmcadastrolivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:frmcadastrolivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82184E58-BBF0-458A-89C1-1D3BF6E25DBA}|WindowsFormsApp3.csproj|solutionrelative:livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmBanco.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmBanco.cs",
+              "RelativeDocumentMoniker": "FrmBanco.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmBanco.cs [Design]",
+              "RelativeToolTip": "FrmBanco.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:26:46.747Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmCadastroLivros.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmCadastroLivros.cs",
+              "RelativeDocumentMoniker": "FrmCadastroLivros.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmCadastroLivros.cs",
+              "RelativeToolTip": "FrmCadastroLivros.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:35:46.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmBanco.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmBanco.cs",
+              "RelativeDocumentMoniker": "FrmBanco.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmBanco.cs",
+              "RelativeToolTip": "FrmBanco.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wDEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:44:40.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:30:06.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmCadastroLivros.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmCadastroLivros.cs",
+              "RelativeDocumentMoniker": "FrmCadastroLivros.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\FrmCadastroLivros.cs [Design]",
+              "RelativeToolTip": "FrmCadastroLivros.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:27:00.774Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Livros.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Livros.cs",
+              "RelativeDocumentMoniker": "Livros.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Livros.cs",
+              "RelativeToolTip": "Livros.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA7wEQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:26:33.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conn.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Conn.cs",
+              "RelativeDocumentMoniker": "Conn.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Conn.cs",
+              "RelativeToolTip": "Conn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:26:19.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\Crud\\WindowsFormsApp3\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:25:30.345Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

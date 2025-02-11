@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudMenu", "CrudMenu.csproj", "{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DDDE3C9-8445-475D-8EEB-16FF8050D564}
+	EndGlobalSection
+EndGlobal

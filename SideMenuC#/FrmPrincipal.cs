@@ -12,7 +12,7 @@ namespace SideMenuC_
 {
     public partial class FrmPrincipal : Form
     {
-        private Form FrmAtivo; // Declado o objeto, vai controlar o form filho que está aberto dentro do formúlario principal
+        private Form FrmAtivo; // Declara o objeto, vai controlar o form filho que está aberto dentro do formúlario principal
         public FrmPrincipal()
         {
             InitializeComponent();

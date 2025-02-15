@@ -31,6 +31,7 @@ namespace SideMenuC_
         {
             if(FrmAtivo != null) // verifica se tem outro frm aberto e o fecha para exibir o principal
                 FrmAtivo.Close();
+            var soma = 1;
         }
 
         private void ActiveButton(Button FrmAtivo)

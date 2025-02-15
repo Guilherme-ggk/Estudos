@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\bin\Debug\TESTEDLLINTEGRADOR.exe.config
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\bin\Debug\TESTEDLLINTEGRADOR.exe
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\bin\Debug\TESTEDLLINTEGRADOR.pdb
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLLINTEGRADOR.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLLINTEGRADOR.Form1.resources
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLLINTEGRADOR.Properties.Resources.resources
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLLINTEGRADOR.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLLINTEGRADOR.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLLINTEGRADOR.exe
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLLINTEGRADOR.pdb
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\bin\Debug\Integrador.dll
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\bin\Debug\Integrador.pdb
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\bin\Debug\Integrador.dll.config
+C:\Users\user\Desktop\Gege08K\Estudos\Crud\TESTEDLLINTEGRADOR\obj\Debug\TESTEDLL.915299FB.Up2Date

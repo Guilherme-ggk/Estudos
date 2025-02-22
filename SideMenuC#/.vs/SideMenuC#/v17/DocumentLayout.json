@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\SideMenuC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|C:\\Users\\user\\Desktop\\Gege08K\\Estudos\\SideMenuC#\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|c:\\users\\user\\desktop\\gege08k\\estudos\\sidemenuc#\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2271DC1-2F78-43AB-87AA-1FAE4C28961C}|SideMenuC#.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -35,10 +35,9 @@
               "RelativeDocumentMoniker": "..\\..\\..\\API_WPP\\EnviarWS_DIR - Copia\\EnviarWS\\EnviarWS\\bin\\Debug\\credentials.json",
               "ToolTip": "C:\\Users\\user\\Desktop\\API_WPP\\EnviarWS_DIR - Copia\\EnviarWS\\EnviarWS\\bin\\Debug\\credentials.json",
               "RelativeToolTip": "..\\..\\..\\API_WPP\\EnviarWS_DIR - Copia\\EnviarWS\\EnviarWS\\bin\\Debug\\credentials.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T18:16:50.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T18:16:50.782Z"
             },
             {
               "$type": "Document",
@@ -62,8 +61,7 @@
               "RelativeToolTip": "FrmPrincipal.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T16:24:50.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T16:24:50.418Z"
             }
           ]
         }

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\crudmenu\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\crudmenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,8 +47,7 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T22:49:31.461Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -71,8 +70,7 @@
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\FrmDataBase.cs [Design]",
               "RelativeToolTip": "FrmDataBase.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T14:38:30.361Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-25T14:38:30.361Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAiwCQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T02:44:22.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T02:44:22.099Z"
             },
             {
               "$type": "Document",
@@ -95,7 +92,7 @@
               "RelativeDocumentMoniker": "Livros.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Livros.cs",
               "RelativeToolTip": "Livros.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA8wBkAAAA8AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA6wBkAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T02:31:24.866Z",
               "EditorCaption": ""
@@ -121,8 +118,7 @@
               "RelativeToolTip": "FrmDataBase.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAqwD0AAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T14:49:56.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T14:49:56.153Z"
             }
           ]
         }

@@ -11,7 +11,22 @@ namespace CrudMenu
 {
     class Livros
     {
-       static public DataTable GetLivros(bool ativos)
+
+        public int Id { get; set; }
+        public string Isbn { get; set; }
+        public string Titulo { get; set; }
+        public string Autores { get; set; }
+        public decimal Unitario { get; set; }
+        public int Saldo_inicial { get; set; }
+        public int Estoque_minimo { get; set; }
+        public Char Ativo { get; set; }
+
+        public void GetLivro(int id)
+        {
+            var sql = "SELECT * FROM livros WHERE id=" + id;
+        }
+
+        static public DataTable GetLivros(bool ativos)
        {
             var dt = new DataTable();
 

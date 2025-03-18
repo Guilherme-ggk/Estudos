@@ -28,33 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BtnConsultaStatus = new System.Windows.Forms.Button();
+            this.BtnConsultaSituacao = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // groupBox1
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(141, 549);
-            this.panel1.TabIndex = 0;
+            this.groupBox1.Controls.Add(this.BtnConsultaSituacao);
+            this.groupBox1.Controls.Add(this.BtnConsultaStatus);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 525);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "NFe";
+            // 
+            // BtnConsultaStatus
+            // 
+            this.BtnConsultaStatus.Location = new System.Drawing.Point(6, 19);
+            this.BtnConsultaStatus.Name = "BtnConsultaStatus";
+            this.BtnConsultaStatus.Size = new System.Drawing.Size(188, 40);
+            this.BtnConsultaStatus.TabIndex = 1;
+            this.BtnConsultaStatus.Text = "Consulta Status";
+            this.BtnConsultaStatus.UseVisualStyleBackColor = true;
+            this.BtnConsultaStatus.Click += new System.EventHandler(this.BtnConsultaStatus_Click);
+            // 
+            // BtnConsultaSituacao
+            // 
+            this.BtnConsultaSituacao.Location = new System.Drawing.Point(6, 65);
+            this.BtnConsultaSituacao.Name = "BtnConsultaSituacao";
+            this.BtnConsultaSituacao.Size = new System.Drawing.Size(188, 40);
+            this.BtnConsultaSituacao.TabIndex = 2;
+            this.BtnConsultaSituacao.Text = "Consulta Situação";
+            this.BtnConsultaSituacao.UseVisualStyleBackColor = true;
+            this.BtnConsultaSituacao.Click += new System.EventHandler(this.BtnConsultaSituacao_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(890, 549);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button BtnConsultaSituacao;
+        private System.Windows.Forms.Button BtnConsultaStatus;
     }
 }
 

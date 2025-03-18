@@ -16,5 +16,22 @@ namespace ProjetoUnimakeNF
         {
             InitializeComponent();
         }
+
+        private void BtnConsultaStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnConsultaSituacao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        #region Certificado digital
+
+
+        private static string PathCertificadoDigital { get; set; } = @"CAMINHO";
+
+        #endregion
     }
 }

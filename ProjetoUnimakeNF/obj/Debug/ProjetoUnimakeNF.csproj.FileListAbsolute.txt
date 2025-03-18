@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\bin\Debug\ProjetoUnimakeNF.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\bin\Debug\ProjetoUnimakeNF.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\bin\Debug\ProjetoUnimakeNF.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\obj\Debug\ProjetoUnimakeNF.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\obj\Debug\ProjetoUnimakeNF.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\obj\Debug\ProjetoUnimakeNF.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\obj\Debug\ProjetoUnimakeNF.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\obj\Debug\ProjetoUnimakeNF.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\obj\Debug\ProjetoUnimakeNF.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ProjetoUnimakeNF\obj\Debug\ProjetoUnimakeNF.pdb

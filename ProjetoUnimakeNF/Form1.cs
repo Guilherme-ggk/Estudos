@@ -50,7 +50,7 @@ namespace ProjetoUnimakeNF
             {
                 Versao = "4.00",
                 TpAmb = TipoAmbiente.Homologacao,
-                ChNFe = ""
+                ChNFe = "41241135547526000170550010000019261000019274"
             };
 
             var configuracao = new Configuracao

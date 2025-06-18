@@ -21,5 +21,14 @@ namespace BarraLateralC_
         {
             this.Close();
         }
+
+        bool MenuExpande = false;
+        private void MenuTransition_Tick(object sender, EventArgs e)
+        {
+            if(MenuExpande == false)
+            {
+                MenuContainer.Height += 10;
+            }
+        }
     }
 }

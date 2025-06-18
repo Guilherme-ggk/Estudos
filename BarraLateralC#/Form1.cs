@@ -30,5 +30,10 @@ namespace BarraLateralC_
                 MenuContainer.Height += 10;
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -11,3 +11,4 @@ C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.csproj.CoreCompileInputs.c
 C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLat.AB6D9AB0.Up2Date
 C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.exe
 C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.pdb
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.exe.config

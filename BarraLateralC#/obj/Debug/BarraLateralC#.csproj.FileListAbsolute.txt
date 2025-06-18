@@ -1,0 +1,13 @@
+C:\TI\Estudos\BarraLateralC#\bin\Debug\BarraLateralC#.exe.config
+C:\TI\Estudos\BarraLateralC#\bin\Debug\BarraLateralC#.exe
+C:\TI\Estudos\BarraLateralC#\bin\Debug\BarraLateralC#.pdb
+C:\TI\Estudos\BarraLateralC#\bin\Debug\ReaLTaiizor.dll
+C:\TI\Estudos\BarraLateralC#\bin\Debug\ReaLTaiizor.xml
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.csproj.AssemblyReference.cache
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC_.Form1.resources
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC_.Properties.Resources.resources
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.csproj.GenerateResource.cache
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLat.AB6D9AB0.Up2Date
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.exe
+C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.pdb

@@ -1,0 +1,10 @@
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\bin\Debug\BarraLateralSuaveC#.exe.config
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\bin\Debug\BarraLateralSuaveC#.exe
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\bin\Debug\BarraLateralSuaveC#.pdb
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.csproj.AssemblyReference.cache
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC_.Form1.resources
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC_.Properties.Resources.resources
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.csproj.GenerateResource.cache
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.exe
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.pdb

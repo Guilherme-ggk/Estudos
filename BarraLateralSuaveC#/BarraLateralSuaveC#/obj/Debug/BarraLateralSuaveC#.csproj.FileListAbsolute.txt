@@ -8,3 +8,4 @@ C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuav
 C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.csproj.CoreCompileInputs.cache
 C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.exe
 C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.pdb
+C:\TI\Estudos\BarraLateralSuaveC#\BarraLateralSuaveC#\obj\Debug\BarraLateralSuaveC#.exe.config

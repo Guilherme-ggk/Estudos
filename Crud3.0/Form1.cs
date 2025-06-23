@@ -21,10 +21,5 @@ namespace Crud3._0
         {
             Application.Exit();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

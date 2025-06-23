@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\",
+  "WorkspaceRootPath": "C:\\TI\\Estudos\\CrudMenu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\frmdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:frmdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\estudos\\crudmenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\frmdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\TI\\Estudos\\CrudMenu\\frmdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:frmdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|c:\\ti\\estudos\\crudmenu\\frmdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:frmdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\TI\\Estudos\\CrudMenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\TI\\Estudos\\CrudMenu\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\TI\\Estudos\\CrudMenu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|C:\\TI\\Estudos\\CrudMenu\\conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E8AC72-6217-43A9-9380-F9F8DCFAF66D}|CrudMenu.csproj|solutionrelative:conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,40 +34,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Conn.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Conn.cs",
+              "DocumentMoniker": "C:\\TI\\Estudos\\CrudMenu\\Conn.cs",
               "RelativeDocumentMoniker": "Conn.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Conn.cs",
+              "ToolTip": "C:\\TI\\Estudos\\CrudMenu\\Conn.cs",
               "RelativeToolTip": "Conn.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T22:49:31.461Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Livros.cs",
+              "DocumentMoniker": "C:\\TI\\Estudos\\CrudMenu\\Livros.cs",
+              "RelativeDocumentMoniker": "Livros.cs",
+              "ToolTip": "C:\\TI\\Estudos\\CrudMenu\\Livros.cs",
+              "RelativeToolTip": "Livros.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T02:31:24.866Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrmDataBase.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\FrmDataBase.cs",
+              "DocumentMoniker": "C:\\TI\\Estudos\\CrudMenu\\FrmDataBase.cs",
               "RelativeDocumentMoniker": "FrmDataBase.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\FrmDataBase.cs [Design]",
+              "ToolTip": "C:\\TI\\Estudos\\CrudMenu\\FrmDataBase.cs [Design]",
               "RelativeToolTip": "FrmDataBase.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T14:38:30.361Z",
@@ -77,48 +80,36 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Form1.cs",
+              "DocumentMoniker": "C:\\TI\\Estudos\\CrudMenu\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Form1.cs",
+              "ToolTip": "C:\\TI\\Estudos\\CrudMenu\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAACgAAAAXAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T02:44:22.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Livros.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Livros.cs",
-              "RelativeDocumentMoniker": "Livros.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Livros.cs",
-              "RelativeToolTip": "Livros.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA8wBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T02:31:24.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Form1.cs",
+              "DocumentMoniker": "C:\\TI\\Estudos\\CrudMenu\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\Form1.cs [Design]",
+              "ToolTip": "C:\\TI\\Estudos\\CrudMenu\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:45:42.809Z"
+              "WhenOpened": "2025-01-24T22:45:42.809Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "FrmDataBase.cs",
-              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\FrmDataBase.cs",
+              "DocumentMoniker": "C:\\TI\\Estudos\\CrudMenu\\FrmDataBase.cs",
               "RelativeDocumentMoniker": "FrmDataBase.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\CrudMenu\\FrmDataBase.cs",
+              "ToolTip": "C:\\TI\\Estudos\\CrudMenu\\FrmDataBase.cs",
               "RelativeToolTip": "FrmDataBase.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAqwD0AAAB0AAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T14:49:56.153Z",
               "EditorCaption": ""

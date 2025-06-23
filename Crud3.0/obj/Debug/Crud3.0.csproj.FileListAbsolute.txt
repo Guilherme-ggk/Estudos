@@ -1,0 +1,14 @@
+C:\TI\Estudos\Crud3.0\bin\Debug\Crud3.0.exe.config
+C:\TI\Estudos\Crud3.0\bin\Debug\Crud3.0.exe
+C:\TI\Estudos\Crud3.0\bin\Debug\Crud3.0.pdb
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3.0.csproj.AssemblyReference.cache
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3._0.Form1.resources
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3._0.Properties.Resources.resources
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3.0.csproj.GenerateResource.cache
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3.0.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3.0.exe
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3.0.pdb
+C:\TI\Estudos\Crud3.0\bin\Debug\ReaLTaiizor.dll
+C:\TI\Estudos\Crud3.0\bin\Debug\ReaLTaiizor.xml
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3.0.exe.config
+C:\TI\Estudos\Crud3.0\obj\Debug\Crud3.0.csproj.Up2Date

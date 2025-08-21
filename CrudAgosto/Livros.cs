@@ -35,7 +35,7 @@ namespace CrudAgosto
                         da.Fill(dt);
                     }
                 }
-            }aaa
+            }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);

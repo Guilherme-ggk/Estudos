@@ -1,0 +1,11 @@
+C:\TI\Estudos\Crud001\bin\Debug\Crud001.exe.config
+C:\TI\Estudos\Crud001\bin\Debug\Crud001.exe
+C:\TI\Estudos\Crud001\bin\Debug\Crud001.pdb
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.csproj.AssemblyReference.cache
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.Form1.resources
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.Properties.Resources.resources
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.csproj.GenerateResource.cache
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.exe
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.pdb
+C:\TI\Estudos\Crud001\obj\Debug\Crud001.exe.config

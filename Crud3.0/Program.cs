@@ -11,6 +11,9 @@ namespace Crud3._0
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+
+        static public string sistema = "Livraria ABC";
+
         [STAThread]
         static void Main()
         {

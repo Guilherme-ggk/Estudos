@@ -36,8 +36,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelForm = new System.Windows.Forms.Panel();
-            this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.PanelPrincipal.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -87,6 +87,7 @@
             this.BtnData.Text = "     Data";
             this.BtnData.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnData.UseVisualStyleBackColor = true;
+            this.BtnData.Click += new System.EventHandler(this.BtnData_Click);
             // 
             // BtnHome
             // 
@@ -102,6 +103,7 @@
             this.BtnHome.Text = "     Home";
             this.BtnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnHome.UseVisualStyleBackColor = true;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
             // panel1
             // 
@@ -133,6 +135,16 @@
             this.PanelForm.Size = new System.Drawing.Size(543, 450);
             this.PanelForm.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(222, 236);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Home principal";
+            // 
             // nightControlBox1
             // 
             this.nightControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -156,16 +168,6 @@
             this.nightControlBox1.Name = "nightControlBox1";
             this.nightControlBox1.Size = new System.Drawing.Size(139, 31);
             this.nightControlBox1.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(222, 236);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 20);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Home principal";
             // 
             // Form1
             // 

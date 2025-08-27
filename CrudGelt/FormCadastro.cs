@@ -14,11 +14,13 @@ namespace CrudGelt
     {
         int id;
         Livros livros = new Livros();
+        bool excluir = false;
 
-        public FormCadastro(int id)
+        public FormCadastro(int id, bool excluir = false)
         {
             InitializeComponent();
             this.id = id;
+            this.excluir = excluir;
 
             if(this.id > 0)
             {
@@ -34,7 +36,31 @@ namespace CrudGelt
                 if (livros.Ativo == 'S')
                     ChkAtivo.Checked = true;
             }
+
+            if(this.excluir)
+            {
+                Travar();
+                BtnSalvar.Visible = false;
+                BtnExcluir.Visible = true;
+            }
+            else
+            {
+                BtnSalvar.Visible = true;
+                BtnExcluir.Visible = false;
+            }
             
+        }
+
+        private void Travar()
+        {
+            LblId.Enabled = false;
+            TxtIsbn.Enabled = false;
+            TxtTitulo.Enabled = false;
+            TxtAutores.Enabled = false;
+            TxtUnitario.Enabled = false;
+            TxtSaldo.Enabled = false;
+            TxtEstoque.Enabled = false;
+            ChkAtivo.Enabled = false;
         }
 
         private void BtnSalvar_Click(object sender, EventArgs e)
@@ -93,6 +119,10 @@ namespace CrudGelt
                 return true;
         }
 
-
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
+            livros.ExcluirLivro();
+            this.Close();
+        }
     }
 }

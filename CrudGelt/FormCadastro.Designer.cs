@@ -171,6 +171,7 @@
             this.BtnExcluir.TabIndex = 14;
             this.BtnExcluir.Text = "EXCLUIR";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // LblId
             // 

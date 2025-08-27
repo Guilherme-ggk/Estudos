@@ -22,7 +22,7 @@ namespace CrudGelt
 
         public void Inicializar()
         {
-            dt = Livros.GetLivros(true);
+            dt = Livros.GetLivros();
             DgvLivros.DataSource = dt;
         }
 
@@ -33,7 +33,7 @@ namespace CrudGelt
             using (var frm = new FormCadastro(0))
             {
                 frm.ShowDialog();
-                DgvLivros.DataSource = Livros.GetLivros(true);
+                DgvLivros.DataSource = Livros.GetLivros();
             }
         }
 
@@ -53,12 +53,17 @@ namespace CrudGelt
 
         private void BtnExcluir_Click(object sender, EventArgs e)
         {
-
+            var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
+            using (var frm = new FormCadastro(id, true))
+            {
+                frm.ShowDialog();
+            }
         }
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
-
+            dt = Livros.GetLivros(TxtBuscar.Text);
+            DgvLivros.DataSource= dt;
         }
 
 

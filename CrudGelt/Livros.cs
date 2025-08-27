@@ -101,11 +101,14 @@ namespace CrudGelt
             }
         }
 
-        static public DataTable GetLivros(bool ativos)
+        static public DataTable GetLivros(string procurar = "")
         {
 
             var dt = new DataTable();
             var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros.livros";
+
+            if (procurar != "")
+                sql += " WHERE titulo LIKE '%" + procurar + "%' OR autores LIKE '%" + procurar + "%'";
 
 
             try
@@ -126,6 +129,28 @@ namespace CrudGelt
 
             
                 return dt;
+        }
+
+
+        public void ExcluirLivro()
+        {
+            var sql = "DELETE FROM livros WHERE id=" + this.Id;
+
+            try
+            {
+                using (var cn = new MySqlConnection(Conn.StrConn))
+                {
+                    cn.Open();
+                    using (var cmd = new MySqlCommand(sql, cn))
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

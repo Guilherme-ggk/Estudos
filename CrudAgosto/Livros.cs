@@ -26,7 +26,7 @@ namespace CrudAgosto
             var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros.livros";
 
             try
-            {sss
+            {
                 using (var cn = new MySqlConnection(Conn.StrConn))
                 {
                     cn.Open();

@@ -43,3 +43,4 @@ C:\TI\Estudos\CrudGelt\bin\Debug\System.Numerics.Vectors.xml
 C:\TI\Estudos\CrudGelt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\TI\Estudos\CrudGelt\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\TI\Estudos\CrudGelt\obj\Debug\CrudGelt.csproj.Up2Date
+C:\TI\Estudos\CrudGelt\obj\Debug\CrudGelt.FormCadastro.resources

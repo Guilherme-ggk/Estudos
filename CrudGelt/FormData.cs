@@ -30,7 +30,11 @@ namespace CrudGelt
 
         private void BtnAdicionar_Click(object sender, EventArgs e)
         {
-
+            using (var frm = new FormCadastro(0))
+            {
+                frm.ShowDialog();
+                DgvLivros.DataSource = Livros.GetLivros(true);
+            }
         }
 
         private void BtnAlterar_Click(object sender, EventArgs e)

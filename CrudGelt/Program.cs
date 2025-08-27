@@ -11,6 +11,10 @@ namespace CrudGelt
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+        /// 
+
+        public static string Sistema = "Livraria ABC";
+
         [STAThread]
         static void Main()
         {

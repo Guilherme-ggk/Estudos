@@ -85,37 +85,7 @@ namespace CrudSetembro
         public void SalvarLivro()
         {
 
-            var sql = "";
 
-            if (this.Id == 0)
-                sql = "INSERT INTO livros (isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo) VALUES (@isbn, @titulo, @autores, @unitario, @saldo_inicial, @estoque_minimo, @ativo)";
-            else
-                sql = "UPDATE livros SET isbn = @isbn, titulo = @titulo, autores = @autores, unitario = @unitario, saldo_inicial = @saldo_inicial, estoque_minimo = @estoque_minimo, ativo = @ativo WHERE id = " + this.Id;
-
-
-            try
-            {
-                using (var cn = new MySqlConnection(Conn.StrConn))
-                {
-                    cn.Open();
-                    using (var cmd = new MySqlCommand(sql, cn))
-                    {
-                        cmd.Parameters.AddWithValue("@isbn", this.Isbn);
-                        cmd.Parameters.AddWithValue("@titulo", this.Titulo);
-                        cmd.Parameters.AddWithValue("@autores", this.Autores);
-                        cmd.Parameters.AddWithValue("@unitario", this.Unitario);
-                        cmd.Parameters.AddWithValue("@saldo_inicial", this.Saldo_inicial);
-                        cmd.Parameters.AddWithValue("@estoque_minimo", this.Estoque_minimo);
-                        cmd.Parameters.AddWithValue("@ativo", this.Ativo);
-
-                        cmd.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
 
         }
 

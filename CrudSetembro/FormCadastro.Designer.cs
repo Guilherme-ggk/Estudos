@@ -55,6 +55,7 @@
             this.BtnSalvar.TabIndex = 0;
             this.BtnSalvar.Text = "salvar";
             this.BtnSalvar.UseVisualStyleBackColor = true;
+            this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
             // 
             // BtnExcluir
             // 
@@ -64,6 +65,7 @@
             this.BtnExcluir.TabIndex = 1;
             this.BtnExcluir.Text = "excluir";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // LblId
             // 

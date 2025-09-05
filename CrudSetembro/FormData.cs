@@ -28,27 +28,30 @@ namespace CrudSetembro
 
         private void BtnAdicionar_Click(object sender, EventArgs e)
         {
-            using (var frm = new FormCadastro())
+            using (var frm = new FormCadastro(0))
             {
                 frm.ShowDialog();
+                DgvLivros.DataSource = Livros.GetLivros(true);
             }
         }
 
         private void BtnAlterar_Click(object sender, EventArgs e)
         {
             var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
-            using (var frm = new FormCadastro())
+            using (var frm = new FormCadastro(id))
             {
                 frm.ShowDialog();
+                DgvLivros.DataSource = Livros.GetLivros(true);
             }
         }
 
         private void BtnExcluir_Click(object sender, EventArgs e)
         {
             var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
-            using (var frm = new FormCadastro())
+            using (var frm = new FormCadastro(id, true))
             {
                 frm.ShowDialog();
+                DgvLivros.DataSource = Livros.GetLivros(true);
             }
         }
 

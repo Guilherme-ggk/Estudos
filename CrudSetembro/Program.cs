@@ -11,6 +11,10 @@ namespace CrudSetembro
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+        /// 
+
+        static public string sistema = "LIVRARIA ABC";
+
         [STAThread]
         static void Main()
         {

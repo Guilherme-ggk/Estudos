@@ -22,7 +22,7 @@ namespace CrudSetembro
         DataTable dt = new DataTable();
         private void Inicializar()
         {
-            dt = Livros.GetLivros(true);
+            dt = Livros.GetLivros();
             DgvLivros.DataSource = dt;
         }
 
@@ -31,7 +31,7 @@ namespace CrudSetembro
             using (var frm = new FormCadastro(0))
             {
                 frm.ShowDialog();
-                DgvLivros.DataSource = Livros.GetLivros(true);
+                DgvLivros.DataSource = Livros.GetLivros();
             }
         }
 
@@ -41,7 +41,7 @@ namespace CrudSetembro
             using (var frm = new FormCadastro(id))
             {
                 frm.ShowDialog();
-                DgvLivros.DataSource = Livros.GetLivros(true);
+                DgvLivros.DataSource = Livros.GetLivros();
             }
         }
 
@@ -51,7 +51,7 @@ namespace CrudSetembro
             using (var frm = new FormCadastro(id, true))
             {
                 frm.ShowDialog();
-                DgvLivros.DataSource = Livros.GetLivros(true);
+                DgvLivros.DataSource = Livros.GetLivros();
             }
         }
 
@@ -61,6 +61,13 @@ namespace CrudSetembro
         }
 
         private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+            dt = Livros.GetLivros(TxtBuscar.Text);
+            DgvLivros.DataSource = dt;
+            
+        }
+
+        private void TxtBuscar_TextChanged(object sender, EventArgs e)
         {
 
         }

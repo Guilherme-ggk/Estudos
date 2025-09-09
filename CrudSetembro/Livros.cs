@@ -21,10 +21,14 @@ namespace CrudSetembro
         public int Estoque_minimo { get; set; }
         public Char Ativo { get; set; }
 
-        public static DataTable GetLivros(bool ativos)
+        public static DataTable GetLivros(string Buscar = "")
         {
             var dt = new DataTable();
+          
             var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros.livros";
+
+            if (Buscar != "")
+                sql += " WHERE titulo LIKE '%" + Buscar + "%' OR autores LIKE '%" + Buscar + "%'";
 
             try
             {
@@ -85,31 +89,36 @@ namespace CrudSetembro
         public void SalvarLivro()
         {
 
-            var sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id=" + this.Id;
+            var sql = "";
 
-            try
-            {
-                using (var cn = new MySqlConnection(Conn.StrConn))
+            if (this.Id == 0)
+                sql = "INSERT INTO livros (isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo) VAlUES (@isbn, @titulo, @autores, @unitario, @saldo_inicial, @estoque_minimo, @ativo)";
+            else
+                sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id=" + this.Id;
+
+                try
                 {
-                    cn.Open();
-                    using (var cmd = new MySqlCommand(sql, cn))
+                    using (var cn = new MySqlConnection(Conn.StrConn))
                     {
-                        cmd.Parameters.AddWithValue("@isbn", this.Isbn);
-                        cmd.Parameters.AddWithValue("@titulo", this.Titulo);
-                        cmd.Parameters.AddWithValue("@autores", this.Autores);
-                        cmd.Parameters.AddWithValue("@unitario", this.Unitario);
-                        cmd.Parameters.AddWithValue("@saldo_inicial", this.Saldo_inicial);
-                        cmd.Parameters.AddWithValue("@estoque_minimo", this.Estoque_minimo);
-                        cmd.Parameters.AddWithValue("@ativo", this.Ativo);
+                        cn.Open();
+                        using (var cmd = new MySqlCommand(sql, cn))
+                        {
+                            cmd.Parameters.AddWithValue("@isbn", this.Isbn);
+                            cmd.Parameters.AddWithValue("@titulo", this.Titulo);
+                            cmd.Parameters.AddWithValue("@autores", this.Autores);
+                            cmd.Parameters.AddWithValue("@unitario", this.Unitario);
+                            cmd.Parameters.AddWithValue("@saldo_inicial", this.Saldo_inicial);
+                            cmd.Parameters.AddWithValue("@estoque_minimo", this.Estoque_minimo);
+                            cmd.Parameters.AddWithValue("@ativo", this.Ativo);
 
-                        cmd.ExecuteNonQuery();
+                            cmd.ExecuteNonQuery();
+                        }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
 
         }
 

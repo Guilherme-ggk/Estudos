@@ -18,45 +18,10 @@ namespace CrudSetembro
         {
             InitializeComponent();
 
-            if (this.id > 0)
-            {
-                livros.GetLivro(this.id);
-
-                LblId.Text = livros.Id.ToString();    
-                TxtIsbn.Text = livros.Isbn;
-                TxtTitulo.Text = livros.Titulo;
-                TxtAutores.Text = livros.Autores;   
-                TxtUnitario.Text = livros.Unitario.ToString("N2");
-                TxtSaldo.Text = livros.Saldo_inicial.ToString();
-                TxtEstoque.Text = livros.Estoque_minimo.ToString();
-                if(livros.Ativo == 'S')
-                    ChkAtivo.Checked = true;
-            }
-
-            if(this.excluir)
-            {
-                TravarControles();
-                BtnExcluir.Visible = true;
-                BtnSalvar.Visible = false;
-            }
-            else
-            {
-                BtnExcluir.Visible = false;
-                BtnSalvar.Visible = true;
-            }
+            
         }
 
-        public void TravarControles()
-        {
-            LblId.Enabled = false;
-            TxtIsbn.Enabled = false;
-            TxtTitulo.Enabled = false;
-            TxtAutores.Enabled = false;
-            TxtUnitario.Enabled = false;
-            TxtSaldo.Enabled = false;
-            TxtEstoque.Enabled = false; 
-            ChkAtivo.Enabled = false;
-        }
+     
 
         private void BtnExcluir_Click(object sender, EventArgs e)
         {

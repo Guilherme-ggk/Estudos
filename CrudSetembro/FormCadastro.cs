@@ -14,11 +14,9 @@ namespace CrudSetembro
     {
        
 
-        public FormCadastro(int id, bool excluir = false)
+        public FormCadastro()
         {
             InitializeComponent();
-            this.id = id;
-            this.excluir = excluir;
 
             if (this.id > 0)
             {

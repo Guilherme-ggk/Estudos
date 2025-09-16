@@ -24,8 +24,7 @@ namespace CrudSetembro
 
         private void BtnData_Click(object sender, EventArgs e)
         {
-            ButtonActive(BtnData);
-            FormShow(new FormData());
+           
         }
 
         private void BtnHome_Click(object sender, EventArgs e)

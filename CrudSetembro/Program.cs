@@ -13,8 +13,6 @@ namespace CrudSetembro
         /// </summary>
         /// 
 
-        static public string sistema = "LIVRARIA ABC";
-
         [STAThread]
         static void Main()
         {

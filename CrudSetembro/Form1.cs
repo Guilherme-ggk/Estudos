@@ -29,8 +29,7 @@ namespace CrudSetembro
 
         private void BtnHome_Click(object sender, EventArgs e)
         {
-            ButtonActive(BtnHome);
-            FormClose();
+          
         }
 
 

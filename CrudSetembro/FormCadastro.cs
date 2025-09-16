@@ -12,9 +12,7 @@ namespace CrudSetembro
 {
     public partial class FormCadastro : Form
     {
-        int id;
-        Livros livros = new Livros();
-        bool excluir = false;
+       
 
         public FormCadastro(int id, bool excluir = false)
         {

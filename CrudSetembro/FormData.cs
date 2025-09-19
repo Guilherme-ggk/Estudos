@@ -31,7 +31,7 @@ namespace CrudSetembro
             using (var frm = new FormCadastro(0))
             {
                 frm.ShowDialog();
-                DgvLivros.DataSource = dt;
+                DgvLivros.DataSource = Livros.GetLivros(true);
             }
         }
 
@@ -41,7 +41,7 @@ namespace CrudSetembro
             using (var frm = new FormCadastro(id))
             {
                 frm.ShowDialog();
-                DgvLivros.DataSource = dt;
+              
             }
         }
 
@@ -51,7 +51,7 @@ namespace CrudSetembro
             using (var frm = new FormCadastro(id, true))
             {
                 frm.ShowDialog();
-                DgvLivros.DataSource = dt;
+               
             }
         }
 

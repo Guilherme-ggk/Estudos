@@ -86,7 +86,14 @@ namespace CrudSetembro
 
         public void SalvarLivro()
         {
-            var sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id=" + this.Id;
+            var sql = "";
+
+            if (this.Id == 0)
+                sql = "INSERT INTO livros (isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo) VALUES (@isbn, @titulo, @autores, @unitario, @saldo_inicial, @estoque_minimo, @ativo)";
+            else
+                sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id=" + this.Id;
+
+            
 
             try
             {

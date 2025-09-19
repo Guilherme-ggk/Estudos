@@ -37,6 +37,9 @@ namespace CrudSetembro
                     ChkAtivo.Checked = true;
             }
 
+
+
+
             if(this.excluirLivros)
             {
                 TravarControles();
@@ -52,8 +55,8 @@ namespace CrudSetembro
 
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
-            if(ValidarForm())
-            {
+           
+            
                 livro.Isbn = TxtIsbn.Text;
                 livro.Titulo = TxtTitulo.Text;
                 livro.Autores = TxtAutores.Text;
@@ -67,7 +70,7 @@ namespace CrudSetembro
 
                 livro.SalvarLivro();
                 this.Close();
-            }
+            
         }
 
         private void BtnExcluir_Click(object sender, EventArgs e)
@@ -109,7 +112,7 @@ namespace CrudSetembro
                 TxtAutores.Focus();
                 return false;
             }
-            else if (Convert.ToDecimal("" + TxtUnitario) == 0)
+            else if (Convert.ToDecimal("0" +TxtUnitario.Text) == 0)
             {
                 MessageBox.Show("Insira PREÇO", Program.sistema);
                 TxtUnitario.Focus();

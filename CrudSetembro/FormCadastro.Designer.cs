@@ -31,7 +31,7 @@
             this.BtnSalvar = new System.Windows.Forms.Button();
             this.LblId = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtIsbn = new System.Windows.Forms.TextBox();
             this.ChkAtivo = new System.Windows.Forms.CheckBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -73,12 +73,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "id:";
             // 
-            // textBox1
+            // TxtIsbn
             // 
-            this.textBox1.Location = new System.Drawing.Point(39, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(69, 20);
-            this.textBox1.TabIndex = 3;
+            this.TxtIsbn.Location = new System.Drawing.Point(39, 42);
+            this.TxtIsbn.Name = "TxtIsbn";
+            this.TxtIsbn.Size = new System.Drawing.Size(69, 20);
+            this.TxtIsbn.TabIndex = 3;
             // 
             // ChkAtivo
             // 
@@ -206,7 +206,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.ChkAtivo);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtIsbn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.LblId);
             this.Controls.Add(this.BtnSalvar);
@@ -223,7 +223,7 @@
         private System.Windows.Forms.Button BtnSalvar;
         private System.Windows.Forms.Label LblId;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtIsbn;
         private System.Windows.Forms.CheckBox ChkAtivo;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;

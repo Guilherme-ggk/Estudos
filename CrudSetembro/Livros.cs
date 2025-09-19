@@ -86,12 +86,7 @@ namespace CrudSetembro
 
         public void SalvarLivro()
         {
-
-        }
-
-        public void ExcluirLivro()
-        {
-            var sql = "DELETE FROM livros WHERE id=" + this.Id;
+            var sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id=" + this.Id;
 
             try
             {
@@ -117,6 +112,25 @@ namespace CrudSetembro
             }
         }
 
+        public void ExcluirLivro()
+        {
+            var sql = "DELETE FROM livros WHERE id=" + this.Id;
 
+            try
+            {
+                using (var cn = new MySqlConnection(Conn.StrConn))
+                {
+                    cn.Open();
+                    using (var cmd = new MySqlCommand(sql, cn))
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

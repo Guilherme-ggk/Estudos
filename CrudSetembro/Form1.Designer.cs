@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.PanelPrincipal = new System.Windows.Forms.Panel();
-            this.PanelForm = new System.Windows.Forms.Panel();
-            this.BtnHome = new System.Windows.Forms.Button();
-            this.BtnData = new System.Windows.Forms.Button();
             this.BtnExit = new System.Windows.Forms.Button();
+            this.BtnData = new System.Windows.Forms.Button();
+            this.BtnHome = new System.Windows.Forms.Button();
+            this.PanelForm = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
@@ -49,25 +49,16 @@
             this.PanelPrincipal.Size = new System.Drawing.Size(162, 450);
             this.PanelPrincipal.TabIndex = 0;
             // 
-            // PanelForm
+            // BtnExit
             // 
-            this.PanelForm.Controls.Add(this.label1);
-            this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelForm.Location = new System.Drawing.Point(162, 0);
-            this.PanelForm.Name = "PanelForm";
-            this.PanelForm.Size = new System.Drawing.Size(638, 450);
-            this.PanelForm.TabIndex = 1;
-            // 
-            // BtnHome
-            // 
-            this.BtnHome.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnHome.Location = new System.Drawing.Point(0, 0);
-            this.BtnHome.Name = "BtnHome";
-            this.BtnHome.Size = new System.Drawing.Size(162, 33);
-            this.BtnHome.TabIndex = 0;
-            this.BtnHome.Text = "home";
-            this.BtnHome.UseVisualStyleBackColor = true;
-            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
+            this.BtnExit.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnExit.Location = new System.Drawing.Point(0, 66);
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.Size = new System.Drawing.Size(162, 33);
+            this.BtnExit.TabIndex = 2;
+            this.BtnExit.Text = "exit";
+            this.BtnExit.UseVisualStyleBackColor = true;
+            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // BtnData
             // 
@@ -80,25 +71,34 @@
             this.BtnData.UseVisualStyleBackColor = true;
             this.BtnData.Click += new System.EventHandler(this.BtnData_Click);
             // 
-            // BtnExit
+            // BtnHome
             // 
-            this.BtnExit.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnExit.Location = new System.Drawing.Point(0, 66);
-            this.BtnExit.Name = "BtnExit";
-            this.BtnExit.Size = new System.Drawing.Size(162, 33);
-            this.BtnExit.TabIndex = 2;
-            this.BtnExit.Text = "exit";
-            this.BtnExit.UseVisualStyleBackColor = true;
-            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
+            this.BtnHome.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnHome.Location = new System.Drawing.Point(0, 0);
+            this.BtnHome.Name = "BtnHome";
+            this.BtnHome.Size = new System.Drawing.Size(162, 33);
+            this.BtnHome.TabIndex = 0;
+            this.BtnHome.Text = "home";
+            this.BtnHome.UseVisualStyleBackColor = true;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
+            // 
+            // PanelForm
+            // 
+            this.PanelForm.Controls.Add(this.label1);
+            this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelForm.Location = new System.Drawing.Point(162, 0);
+            this.PanelForm.Name = "PanelForm";
+            this.PanelForm.Size = new System.Drawing.Size(638, 450);
+            this.PanelForm.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(278, 217);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "home principal";
+            this.label1.Text = "Crud Setembro";
             // 
             // Form1
             // 

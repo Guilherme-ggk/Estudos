@@ -49,7 +49,7 @@
             // 
             // BtnSalvar
             // 
-            this.BtnSalvar.Location = new System.Drawing.Point(259, 146);
+            this.BtnSalvar.Location = new System.Drawing.Point(259, 151);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.Size = new System.Drawing.Size(58, 24);
             this.BtnSalvar.TabIndex = 0;
@@ -114,7 +114,7 @@
             // 
             // BtnExcluir
             // 
-            this.BtnExcluir.Location = new System.Drawing.Point(195, 144);
+            this.BtnExcluir.Location = new System.Drawing.Point(259, 151);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(58, 24);
             this.BtnExcluir.TabIndex = 8;

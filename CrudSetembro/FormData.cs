@@ -33,6 +33,7 @@ namespace CrudSetembro
                 frm.ShowDialog();
                 DgvLivros.DataSource = Livros.GetLivros(true);
             }
+
         }
 
         private void BtnAlterar_Click(object sender, EventArgs e)

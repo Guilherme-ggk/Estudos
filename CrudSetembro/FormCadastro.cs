@@ -55,8 +55,8 @@ namespace CrudSetembro
 
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
-           
-            
+            if(ValidarForm())
+            {
                 livro.Isbn = TxtIsbn.Text;
                 livro.Titulo = TxtTitulo.Text;
                 livro.Autores = TxtAutores.Text;
@@ -70,7 +70,7 @@ namespace CrudSetembro
 
                 livro.SalvarLivro();
                 this.Close();
-            
+            }
         }
 
         private void BtnExcluir_Click(object sender, EventArgs e)

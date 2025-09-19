@@ -43,6 +43,7 @@
             // 
             this.DgvLivros.AllowUserToAddRows = false;
             this.DgvLivros.AllowUserToDeleteRows = false;
+            this.DgvLivros.BackgroundColor = System.Drawing.Color.White;
             this.DgvLivros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvLivros.Location = new System.Drawing.Point(12, 103);
             this.DgvLivros.Name = "DgvLivros";

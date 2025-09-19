@@ -52,19 +52,22 @@ namespace CrudSetembro
 
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
-            livro.Isbn = TxtIsbn.Text;
-            livro.Titulo = TxtTitulo.Text;
-            livro.Autores = TxtAutores.Text;
-            livro.Unitario = Convert.ToDecimal("0" + TxtUnitario.Text);
-            livro.Saldo_inicial = Convert.ToInt32("0" + TxtSaldo.Text);
-            livro.Estoque_minimo = Convert.ToInt32("0" + TxtEstoque.Text);
-            if (ChkAtivo.Checked == true)
-                livro.Ativo = 'S';
-            else
-                livro.Ativo = 'N';
+            if(ValidarForm())
+            {
+                livro.Isbn = TxtIsbn.Text;
+                livro.Titulo = TxtTitulo.Text;
+                livro.Autores = TxtAutores.Text;
+                livro.Unitario = Convert.ToDecimal("0" + TxtUnitario.Text);
+                livro.Saldo_inicial = Convert.ToInt32("0" + TxtSaldo.Text);
+                livro.Estoque_minimo = Convert.ToInt32("0" + TxtEstoque.Text);
+                if (ChkAtivo.Checked == true)
+                    livro.Ativo = 'S';
+                else
+                    livro.Ativo = 'N';
 
-            livro.SalvarLivro();
-            this.Close();
+                livro.SalvarLivro();
+                this.Close();
+            }
         }
 
         private void BtnExcluir_Click(object sender, EventArgs e)
@@ -86,9 +89,36 @@ namespace CrudSetembro
         }
 
 
-        public void ValidarForm()
+        public bool ValidarForm()
         {
-
+            if (TxtIsbn.Text == "")
+            {
+                MessageBox.Show("Insira ISBN", Program.sistema);
+                TxtIsbn.Focus();
+                return false;
+            }
+            else if(TxtTitulo.Text == "")
+            {
+                MessageBox.Show("Insira TITULO", Program.sistema);
+                TxtTitulo.Focus();
+                return false;
+            }
+            else if(TxtAutores.Text == "")
+            {
+                MessageBox.Show("Insira AUTORES", Program.sistema);
+                TxtAutores.Focus();
+                return false;
+            }
+            else if (Convert.ToDecimal("" + TxtUnitario) == 0)
+            {
+                MessageBox.Show("Insira PREÇO", Program.sistema);
+                TxtUnitario.Focus();
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }

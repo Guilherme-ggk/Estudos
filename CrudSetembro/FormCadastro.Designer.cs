@@ -55,6 +55,7 @@
             this.BtnSalvar.TabIndex = 0;
             this.BtnSalvar.Text = "salvar";
             this.BtnSalvar.UseVisualStyleBackColor = true;
+            this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
             // 
             // LblId
             // 
@@ -77,7 +78,7 @@
             // 
             this.TxtIsbn.Location = new System.Drawing.Point(39, 42);
             this.TxtIsbn.Name = "TxtIsbn";
-            this.TxtIsbn.Size = new System.Drawing.Size(69, 20);
+            this.TxtIsbn.Size = new System.Drawing.Size(110, 20);
             this.TxtIsbn.TabIndex = 3;
             // 
             // ChkAtivo
@@ -94,7 +95,7 @@
             // 
             this.TxtTitulo.Location = new System.Drawing.Point(42, 76);
             this.TxtTitulo.Name = "TxtTitulo";
-            this.TxtTitulo.Size = new System.Drawing.Size(94, 20);
+            this.TxtTitulo.Size = new System.Drawing.Size(107, 20);
             this.TxtTitulo.TabIndex = 5;
             // 
             // TxtAutores
@@ -108,17 +109,18 @@
             // 
             this.TxtUnitario.Location = new System.Drawing.Point(201, 39);
             this.TxtUnitario.Name = "TxtUnitario";
-            this.TxtUnitario.Size = new System.Drawing.Size(94, 20);
+            this.TxtUnitario.Size = new System.Drawing.Size(116, 20);
             this.TxtUnitario.TabIndex = 7;
             // 
             // BtnExcluir
             // 
-            this.BtnExcluir.Location = new System.Drawing.Point(195, 146);
+            this.BtnExcluir.Location = new System.Drawing.Point(259, 146);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(58, 24);
             this.BtnExcluir.TabIndex = 8;
             this.BtnExcluir.Text = "excluir";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // label1
             // 
@@ -178,14 +180,14 @@
             // 
             this.TxtEstoque.Location = new System.Drawing.Point(214, 109);
             this.TxtEstoque.Name = "TxtEstoque";
-            this.TxtEstoque.Size = new System.Drawing.Size(94, 20);
+            this.TxtEstoque.Size = new System.Drawing.Size(103, 20);
             this.TxtEstoque.TabIndex = 15;
             // 
             // TxtSaldo
             // 
             this.TxtSaldo.Location = new System.Drawing.Point(201, 76);
             this.TxtSaldo.Name = "TxtSaldo";
-            this.TxtSaldo.Size = new System.Drawing.Size(94, 20);
+            this.TxtSaldo.Size = new System.Drawing.Size(116, 20);
             this.TxtSaldo.TabIndex = 16;
             // 
             // FormCadastro

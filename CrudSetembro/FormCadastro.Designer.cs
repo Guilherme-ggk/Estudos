@@ -114,7 +114,7 @@
             // 
             // BtnExcluir
             // 
-            this.BtnExcluir.Location = new System.Drawing.Point(259, 151);
+            this.BtnExcluir.Location = new System.Drawing.Point(214, 151);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(58, 24);
             this.BtnExcluir.TabIndex = 8;

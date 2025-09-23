@@ -33,7 +33,9 @@
             this.BtnData = new System.Windows.Forms.Button();
             this.BtnHome = new System.Windows.Forms.Button();
             this.PanelForm = new System.Windows.Forms.Panel();
+            this.TxtApi = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
             this.SuspendLayout();
@@ -84,12 +86,21 @@
             // 
             // PanelForm
             // 
+            this.PanelForm.Controls.Add(this.button1);
+            this.PanelForm.Controls.Add(this.TxtApi);
             this.PanelForm.Controls.Add(this.label1);
             this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelForm.Location = new System.Drawing.Point(162, 0);
             this.PanelForm.Name = "PanelForm";
             this.PanelForm.Size = new System.Drawing.Size(638, 450);
             this.PanelForm.TabIndex = 1;
+            // 
+            // TxtApi
+            // 
+            this.TxtApi.Location = new System.Drawing.Point(26, 42);
+            this.TxtApi.Name = "TxtApi";
+            this.TxtApi.Size = new System.Drawing.Size(475, 20);
+            this.TxtApi.TabIndex = 2;
             // 
             // label1
             // 
@@ -99,6 +110,16 @@
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Crud Setembro";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(26, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 29);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -125,6 +146,8 @@
         private System.Windows.Forms.Button BtnHome;
         private System.Windows.Forms.Panel PanelForm;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox TxtApi;
+        private System.Windows.Forms.Button button1;
     }
 }
 

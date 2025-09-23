@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -58,6 +59,69 @@ namespace CrudSetembro
         private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+      
+
+      
+
+
+        public async Task API()
+        {
+            var url = "https://api.chucknorris.io/jokes/random";
+
+            using (HttpClient http = new HttpClient())
+            {
+                try
+                {
+                    HttpResponseMessage response = await http.GetAsync(url);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string conteudo = await response.Content.ReadAsStringAsync();
+                        TxtApi.Text = conteudo;
+                    }
+                    else
+                    {
+                        MessageBox.Show($"ERRO: {response.StatusCode}");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"ERRO DE CONEXÃO {ex.Message}");
+                }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var resposta = API();
+        }
+
+
+
+
+        public async Task api1()
+        {
+            var url = "URL";
+
+            using (HttpClient cliente = new HttpClient())
+            {
+                try
+                {
+                    HttpResponseMessage mensagem = await cliente.GetAsync(url);
+
+                    if(mensagem.IsSuccessStatusCode)
+                    {
+                        string conteudo = await mensagem.Content.ReadAsStringAsync();
+                        TxtApi.Text= conteudo;
+                    }
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
         }
     }
 }

@@ -42,6 +42,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.BtnApi4 = new System.Windows.Forms.Button();
             this.TxtApi4 = new System.Windows.Forms.TextBox();
+            this.BtnApi5 = new System.Windows.Forms.Button();
+            this.TxtApi5 = new System.Windows.Forms.TextBox();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
             this.SuspendLayout();
@@ -92,6 +94,8 @@
             // 
             // PanelForm
             // 
+            this.PanelForm.Controls.Add(this.TxtApi5);
+            this.PanelForm.Controls.Add(this.BtnApi5);
             this.PanelForm.Controls.Add(this.TxtApi4);
             this.PanelForm.Controls.Add(this.BtnApi4);
             this.PanelForm.Controls.Add(this.TxtApi3);
@@ -161,7 +165,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(271, 272);
+            this.label1.Location = new System.Drawing.Point(265, 353);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
@@ -183,6 +187,23 @@
             this.TxtApi4.Name = "TxtApi4";
             this.TxtApi4.Size = new System.Drawing.Size(550, 20);
             this.TxtApi4.TabIndex = 8;
+            // 
+            // BtnApi5
+            // 
+            this.BtnApi5.Location = new System.Drawing.Point(22, 258);
+            this.BtnApi5.Name = "BtnApi5";
+            this.BtnApi5.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi5.TabIndex = 9;
+            this.BtnApi5.Text = "API 5";
+            this.BtnApi5.UseVisualStyleBackColor = true;
+            this.BtnApi5.Click += new System.EventHandler(this.BtnApi5_Click);
+            // 
+            // TxtApi5
+            // 
+            this.TxtApi5.Location = new System.Drawing.Point(22, 294);
+            this.TxtApi5.Name = "TxtApi5";
+            this.TxtApi5.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi5.TabIndex = 10;
             // 
             // Form1
             // 
@@ -217,6 +238,8 @@
         private System.Windows.Forms.Button BtnApi3;
         private System.Windows.Forms.TextBox TxtApi4;
         private System.Windows.Forms.Button BtnApi4;
+        private System.Windows.Forms.TextBox TxtApi5;
+        private System.Windows.Forms.Button BtnApi5;
     }
 }
 

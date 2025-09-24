@@ -9,6 +9,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace CrudSetembro
 {
@@ -199,6 +200,34 @@ namespace CrudSetembro
                 catch(Exception ex)
                 {
                     MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private async Task BtnApi5_Click(object sender, EventArgs e)
+        {
+
+            string url = "https://localhost:5001/api/produtos"; // sua API
+
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    HttpResponseMessage response = await client.GetAsync(url);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string conteudo = await response.Content.ReadAsStringAsync();
+                        TxtApi5.Text = conteudo; // mostra no textbox
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Erro: {response.StatusCode}");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro de conexão: {ex.Message}");
                 }
             }
         }

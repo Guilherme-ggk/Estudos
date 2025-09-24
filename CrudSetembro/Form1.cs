@@ -9,7 +9,6 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace CrudSetembro
 {
@@ -204,30 +203,29 @@ namespace CrudSetembro
             }
         }
 
-        private async Task BtnApi5_Click(object sender, EventArgs e)
+        private async void BtnApi5_Click(object sender, EventArgs e)
         {
+            var url = "https://dummyjson.com/users/2";
 
-            string url = "https://localhost:5001/api/produtos"; // sua API
-
-            using (HttpClient client = new HttpClient())
+            using (HttpClient cliente = new HttpClient())
             {
                 try
                 {
-                    HttpResponseMessage response = await client.GetAsync(url);
+                    HttpResponseMessage resposta = await cliente.GetAsync(url);
 
-                    if (response.IsSuccessStatusCode)
+                    if (resposta.IsSuccessStatusCode)
                     {
-                        string conteudo = await response.Content.ReadAsStringAsync();
-                        TxtApi5.Text = conteudo; // mostra no textbox
+                        string conteudo = await resposta.Content.ReadAsStringAsync();
+                        TxtApi5.Text = conteudo;
                     }
                     else
                     {
-                        MessageBox.Show($"Erro: {response.StatusCode}");
+                        MessageBox.Show($"Erro de conexão {resposta.StatusCode}");
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Erro de conexão: {ex.Message}");
+                    MessageBox.Show($"Erro: {ex.Message}");
                 }
             }
         }

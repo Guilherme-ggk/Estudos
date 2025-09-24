@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net.Http;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -101,27 +102,37 @@ namespace CrudSetembro
 
 
 
-        public async Task api1()
+        public async Task GetApi()
         {
-            var url = "URL";
+            var URL = "https://api.chucknorris.io/jokes/random";
 
-            using (HttpClient cliente = new HttpClient())
+            using (HttpClient http = new HttpClient())
             {
                 try
                 {
-                    HttpResponseMessage mensagem = await cliente.GetAsync(url);
+                    HttpResponseMessage resposta = await http.GetAsync(URL);
 
-                    if(mensagem.IsSuccessStatusCode)
+                    if(resposta.IsSuccessStatusCode)
                     {
-                        string conteudo = await mensagem.Content.ReadAsStringAsync();
-                        TxtApi.Text= conteudo;
+                        string conteudo1 = await resposta.Content.ReadAsStringAsync();
+                        TxtApi.Text = conteudo1;
                     }
+                    else
+                    {
+                        MessageBox.Show($"Erro de conexão {resposta.StatusCode}");
+                    }
+
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var resposta2 = GetApi();
         }
     }
 }

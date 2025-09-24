@@ -33,10 +33,15 @@
             this.BtnData = new System.Windows.Forms.Button();
             this.BtnHome = new System.Windows.Forms.Button();
             this.PanelForm = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.TxtApi = new System.Windows.Forms.TextBox();
+            this.TxtApi3 = new System.Windows.Forms.TextBox();
+            this.BtnApi3 = new System.Windows.Forms.Button();
+            this.TxtApi2 = new System.Windows.Forms.TextBox();
+            this.BtnApi2 = new System.Windows.Forms.Button();
+            this.TxtApi1 = new System.Windows.Forms.TextBox();
+            this.BtnApi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnApi4 = new System.Windows.Forms.Button();
+            this.TxtApi4 = new System.Windows.Forms.TextBox();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
             this.SuspendLayout();
@@ -87,9 +92,14 @@
             // 
             // PanelForm
             // 
-            this.PanelForm.Controls.Add(this.button2);
-            this.PanelForm.Controls.Add(this.button1);
-            this.PanelForm.Controls.Add(this.TxtApi);
+            this.PanelForm.Controls.Add(this.TxtApi4);
+            this.PanelForm.Controls.Add(this.BtnApi4);
+            this.PanelForm.Controls.Add(this.TxtApi3);
+            this.PanelForm.Controls.Add(this.BtnApi3);
+            this.PanelForm.Controls.Add(this.TxtApi2);
+            this.PanelForm.Controls.Add(this.BtnApi2);
+            this.PanelForm.Controls.Add(this.TxtApi1);
+            this.PanelForm.Controls.Add(this.BtnApi);
             this.PanelForm.Controls.Add(this.label1);
             this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelForm.Location = new System.Drawing.Point(162, 0);
@@ -97,41 +107,82 @@
             this.PanelForm.Size = new System.Drawing.Size(638, 450);
             this.PanelForm.TabIndex = 1;
             // 
-            // button1
+            // TxtApi3
             // 
-            this.button1.Location = new System.Drawing.Point(26, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 29);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.TxtApi3.Location = new System.Drawing.Point(22, 170);
+            this.TxtApi3.Name = "TxtApi3";
+            this.TxtApi3.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi3.TabIndex = 6;
             // 
-            // TxtApi
+            // BtnApi3
             // 
-            this.TxtApi.Location = new System.Drawing.Point(26, 42);
-            this.TxtApi.Name = "TxtApi";
-            this.TxtApi.Size = new System.Drawing.Size(475, 20);
-            this.TxtApi.TabIndex = 2;
+            this.BtnApi3.Location = new System.Drawing.Point(22, 134);
+            this.BtnApi3.Name = "BtnApi3";
+            this.BtnApi3.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi3.TabIndex = 5;
+            this.BtnApi3.Text = "API 3";
+            this.BtnApi3.UseVisualStyleBackColor = true;
+            this.BtnApi3.Click += new System.EventHandler(this.BtnApi3_Click);
+            // 
+            // TxtApi2
+            // 
+            this.TxtApi2.Location = new System.Drawing.Point(22, 108);
+            this.TxtApi2.Name = "TxtApi2";
+            this.TxtApi2.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi2.TabIndex = 4;
+            // 
+            // BtnApi2
+            // 
+            this.BtnApi2.Location = new System.Drawing.Point(22, 72);
+            this.BtnApi2.Name = "BtnApi2";
+            this.BtnApi2.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi2.TabIndex = 3;
+            this.BtnApi2.Text = "API 2";
+            this.BtnApi2.UseVisualStyleBackColor = true;
+            this.BtnApi2.Click += new System.EventHandler(this.BtnApi2_Click);
+            // 
+            // TxtApi1
+            // 
+            this.TxtApi1.Location = new System.Drawing.Point(22, 46);
+            this.TxtApi1.Name = "TxtApi1";
+            this.TxtApi1.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi1.TabIndex = 2;
+            // 
+            // BtnApi
+            // 
+            this.BtnApi.Location = new System.Drawing.Point(22, 12);
+            this.BtnApi.Name = "BtnApi";
+            this.BtnApi.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi.TabIndex = 1;
+            this.BtnApi.Text = "API 1";
+            this.BtnApi.UseVisualStyleBackColor = true;
+            this.BtnApi.Click += new System.EventHandler(this.BtnApi_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(278, 217);
+            this.label1.Location = new System.Drawing.Point(271, 272);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Crud Setembro";
             // 
-            // button2
+            // BtnApi4
             // 
-            this.button2.Location = new System.Drawing.Point(47, 80);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 29);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnApi4.Location = new System.Drawing.Point(22, 196);
+            this.BtnApi4.Name = "BtnApi4";
+            this.BtnApi4.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi4.TabIndex = 7;
+            this.BtnApi4.Text = "API 4";
+            this.BtnApi4.UseVisualStyleBackColor = true;
+            this.BtnApi4.Click += new System.EventHandler(this.BtnApi4_Click);
+            // 
+            // TxtApi4
+            // 
+            this.TxtApi4.Location = new System.Drawing.Point(22, 232);
+            this.TxtApi4.Name = "TxtApi4";
+            this.TxtApi4.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi4.TabIndex = 8;
             // 
             // Form1
             // 
@@ -158,9 +209,14 @@
         private System.Windows.Forms.Button BtnHome;
         private System.Windows.Forms.Panel PanelForm;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox TxtApi;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox TxtApi1;
+        private System.Windows.Forms.Button BtnApi;
+        private System.Windows.Forms.TextBox TxtApi2;
+        private System.Windows.Forms.Button BtnApi2;
+        private System.Windows.Forms.TextBox TxtApi3;
+        private System.Windows.Forms.Button BtnApi3;
+        private System.Windows.Forms.TextBox TxtApi4;
+        private System.Windows.Forms.Button BtnApi4;
     }
 }
 

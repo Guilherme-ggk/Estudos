@@ -62,77 +62,145 @@ namespace CrudSetembro
             this.Close();
         }
 
-      
-
-      
 
 
-        public async Task API()
+
+
+        private void BtnApi_Click(object sender, EventArgs e)
         {
-            var url = "https://api.chucknorris.io/jokes/random";
+            var respostaApi = GetApi();
+        }
 
-            using (HttpClient http = new HttpClient())
+        public async Task GetApi()
+        {
+            var url = "https://api.adviceslip.com/advice";
+
+            using (HttpClient cliente = new HttpClient())
             {
                 try
                 {
-                    HttpResponseMessage response = await http.GetAsync(url);
-
-                    if (response.IsSuccessStatusCode)
+                    using (HttpResponseMessage resposta = await cliente.GetAsync(url))
                     {
-                        string conteudo = await response.Content.ReadAsStringAsync();
-                        TxtApi.Text = conteudo;
-                    }
-                    else
-                    {
-                        MessageBox.Show($"ERRO: {response.StatusCode}");
+                        if(resposta.IsSuccessStatusCode)
+                        {
+                            string conteudo = await resposta.Content.ReadAsStringAsync();
+                            TxtApi1.Text = conteudo;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Erro de conexão {resposta.StatusCode}");
+                        }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"ERRO DE CONEXÃO {ex.Message}");
+                    Console.WriteLine(ex.Message);
                 }
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnApi2_Click(object sender, EventArgs e)
         {
-            var resposta = API();
+            var resposta = GetApi2();
         }
 
 
-
-
-        public async Task GetApi()
+        public async Task GetApi2()
         {
-            var URL = "https://api.chucknorris.io/jokes/random";
+            var url = "https://api.kanye.rest";
 
-            using (HttpClient http = new HttpClient())
+            using (HttpClient cliente = new HttpClient())
             {
                 try
                 {
-                    HttpResponseMessage resposta = await http.GetAsync(URL);
-
-                    if(resposta.IsSuccessStatusCode)
+                    using (HttpResponseMessage resposta = await cliente.GetAsync(url))
                     {
-                        string conteudo1 = await resposta.Content.ReadAsStringAsync();
-                        TxtApi.Text = conteudo1;
+                        if(resposta.IsSuccessStatusCode)
+                        {
+                            string conteudo = await resposta.Content.ReadAsStringAsync();
+                            TxtApi2.Text = conteudo;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Erro de conexão {resposta.StatusCode}");
+                        }
                     }
-                    else
-                    {
-                        MessageBox.Show($"Erro de conexão {resposta.StatusCode}");
-                    }
-
                 }
-                catch (Exception ex)
+                catch(Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+
+
+        private void BtnApi3_Click(object sender, EventArgs e)
         {
-            var resposta2 = GetApi();
+            var resposta = GetApi3();
+        }
+
+
+        public async Task GetApi3()
+        {
+            var url = "https://api.kanye.rest";
+
+            using (HttpClient cliente = new HttpClient())
+            {
+                try
+                {
+                    using (HttpResponseMessage resposta = await cliente.GetAsync(url))
+                    {
+                        if (resposta.IsSuccessStatusCode)
+                        {
+                            string conteudo = await resposta.Content.ReadAsStringAsync();
+                            TxtApi3.Text = conteudo;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Erro de conexão: {resposta.StatusCode}");
+                        }
+                    }
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void BtnApi4_Click(object sender, EventArgs e)
+        {
+            var resposta = GetApi4();
+        }
+
+        public async Task GetApi4()
+        {
+            var url = "https://dummyjson.com/user/2";
+
+            using (HttpClient cliente = new HttpClient())
+            {
+                try
+                {
+                    using (HttpResponseMessage resposta = await cliente.GetAsync(url))
+                    {
+                        if(resposta.IsSuccessStatusCode)
+                        {
+                            string conteudo = await resposta.Content.ReadAsStringAsync();
+                            TxtApi4.Text = conteudo;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Erro de conexão: {resposta.StatusCode}");
+                        }
+                    }
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
         }
     }
 }

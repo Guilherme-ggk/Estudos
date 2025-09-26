@@ -33,6 +33,8 @@
             this.BtnData = new System.Windows.Forms.Button();
             this.BtnHome = new System.Windows.Forms.Button();
             this.PanelForm = new System.Windows.Forms.Panel();
+            this.TxtApi6 = new System.Windows.Forms.TextBox();
+            this.BtnApi6 = new System.Windows.Forms.Button();
             this.TxtApi5 = new System.Windows.Forms.TextBox();
             this.BtnApi5 = new System.Windows.Forms.Button();
             this.TxtApi4 = new System.Windows.Forms.TextBox();
@@ -44,8 +46,8 @@
             this.TxtApi1 = new System.Windows.Forms.TextBox();
             this.BtnApi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.BtnApi6 = new System.Windows.Forms.Button();
-            this.TxtApi6 = new System.Windows.Forms.TextBox();
+            this.BtnApi7 = new System.Windows.Forms.Button();
+            this.TxtApi7 = new System.Windows.Forms.TextBox();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
             this.SuspendLayout();
@@ -96,6 +98,8 @@
             // 
             // PanelForm
             // 
+            this.PanelForm.Controls.Add(this.TxtApi7);
+            this.PanelForm.Controls.Add(this.BtnApi7);
             this.PanelForm.Controls.Add(this.TxtApi6);
             this.PanelForm.Controls.Add(this.BtnApi6);
             this.PanelForm.Controls.Add(this.TxtApi5);
@@ -114,6 +118,23 @@
             this.PanelForm.Name = "PanelForm";
             this.PanelForm.Size = new System.Drawing.Size(638, 450);
             this.PanelForm.TabIndex = 1;
+            // 
+            // TxtApi6
+            // 
+            this.TxtApi6.Location = new System.Drawing.Point(22, 356);
+            this.TxtApi6.Name = "TxtApi6";
+            this.TxtApi6.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi6.TabIndex = 12;
+            // 
+            // BtnApi6
+            // 
+            this.BtnApi6.Location = new System.Drawing.Point(22, 320);
+            this.BtnApi6.Name = "BtnApi6";
+            this.BtnApi6.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi6.TabIndex = 11;
+            this.BtnApi6.Text = "API 6";
+            this.BtnApi6.UseVisualStyleBackColor = true;
+            this.BtnApi6.Click += new System.EventHandler(this.BtnApi6_Click);
             // 
             // TxtApi5
             // 
@@ -203,28 +224,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(269, 403);
+            this.label1.Location = new System.Drawing.Point(267, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Crud Setembro";
             // 
-            // BtnApi6
+            // BtnApi7
             // 
-            this.BtnApi6.Location = new System.Drawing.Point(22, 320);
-            this.BtnApi6.Name = "BtnApi6";
-            this.BtnApi6.Size = new System.Drawing.Size(67, 30);
-            this.BtnApi6.TabIndex = 11;
-            this.BtnApi6.Text = "API 6";
-            this.BtnApi6.UseVisualStyleBackColor = true;
-            this.BtnApi6.Click += new System.EventHandler(this.BtnApi6_Click);
+            this.BtnApi7.Location = new System.Drawing.Point(22, 382);
+            this.BtnApi7.Name = "BtnApi7";
+            this.BtnApi7.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi7.TabIndex = 13;
+            this.BtnApi7.Text = "API 7";
+            this.BtnApi7.UseVisualStyleBackColor = true;
             // 
-            // TxtApi6
+            // TxtApi7
             // 
-            this.TxtApi6.Location = new System.Drawing.Point(22, 356);
-            this.TxtApi6.Name = "TxtApi6";
-            this.TxtApi6.Size = new System.Drawing.Size(550, 20);
-            this.TxtApi6.TabIndex = 12;
+            this.TxtApi7.Location = new System.Drawing.Point(22, 418);
+            this.TxtApi7.Name = "TxtApi7";
+            this.TxtApi7.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi7.TabIndex = 14;
             // 
             // Form1
             // 
@@ -263,6 +283,8 @@
         private System.Windows.Forms.Button BtnApi5;
         private System.Windows.Forms.TextBox TxtApi6;
         private System.Windows.Forms.Button BtnApi6;
+        private System.Windows.Forms.TextBox TxtApi7;
+        private System.Windows.Forms.Button BtnApi7;
     }
 }
 

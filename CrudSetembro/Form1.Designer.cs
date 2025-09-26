@@ -33,6 +33,10 @@
             this.BtnData = new System.Windows.Forms.Button();
             this.BtnHome = new System.Windows.Forms.Button();
             this.PanelForm = new System.Windows.Forms.Panel();
+            this.TxtApi5 = new System.Windows.Forms.TextBox();
+            this.BtnApi5 = new System.Windows.Forms.Button();
+            this.TxtApi4 = new System.Windows.Forms.TextBox();
+            this.BtnApi4 = new System.Windows.Forms.Button();
             this.TxtApi3 = new System.Windows.Forms.TextBox();
             this.BtnApi3 = new System.Windows.Forms.Button();
             this.TxtApi2 = new System.Windows.Forms.TextBox();
@@ -40,10 +44,8 @@
             this.TxtApi1 = new System.Windows.Forms.TextBox();
             this.BtnApi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.BtnApi4 = new System.Windows.Forms.Button();
-            this.TxtApi4 = new System.Windows.Forms.TextBox();
-            this.BtnApi5 = new System.Windows.Forms.Button();
-            this.TxtApi5 = new System.Windows.Forms.TextBox();
+            this.BtnApi6 = new System.Windows.Forms.Button();
+            this.TxtApi6 = new System.Windows.Forms.TextBox();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
             this.SuspendLayout();
@@ -94,6 +96,8 @@
             // 
             // PanelForm
             // 
+            this.PanelForm.Controls.Add(this.TxtApi6);
+            this.PanelForm.Controls.Add(this.BtnApi6);
             this.PanelForm.Controls.Add(this.TxtApi5);
             this.PanelForm.Controls.Add(this.BtnApi5);
             this.PanelForm.Controls.Add(this.TxtApi4);
@@ -110,6 +114,40 @@
             this.PanelForm.Name = "PanelForm";
             this.PanelForm.Size = new System.Drawing.Size(638, 450);
             this.PanelForm.TabIndex = 1;
+            // 
+            // TxtApi5
+            // 
+            this.TxtApi5.Location = new System.Drawing.Point(22, 294);
+            this.TxtApi5.Name = "TxtApi5";
+            this.TxtApi5.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi5.TabIndex = 10;
+            // 
+            // BtnApi5
+            // 
+            this.BtnApi5.Location = new System.Drawing.Point(22, 258);
+            this.BtnApi5.Name = "BtnApi5";
+            this.BtnApi5.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi5.TabIndex = 9;
+            this.BtnApi5.Text = "API 5";
+            this.BtnApi5.UseVisualStyleBackColor = true;
+            this.BtnApi5.Click += new System.EventHandler(this.BtnApi5_Click);
+            // 
+            // TxtApi4
+            // 
+            this.TxtApi4.Location = new System.Drawing.Point(22, 232);
+            this.TxtApi4.Name = "TxtApi4";
+            this.TxtApi4.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi4.TabIndex = 8;
+            // 
+            // BtnApi4
+            // 
+            this.BtnApi4.Location = new System.Drawing.Point(22, 196);
+            this.BtnApi4.Name = "BtnApi4";
+            this.BtnApi4.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi4.TabIndex = 7;
+            this.BtnApi4.Text = "API 4";
+            this.BtnApi4.UseVisualStyleBackColor = true;
+            this.BtnApi4.Click += new System.EventHandler(this.BtnApi4_Click);
             // 
             // TxtApi3
             // 
@@ -165,45 +203,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 353);
+            this.label1.Location = new System.Drawing.Point(269, 403);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Crud Setembro";
             // 
-            // BtnApi4
+            // BtnApi6
             // 
-            this.BtnApi4.Location = new System.Drawing.Point(22, 196);
-            this.BtnApi4.Name = "BtnApi4";
-            this.BtnApi4.Size = new System.Drawing.Size(67, 30);
-            this.BtnApi4.TabIndex = 7;
-            this.BtnApi4.Text = "API 4";
-            this.BtnApi4.UseVisualStyleBackColor = true;
-            this.BtnApi4.Click += new System.EventHandler(this.BtnApi4_Click);
+            this.BtnApi6.Location = new System.Drawing.Point(22, 320);
+            this.BtnApi6.Name = "BtnApi6";
+            this.BtnApi6.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi6.TabIndex = 11;
+            this.BtnApi6.Text = "API 6";
+            this.BtnApi6.UseVisualStyleBackColor = true;
+            this.BtnApi6.Click += new System.EventHandler(this.BtnApi6_Click);
             // 
-            // TxtApi4
+            // TxtApi6
             // 
-            this.TxtApi4.Location = new System.Drawing.Point(22, 232);
-            this.TxtApi4.Name = "TxtApi4";
-            this.TxtApi4.Size = new System.Drawing.Size(550, 20);
-            this.TxtApi4.TabIndex = 8;
-            // 
-            // BtnApi5
-            // 
-            this.BtnApi5.Location = new System.Drawing.Point(22, 258);
-            this.BtnApi5.Name = "BtnApi5";
-            this.BtnApi5.Size = new System.Drawing.Size(67, 30);
-            this.BtnApi5.TabIndex = 9;
-            this.BtnApi5.Text = "API 5";
-            this.BtnApi5.UseVisualStyleBackColor = true;
-            this.BtnApi5.Click += new System.EventHandler(this.BtnApi5_Click);
-            // 
-            // TxtApi5
-            // 
-            this.TxtApi5.Location = new System.Drawing.Point(22, 294);
-            this.TxtApi5.Name = "TxtApi5";
-            this.TxtApi5.Size = new System.Drawing.Size(550, 20);
-            this.TxtApi5.TabIndex = 10;
+            this.TxtApi6.Location = new System.Drawing.Point(22, 356);
+            this.TxtApi6.Name = "TxtApi6";
+            this.TxtApi6.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi6.TabIndex = 12;
             // 
             // Form1
             // 
@@ -240,6 +261,8 @@
         private System.Windows.Forms.Button BtnApi4;
         private System.Windows.Forms.TextBox TxtApi5;
         private System.Windows.Forms.Button BtnApi5;
+        private System.Windows.Forms.TextBox TxtApi6;
+        private System.Windows.Forms.Button BtnApi6;
     }
 }
 

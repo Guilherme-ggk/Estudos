@@ -229,5 +229,38 @@ namespace CrudSetembro
                 }
             }
         }
+
+        private async void BtnApi6_Click(object sender, EventArgs e)
+        {
+            var url = "https://dummyjson.com/users/2";
+
+
+            using (HttpClient cliente = new HttpClient())
+            {
+                try
+                {
+                    using (HttpResponseMessage resposta = await cliente.GetAsync(url))
+                    {
+                        if(resposta.IsSuccessStatusCode)
+                        {
+                            string conteudo = await resposta.Content.ReadAsStringAsync();
+                            TxtApi6.Text = conteudo;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Erro de conexão: {resposta.StatusCode}");
+                        }
+                    }
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+
+
+
     }
 }

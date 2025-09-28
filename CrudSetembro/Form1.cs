@@ -284,7 +284,6 @@ namespace CrudSetembro
                     MessageBox.Show(ex.Message);
                 }
             }
-
         }
     }
 }

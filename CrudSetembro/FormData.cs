@@ -77,7 +77,7 @@ namespace CrudSetembro
 
         public async Task GetApiData1()
         {
-            var Url = "API";
+            var Url = "https://api.thecatapi.com/v1/images/search?limit=10";
 
             using (HttpClient cliente = new HttpClient())
             {

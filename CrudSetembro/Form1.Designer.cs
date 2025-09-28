@@ -134,6 +134,7 @@
             this.BtnApi7.TabIndex = 13;
             this.BtnApi7.Text = "API 7";
             this.BtnApi7.UseVisualStyleBackColor = true;
+            this.BtnApi7.Click += new System.EventHandler(this.BtnApi7_Click);
             // 
             // TxtApi6
             // 

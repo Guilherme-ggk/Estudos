@@ -33,6 +33,8 @@
             this.BtnData = new System.Windows.Forms.Button();
             this.BtnHome = new System.Windows.Forms.Button();
             this.PanelForm = new System.Windows.Forms.Panel();
+            this.TxtApi7 = new System.Windows.Forms.TextBox();
+            this.BtnApi7 = new System.Windows.Forms.Button();
             this.TxtApi6 = new System.Windows.Forms.TextBox();
             this.BtnApi6 = new System.Windows.Forms.Button();
             this.TxtApi5 = new System.Windows.Forms.TextBox();
@@ -46,8 +48,6 @@
             this.TxtApi1 = new System.Windows.Forms.TextBox();
             this.BtnApi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.BtnApi7 = new System.Windows.Forms.Button();
-            this.TxtApi7 = new System.Windows.Forms.TextBox();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
             this.SuspendLayout();
@@ -118,6 +118,22 @@
             this.PanelForm.Name = "PanelForm";
             this.PanelForm.Size = new System.Drawing.Size(638, 450);
             this.PanelForm.TabIndex = 1;
+            // 
+            // TxtApi7
+            // 
+            this.TxtApi7.Location = new System.Drawing.Point(22, 418);
+            this.TxtApi7.Name = "TxtApi7";
+            this.TxtApi7.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi7.TabIndex = 14;
+            // 
+            // BtnApi7
+            // 
+            this.BtnApi7.Location = new System.Drawing.Point(22, 382);
+            this.BtnApi7.Name = "BtnApi7";
+            this.BtnApi7.Size = new System.Drawing.Size(67, 30);
+            this.BtnApi7.TabIndex = 13;
+            this.BtnApi7.Text = "API 7";
+            this.BtnApi7.UseVisualStyleBackColor = true;
             // 
             // TxtApi6
             // 
@@ -213,7 +229,7 @@
             // 
             // BtnApi
             // 
-            this.BtnApi.Location = new System.Drawing.Point(22, 12);
+            this.BtnApi.Location = new System.Drawing.Point(39, 12);
             this.BtnApi.Name = "BtnApi";
             this.BtnApi.Size = new System.Drawing.Size(67, 30);
             this.BtnApi.TabIndex = 1;
@@ -229,22 +245,6 @@
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Crud Setembro";
-            // 
-            // BtnApi7
-            // 
-            this.BtnApi7.Location = new System.Drawing.Point(22, 382);
-            this.BtnApi7.Name = "BtnApi7";
-            this.BtnApi7.Size = new System.Drawing.Size(67, 30);
-            this.BtnApi7.TabIndex = 13;
-            this.BtnApi7.Text = "API 7";
-            this.BtnApi7.UseVisualStyleBackColor = true;
-            // 
-            // TxtApi7
-            // 
-            this.TxtApi7.Location = new System.Drawing.Point(22, 418);
-            this.TxtApi7.Name = "TxtApi7";
-            this.TxtApi7.Size = new System.Drawing.Size(550, 20);
-            this.TxtApi7.TabIndex = 14;
             // 
             // Form1
             // 

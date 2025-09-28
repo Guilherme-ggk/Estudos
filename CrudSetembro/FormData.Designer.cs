@@ -36,6 +36,8 @@
             this.BtnExcluir = new System.Windows.Forms.Button();
             this.BtnImprimir = new System.Windows.Forms.Button();
             this.BtnBuscar = new System.Windows.Forms.Button();
+            this.TxtApi1 = new System.Windows.Forms.TextBox();
+            this.BtnApi1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvLivros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,11 +119,30 @@
             this.BtnBuscar.UseVisualStyleBackColor = true;
             this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
+            // TxtApi1
+            // 
+            this.TxtApi1.Location = new System.Drawing.Point(12, 317);
+            this.TxtApi1.Name = "TxtApi1";
+            this.TxtApi1.Size = new System.Drawing.Size(590, 20);
+            this.TxtApi1.TabIndex = 8;
+            // 
+            // BtnApi1
+            // 
+            this.BtnApi1.Location = new System.Drawing.Point(12, 288);
+            this.BtnApi1.Name = "BtnApi1";
+            this.BtnApi1.Size = new System.Drawing.Size(75, 23);
+            this.BtnApi1.TabIndex = 9;
+            this.BtnApi1.Text = "api 1";
+            this.BtnApi1.UseVisualStyleBackColor = true;
+            this.BtnApi1.Click += new System.EventHandler(this.BtnApi1_Click);
+            // 
             // FormData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(622, 411);
+            this.Controls.Add(this.BtnApi1);
+            this.Controls.Add(this.TxtApi1);
             this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.BtnImprimir);
             this.Controls.Add(this.BtnExcluir);
@@ -149,5 +170,7 @@
         private System.Windows.Forms.Button BtnExcluir;
         private System.Windows.Forms.Button BtnImprimir;
         private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.TextBox TxtApi1;
+        private System.Windows.Forms.Button BtnApi1;
     }
 }

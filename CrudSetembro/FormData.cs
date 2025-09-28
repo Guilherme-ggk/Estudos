@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Org.BouncyCastle.Asn1.IsisMtt.X509;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -65,6 +67,40 @@ namespace CrudSetembro
         {
             dt = Livros.GetLivros(TxtBuscar.Text);
             DgvLivros.DataSource = dt;
+        }
+
+        private void BtnApi1_Click(object sender, EventArgs e)
+        {
+            var resposta = GetApiData1();
+        }
+
+
+        public async Task GetApiData1()
+        {
+            var Url = "API";
+
+            using (HttpClient cliente = new HttpClient())
+            {
+                try
+                {
+                    using (HttpResponseMessage resposta = await cliente.GetAsync(Url))
+                    {
+                        if(resposta.IsSuccessStatusCode)
+                        {
+                            string conteudo = await resposta.Content.ReadAsStringAsync();
+                            TxtApi1.Text = conteudo;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Erro de conexão: {resposta.StatusCode}");
+                        }
+                    }
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
         }
     }
 }

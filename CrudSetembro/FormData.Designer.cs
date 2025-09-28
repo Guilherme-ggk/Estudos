@@ -38,6 +38,8 @@
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.TxtApi1 = new System.Windows.Forms.TextBox();
             this.BtnApi1 = new System.Windows.Forms.Button();
+            this.BtnApi2 = new System.Windows.Forms.Button();
+            this.TxtApi2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgvLivros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,11 +138,30 @@
             this.BtnApi1.UseVisualStyleBackColor = true;
             this.BtnApi1.Click += new System.EventHandler(this.BtnApi1_Click);
             // 
+            // BtnApi2
+            // 
+            this.BtnApi2.Location = new System.Drawing.Point(12, 343);
+            this.BtnApi2.Name = "BtnApi2";
+            this.BtnApi2.Size = new System.Drawing.Size(75, 23);
+            this.BtnApi2.TabIndex = 10;
+            this.BtnApi2.Text = "api 2";
+            this.BtnApi2.UseVisualStyleBackColor = true;
+            this.BtnApi2.Click += new System.EventHandler(this.BtnApi2_Click);
+            // 
+            // TxtApi2
+            // 
+            this.TxtApi2.Location = new System.Drawing.Point(12, 372);
+            this.TxtApi2.Name = "TxtApi2";
+            this.TxtApi2.Size = new System.Drawing.Size(590, 20);
+            this.TxtApi2.TabIndex = 11;
+            // 
             // FormData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(622, 411);
+            this.Controls.Add(this.TxtApi2);
+            this.Controls.Add(this.BtnApi2);
             this.Controls.Add(this.BtnApi1);
             this.Controls.Add(this.TxtApi1);
             this.Controls.Add(this.BtnBuscar);
@@ -172,5 +193,7 @@
         private System.Windows.Forms.Button BtnBuscar;
         private System.Windows.Forms.TextBox TxtApi1;
         private System.Windows.Forms.Button BtnApi1;
+        private System.Windows.Forms.Button BtnApi2;
+        private System.Windows.Forms.TextBox TxtApi2;
     }
 }

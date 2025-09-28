@@ -102,5 +102,33 @@ namespace CrudSetembro
                 }
             }
         }
+
+        private async void BtnApi2_Click(object sender, EventArgs e)
+        {
+            var url = "";
+
+            using (HttpClient cliente = new HttpClient())
+            {
+                try
+                {
+                    using (HttpResponseMessage resposta = await cliente.GetAsync(url))
+                    {
+                        if(resposta.IsSuccessStatusCode)
+                        {
+                            string conteudo = await resposta.Content.ReadAsStringAsync();
+                            TxtApi2.Text = conteudo;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"erro de conexão: {resposta.StatusCode}");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
     }
 }

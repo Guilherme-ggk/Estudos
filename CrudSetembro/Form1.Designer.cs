@@ -229,7 +229,7 @@
             // 
             // BtnApi
             // 
-            this.BtnApi.Location = new System.Drawing.Point(39, 12);
+            this.BtnApi.Location = new System.Drawing.Point(22, 12);
             this.BtnApi.Name = "BtnApi";
             this.BtnApi.Size = new System.Drawing.Size(67, 30);
             this.BtnApi.TabIndex = 1;

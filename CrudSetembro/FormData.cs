@@ -105,7 +105,7 @@ namespace CrudSetembro
 
         private async void BtnApi2_Click(object sender, EventArgs e)
         {
-            var url = "";
+            var url = "https://api.thecatapi.com/v1/images/search?limit=9";
 
             using (HttpClient cliente = new HttpClient())
             {

@@ -48,7 +48,7 @@
             this.DgvLivros.Location = new System.Drawing.Point(12, 103);
             this.DgvLivros.Name = "DgvLivros";
             this.DgvLivros.ReadOnly = true;
-            this.DgvLivros.Size = new System.Drawing.Size(591, 296);
+            this.DgvLivros.Size = new System.Drawing.Size(591, 136);
             this.DgvLivros.TabIndex = 0;
             // 
             // BtnAdicionar

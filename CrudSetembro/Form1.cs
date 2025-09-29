@@ -62,10 +62,6 @@ namespace CrudSetembro
             this.Close();
         }
 
-
-
-
-
         private void BtnApi_Click(object sender, EventArgs e)
         {
             var respostaApi = GetApi();

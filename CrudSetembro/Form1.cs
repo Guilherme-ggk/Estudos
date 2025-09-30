@@ -312,6 +312,9 @@ namespace CrudSetembro
 
 
 
+        public class CatImages()
+        {
 
+        }
     }
 }

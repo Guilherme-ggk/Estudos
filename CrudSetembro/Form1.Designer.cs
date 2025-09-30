@@ -48,6 +48,8 @@
             this.TxtApi1 = new System.Windows.Forms.TextBox();
             this.BtnApi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.BtnApi8 = new System.Windows.Forms.Button();
+            this.TxtApi8 = new System.Windows.Forms.TextBox();
             this.PanelPrincipal.SuspendLayout();
             this.PanelForm.SuspendLayout();
             this.SuspendLayout();
@@ -60,7 +62,7 @@
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelPrincipal.Location = new System.Drawing.Point(0, 0);
             this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(162, 450);
+            this.PanelPrincipal.Size = new System.Drawing.Size(162, 550);
             this.PanelPrincipal.TabIndex = 0;
             // 
             // BtnExit
@@ -98,6 +100,8 @@
             // 
             // PanelForm
             // 
+            this.PanelForm.Controls.Add(this.TxtApi8);
+            this.PanelForm.Controls.Add(this.BtnApi8);
             this.PanelForm.Controls.Add(this.TxtApi7);
             this.PanelForm.Controls.Add(this.BtnApi7);
             this.PanelForm.Controls.Add(this.TxtApi6);
@@ -116,7 +120,7 @@
             this.PanelForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelForm.Location = new System.Drawing.Point(162, 0);
             this.PanelForm.Name = "PanelForm";
-            this.PanelForm.Size = new System.Drawing.Size(638, 450);
+            this.PanelForm.Size = new System.Drawing.Size(638, 550);
             this.PanelForm.TabIndex = 1;
             // 
             // TxtApi7
@@ -247,11 +251,28 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Crud Setembro";
             // 
+            // BtnApi8
+            // 
+            this.BtnApi8.Location = new System.Drawing.Point(22, 444);
+            this.BtnApi8.Name = "BtnApi8";
+            this.BtnApi8.Size = new System.Drawing.Size(67, 28);
+            this.BtnApi8.TabIndex = 15;
+            this.BtnApi8.Text = "API 8";
+            this.BtnApi8.UseVisualStyleBackColor = true;
+            this.BtnApi8.Click += new System.EventHandler(this.BtnApi8_Click);
+            // 
+            // TxtApi8
+            // 
+            this.TxtApi8.Location = new System.Drawing.Point(22, 478);
+            this.TxtApi8.Name = "TxtApi8";
+            this.TxtApi8.Size = new System.Drawing.Size(550, 20);
+            this.TxtApi8.TabIndex = 16;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 550);
             this.Controls.Add(this.PanelForm);
             this.Controls.Add(this.PanelPrincipal);
             this.Name = "Form1";
@@ -286,6 +307,8 @@
         private System.Windows.Forms.Button BtnApi6;
         private System.Windows.Forms.TextBox TxtApi7;
         private System.Windows.Forms.Button BtnApi7;
+        private System.Windows.Forms.TextBox TxtApi8;
+        private System.Windows.Forms.Button BtnApi8;
     }
 }
 

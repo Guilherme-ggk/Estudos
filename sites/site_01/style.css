@@ -2,3 +2,11 @@ main
 {
     background-image: url(images/pexels-rdne-6539857.jpg);
 }
+
+button
+{
+    border-radius: 5px;
+    color: antiquewhite;
+    background-color: aqua;
+    border-color: antiquewhite;
+}

@@ -1,0 +1,11 @@
+C:\TI\Estudos\CRUD_JANEIRO\bin\Debug\CRUD_JANEIRO.exe.config
+C:\TI\Estudos\CRUD_JANEIRO\bin\Debug\CRUD_JANEIRO.exe
+C:\TI\Estudos\CRUD_JANEIRO\bin\Debug\CRUD_JANEIRO.pdb
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.csproj.AssemblyReference.cache
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.Form1.resources
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.Properties.Resources.resources
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.csproj.GenerateResource.cache
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.exe
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.pdb
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.exe.config

@@ -12,9 +12,18 @@ namespace CRUD_JANEIRO
 {
     public partial class Form1 : Form
     {
+        DataTable dt = new DataTable(); // referenciando
+
         public Form1()
         {
             InitializeComponent();
+            inicializar(); // colocando a função para ser chamada
+        }
+
+        private void  inicializar() // função que inicia o banco de dados no DataGridView
+        {
+            dt = Livro.GetLivros(false);
+            DgvLivros.DataSource = dt;
         }
     }
 }

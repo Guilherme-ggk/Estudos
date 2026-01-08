@@ -44,5 +44,46 @@ namespace CRUD_JANEIRO
 
             return dt;
         }
+
+
+       public void GetLivro(int id)
+       {
+            var sql = "SELECT * FROM livros WHERE id=" + id;
+
+            try
+            {
+                using (var cn = new MySqlConnection(Conn.StrConn))
+                {
+                    cn.Open();
+                    using (var cmd = new MySqlCommand(sql, cn))
+                    {
+                        using (var dr = cmd.ExecuteReader())
+                        {
+                            if(dr.HasRows)
+                            {
+                                if(dr.Read())
+                                {
+                                    this.Id = Convert.ToInt32(dr["id"]);
+                                    this.Isbn = dr["isbn"].ToString();
+                                    this.Titulo = dr["titulo"].ToString();
+                                    this.Autores = dr["autores"].ToString();
+                                    this.Unitario = Convert.ToDecimal(dr["unitario"]);
+                                    this.Saldo_inicial = Convert.ToInt32(dr["saldo_inicial"]);
+                                    this.Estoque_minimo = Convert.ToInt32(dr["estoque_minimo"]);
+                                    this.Ativo = Convert.ToChar(dr["ativo"]);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+       }
+
+
+       
     }
 }

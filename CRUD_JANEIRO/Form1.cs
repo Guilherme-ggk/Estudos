@@ -25,5 +25,15 @@ namespace CRUD_JANEIRO
             dt = Livro.GetLivros(false);
             DgvLivros.DataSource = dt;
         }
+
+        private void BtnAlterar_Click(object sender, EventArgs e)
+        {
+            var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
+
+            using (var frm = new FrmCadastroLivros(id))
+            {
+                frm.ShowDialog();
+            }
+        }
     }
 }

@@ -21,8 +21,8 @@ namespace CRUD_JANEIRO
         public int Estoque_minimo { get; set; }
         public char Ativo { get; set; }
 
-        public static DataTable GetLivros(bool ativos)
-        {
+      public static DataTable GetLivros(bool ativo)
+      {
             var dt = new DataTable();
             var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros.livros";
 
@@ -33,7 +33,7 @@ namespace CRUD_JANEIRO
                     cn.Open();
                     using (var da = new MySqlDataAdapter(sql, cn))
                     {
-                        da.Fill(dt);    
+                        da.Fill(dt);
                     }
                 }
             }
@@ -43,7 +43,7 @@ namespace CRUD_JANEIRO
             }
 
             return dt;
-        }
+      }
 
 
        public void GetLivro(int id)

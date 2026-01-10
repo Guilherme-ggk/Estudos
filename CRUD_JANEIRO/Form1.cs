@@ -22,7 +22,7 @@ namespace CRUD_JANEIRO
 
         private void  inicializar() // função que inicia o banco de dados no DataGridView
         {
-            dt = Livro.GetLivros(false);
+            dt = Livro.GetLivros(true);
             DgvLivros.DataSource = dt;
         }
 

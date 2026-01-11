@@ -16,7 +16,7 @@ namespace CRUD_JANEIRO
         private const string Usuario = "root";
         private const string Senha = "0830755@Guilherme";
 
-        static public string StrConn = $" server={Servidor}; database={BancoDados}; userid={Usuario}; password={Senha}"; //string de conexão
+        static public string StrConn = $"server={Servidor};database={BancoDados};userid={Usuario};password={Senha}"; // string de conexão
 
     }
 }

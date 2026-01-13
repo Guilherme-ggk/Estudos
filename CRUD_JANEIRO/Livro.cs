@@ -24,7 +24,7 @@ namespace CRUD_JANEIRO
       public static DataTable GetLivros(bool ativo)
       {
             var dt = new DataTable();
-            var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros.livros";
+            var sql = ";
 
             try
             {

@@ -83,6 +83,28 @@ namespace CRUD_JANEIRO
             }
        }
 
+        public void ExcluirLivro()
+        {
+            var sql = "DELETE livros FROM id=" + this.Id;
+
+            try
+            {
+                using (var cn = new MySqlConnection(Conn.StrConn))
+                {
+                    cn.Open();
+                    using (var cmd = new MySqlCommand(sql, cn))
+                    {
+                        cmd.Parameters.Add();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
 
        
     }

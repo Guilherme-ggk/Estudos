@@ -19,19 +19,18 @@ namespace CRUD_JANEIRO
             InitializeComponent();
             this.id = id;
 
-            if(this.id > 0)
+            if (this.id > 0)
             {
                 livros.GetLivro(this.id);
 
                 LblId.Text = livros.Id.ToString();
-                TxtIsbn.Text = livros.Isbn.ToString();
+                TxtIsbn.Text = livros.Titulo.ToString();
                 TxtTitulo.Text = livros.Titulo.ToString();
-                TxtAutores.Text = livros.Autores.ToString();
-                TxtUnitario.Text = livros.Unitario.ToString("n2");
+                TxtUnitario.Text = livros.Unitario.ToString("N2");
                 TxtSaldo.Text = livros.Saldo_inicial.ToString();
                 TxtEstoque.Text = livros.Estoque_minimo.ToString();
-                if(livros.Ativo == 'S')
-                    ChkAtivo.Checked = true;
+                if (livros.Ativo == 'S');
+                    
             }
         }
     }

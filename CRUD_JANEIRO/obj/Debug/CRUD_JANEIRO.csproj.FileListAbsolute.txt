@@ -40,3 +40,4 @@ C:\TI\Estudos\CRUD_JANEIRO\bin\Debug\System.Numerics.Vectors.xml
 C:\TI\Estudos\CRUD_JANEIRO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\TI\Estudos\CRUD_JANEIRO\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JAN.1ABC49CA.Up2Date
+C:\TI\Estudos\CRUD_JANEIRO\obj\Debug\CRUD_JANEIRO.FrmCadastro.resources

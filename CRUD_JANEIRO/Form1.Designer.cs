@@ -30,7 +30,6 @@
         {
             this.DgvLivros = new System.Windows.Forms.DataGridView();
             this.BtnAdicionar = new System.Windows.Forms.Button();
-            this.BtnFechar = new System.Windows.Forms.Button();
             this.BtnAlterar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvLivros)).BeginInit();
             this.SuspendLayout();
@@ -56,16 +55,6 @@
             this.BtnAdicionar.UseVisualStyleBackColor = true;
             this.BtnAdicionar.Click += new System.EventHandler(this.BtnAdicionar_Click);
             // 
-            // BtnFechar
-            // 
-            this.BtnFechar.Location = new System.Drawing.Point(664, 21);
-            this.BtnFechar.Name = "BtnFechar";
-            this.BtnFechar.Size = new System.Drawing.Size(111, 31);
-            this.BtnFechar.TabIndex = 2;
-            this.BtnFechar.Text = "FECHAR";
-            this.BtnFechar.UseVisualStyleBackColor = true;
-            this.BtnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
-            // 
             // BtnAlterar
             // 
             this.BtnAlterar.Location = new System.Drawing.Point(152, 21);
@@ -83,7 +72,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.BtnAlterar);
-            this.Controls.Add(this.BtnFechar);
             this.Controls.Add(this.BtnAdicionar);
             this.Controls.Add(this.DgvLivros);
             this.Name = "Form1";
@@ -98,7 +86,6 @@
 
         private System.Windows.Forms.DataGridView DgvLivros;
         private System.Windows.Forms.Button BtnAdicionar;
-        private System.Windows.Forms.Button BtnFechar;
         private System.Windows.Forms.Button BtnAlterar;
     }
 }

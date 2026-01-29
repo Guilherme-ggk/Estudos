@@ -44,6 +44,7 @@
             this.TxtTitulo = new System.Windows.Forms.TextBox();
             this.TxtIsbn = new System.Windows.Forms.TextBox();
             this.TxtUnitario = new System.Windows.Forms.TextBox();
+            this.BtnExcluir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblId
@@ -72,6 +73,7 @@
             this.BtnSalvar.TabIndex = 3;
             this.BtnSalvar.Text = "salvar";
             this.BtnSalvar.UseVisualStyleBackColor = true;
+            this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
             // 
             // TxtAutores
             // 
@@ -178,11 +180,21 @@
             this.TxtUnitario.Size = new System.Drawing.Size(69, 20);
             this.TxtUnitario.TabIndex = 17;
             // 
+            // BtnExcluir
+            // 
+            this.BtnExcluir.Location = new System.Drawing.Point(67, 177);
+            this.BtnExcluir.Name = "BtnExcluir";
+            this.BtnExcluir.Size = new System.Drawing.Size(78, 42);
+            this.BtnExcluir.TabIndex = 18;
+            this.BtnExcluir.Text = "excluir";
+            this.BtnExcluir.UseVisualStyleBackColor = true;
+            // 
             // FrmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(255, 237);
+            this.Controls.Add(this.BtnExcluir);
             this.Controls.Add(this.TxtUnitario);
             this.Controls.Add(this.TxtIsbn);
             this.Controls.Add(this.TxtTitulo);
@@ -225,5 +237,6 @@
         private System.Windows.Forms.TextBox TxtTitulo;
         private System.Windows.Forms.TextBox TxtIsbn;
         private System.Windows.Forms.TextBox TxtUnitario;
+        private System.Windows.Forms.Button BtnExcluir;
     }
 }

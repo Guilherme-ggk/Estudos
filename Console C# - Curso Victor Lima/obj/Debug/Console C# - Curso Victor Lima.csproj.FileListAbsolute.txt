@@ -1,0 +1,8 @@
+C:\TI\Estudos\Console C# - Curso Victor Lima\bin\Debug\Console C# - Curso Victor Lima.exe.config
+C:\TI\Estudos\Console C# - Curso Victor Lima\bin\Debug\Console C# - Curso Victor Lima.exe
+C:\TI\Estudos\Console C# - Curso Victor Lima\bin\Debug\Console C# - Curso Victor Lima.pdb
+C:\TI\Estudos\Console C# - Curso Victor Lima\obj\Debug\Console C# - Curso Victor Lima.csproj.AssemblyReference.cache
+C:\TI\Estudos\Console C# - Curso Victor Lima\obj\Debug\Console C# - Curso Victor Lima.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\Console C# - Curso Victor Lima\obj\Debug\Console C# - Curso Victor Lima.exe
+C:\TI\Estudos\Console C# - Curso Victor Lima\obj\Debug\Console C# - Curso Victor Lima.pdb
+C:\TI\Estudos\Console C# - Curso Victor Lima\obj\Debug\Console C# - Curso Victor Lima.exe.config

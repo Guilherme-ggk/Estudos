@@ -1,7 +1,9 @@
 ﻿using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Tls;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,12 +22,16 @@ namespace CRUD_JANEIRO
         public int Estoque_minimo { get; set; }
         public char Ativo { get; set; }
 
-        public static DataTable GetLivros(bool Livro_Ativo)
+        public static DataTable GetLivros(string Buscar = "")
         {
             var dt = new DataTable();
             var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros";
 
-            try
+
+            if (Buscar != "")
+                sql += " WHERE titulo LIKE '%" + Buscar + "%' OR autores LIKE '%" + Buscar + "%'";
+
+                try
             {
                 using (var cn = new MySqlConnection(Conn.StrConn))
                 {
@@ -80,5 +86,64 @@ namespace CRUD_JANEIRO
                 MessageBox.Show(ex.Message);
             }
         }
+
+
+       public void SalvarLivro()
+       {
+            var sql = "";
+
+            if (this.Id == 0)
+                sql = "INSERT INTO livros (isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo) VALUES (@isbn, @titulo, @autores, @unitario, @saldo_inicial, @estoque_minimo, @ativo)";
+
+            else
+                sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id =" + this.Id;
+
+            try
+            {
+                using (var cn = new MySqlConnection(Conn.StrConn))
+                {
+                    cn.Open();
+                    using (var cmd = new MySqlCommand(sql, cn))
+                    {
+
+                        cmd.Parameters.AddWithValue("@isbn", this.Isbn);
+                        cmd.Parameters.AddWithValue("@titulo", this.Titulo);
+                        cmd.Parameters.AddWithValue("@autores", this.Autores);
+                        cmd.Parameters.AddWithValue("@unitario", this.Unitario);
+                        cmd.Parameters.AddWithValue("@saldo_inicial", this.Saldo_inicial);
+                        cmd.Parameters.AddWithValue("@estoque_minimo", this.Estoque_minimo);
+                        cmd.Parameters.AddWithValue("@ativo", this.Ativo);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+       }
+
+        public void ExcluirLivro()
+        {
+            var sql = "DELETE FROM livros WHERE id =" + this.Id;
+
+            try
+            {
+                using (var cn = new MySqlConnection(Conn.StrConn))
+                {
+                    cn.Open();
+                    using (var cmd = new MySqlCommand(sql, cn))
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
     }
 }

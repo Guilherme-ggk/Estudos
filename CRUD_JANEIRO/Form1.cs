@@ -22,7 +22,7 @@ namespace CRUD_JANEIRO
 
         public void Inicializar()
         {
-            dt = Livros.GetLivros(true);
+            dt = Livros.GetLivros();
             DgvLivros.DataSource = dt;
         }
 
@@ -42,11 +42,27 @@ namespace CRUD_JANEIRO
         private void BtnAlterar_Click(object sender, EventArgs e)
         {
             var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
-
             using (var frm = new FrmCadastro(id))
             {
                 frm.ShowDialog();
+                DgvLivros.DataSource = Livros.GetLivros();
             }
+        }
+
+        private void BtnFechar_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void TxtBuscar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+            dt = Livros.GetLivros(TxtBuscar.Text);
+            DgvLivros.DataSource = dt;
         }
     }
 }

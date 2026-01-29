@@ -31,6 +31,10 @@
             this.DgvLivros = new System.Windows.Forms.DataGridView();
             this.BtnAdicionar = new System.Windows.Forms.Button();
             this.BtnAlterar = new System.Windows.Forms.Button();
+            this.BtnFechar = new System.Windows.Forms.Button();
+            this.BtnExcluir = new System.Windows.Forms.Button();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.TxtBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgvLivros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -39,10 +43,10 @@
             this.DgvLivros.AllowUserToAddRows = false;
             this.DgvLivros.AllowUserToDeleteRows = false;
             this.DgvLivros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvLivros.Location = new System.Drawing.Point(3, 69);
+            this.DgvLivros.Location = new System.Drawing.Point(3, 103);
             this.DgvLivros.Name = "DgvLivros";
             this.DgvLivros.ReadOnly = true;
-            this.DgvLivros.Size = new System.Drawing.Size(794, 376);
+            this.DgvLivros.Size = new System.Drawing.Size(794, 342);
             this.DgvLivros.TabIndex = 0;
             // 
             // BtnAdicionar
@@ -65,12 +69,53 @@
             this.BtnAlterar.UseVisualStyleBackColor = true;
             this.BtnAlterar.Click += new System.EventHandler(this.BtnAlterar_Click);
             // 
+            // BtnFechar
+            // 
+            this.BtnFechar.Location = new System.Drawing.Point(664, 21);
+            this.BtnFechar.Name = "BtnFechar";
+            this.BtnFechar.Size = new System.Drawing.Size(111, 31);
+            this.BtnFechar.TabIndex = 4;
+            this.BtnFechar.Text = "FECHAR";
+            this.BtnFechar.UseVisualStyleBackColor = true;
+            this.BtnFechar.Click += new System.EventHandler(this.BtnFechar_Click_1);
+            // 
+            // BtnExcluir
+            // 
+            this.BtnExcluir.Location = new System.Drawing.Point(285, 21);
+            this.BtnExcluir.Name = "BtnExcluir";
+            this.BtnExcluir.Size = new System.Drawing.Size(111, 31);
+            this.BtnExcluir.TabIndex = 5;
+            this.BtnExcluir.Text = "EXCLUIR";
+            this.BtnExcluir.UseVisualStyleBackColor = true;
+            // 
+            // BtnBuscar
+            // 
+            this.BtnBuscar.Location = new System.Drawing.Point(414, 21);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(111, 31);
+            this.BtnBuscar.TabIndex = 6;
+            this.BtnBuscar.Text = "BUSCAR";
+            this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
+            // 
+            // TxtBuscar
+            // 
+            this.TxtBuscar.Location = new System.Drawing.Point(3, 72);
+            this.TxtBuscar.Name = "TxtBuscar";
+            this.TxtBuscar.Size = new System.Drawing.Size(794, 20);
+            this.TxtBuscar.TabIndex = 7;
+            this.TxtBuscar.TextChanged += new System.EventHandler(this.TxtBuscar_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.TxtBuscar);
+            this.Controls.Add(this.BtnBuscar);
+            this.Controls.Add(this.BtnExcluir);
+            this.Controls.Add(this.BtnFechar);
             this.Controls.Add(this.BtnAlterar);
             this.Controls.Add(this.BtnAdicionar);
             this.Controls.Add(this.DgvLivros);
@@ -79,6 +124,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.DgvLivros)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -87,5 +133,9 @@
         private System.Windows.Forms.DataGridView DgvLivros;
         private System.Windows.Forms.Button BtnAdicionar;
         private System.Windows.Forms.Button BtnAlterar;
+        private System.Windows.Forms.Button BtnFechar;
+        private System.Windows.Forms.Button BtnExcluir;
+        private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.TextBox TxtBuscar;
     }
 }

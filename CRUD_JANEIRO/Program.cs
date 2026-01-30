@@ -13,14 +13,13 @@ namespace CRUD_JANEIRO
         /// </summary>
          
 
-        public static string Sistema = "LIVRARIA ABC";
+       
 
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
         }
     }
 }

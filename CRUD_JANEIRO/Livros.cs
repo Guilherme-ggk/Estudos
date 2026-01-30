@@ -1,9 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
-using Org.BouncyCastle.Tls;
+using Org.BouncyCastle.Asn1.X509;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,11 +26,11 @@ namespace CRUD_JANEIRO
             var dt = new DataTable();
             var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros";
 
-
             if (Buscar != "")
                 sql += " WHERE titulo LIKE '%" + Buscar + "%' OR autores LIKE '%" + Buscar + "%'";
 
-                try
+
+            try
             {
                 using (var cn = new MySqlConnection(Conn.StrConn))
                 {
@@ -42,13 +41,14 @@ namespace CRUD_JANEIRO
                     }
                 }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
 
             return dt;
         }
+
 
         public void GetLivro(int id)
         {
@@ -59,9 +59,9 @@ namespace CRUD_JANEIRO
                 using (var cn = new MySqlConnection(Conn.StrConn))
                 {
                     cn.Open();
-                    using (var cmd = new MySqlCommand(sql,cn))
+                    using (var cmd = new MySqlCommand(sql, cn))
                     {
-                        using(var dr = cmd.ExecuteReader())
+                        using (var dr = cmd.ExecuteReader())
                         {
                             if(dr.HasRows)
                             {
@@ -81,48 +81,13 @@ namespace CRUD_JANEIRO
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
 
 
-       public void SalvarLivro()
-       {
-            var sql = "";
-
-            if (this.Id == 0)
-                sql = "INSERT INTO livros (isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo) VALUES (@isbn, @titulo, @autores, @unitario, @saldo_inicial, @estoque_minimo, @ativo)";
-
-            else
-                sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id =" + this.Id;
-
-            try
-            {
-                using (var cn = new MySqlConnection(Conn.StrConn))
-                {
-                    cn.Open();
-                    using (var cmd = new MySqlCommand(sql, cn))
-                    {
-
-                        cmd.Parameters.AddWithValue("@isbn", this.Isbn);
-                        cmd.Parameters.AddWithValue("@titulo", this.Titulo);
-                        cmd.Parameters.AddWithValue("@autores", this.Autores);
-                        cmd.Parameters.AddWithValue("@unitario", this.Unitario);
-                        cmd.Parameters.AddWithValue("@saldo_inicial", this.Saldo_inicial);
-                        cmd.Parameters.AddWithValue("@estoque_minimo", this.Estoque_minimo);
-                        cmd.Parameters.AddWithValue("@ativo", this.Ativo);
-
-                        cmd.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-       }
 
         public void ExcluirLivro()
         {
@@ -139,11 +104,44 @@ namespace CRUD_JANEIRO
                     }
                 }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
 
+        public void SalvarLivro()
+        {
+            var sql = "";
+
+            if (this.Id == 0)
+                sql = "INSERT INTO livros (isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo) VALUES (@isbn, @titulo, @autores, @unitario, @saldo_inicial, @estoque_minimo, @ativo)";
+            else
+                sql = "UPDATE livros SET isbn=@isbn, titulo=@titulo, autores=@autores, unitario=@unitario, saldo_inicial=@saldo_inicial, estoque_minimo=@estoque_minimo, ativo=@ativo WHERE id =" + this.Id;
+
+                try
+                {
+                    using (var cn = new MySqlConnection(Conn.StrConn))
+                    {
+                        cn.Open();
+                        using (var cmd = new MySqlCommand(sql, cn))
+                        {
+                            cmd.Parameters.AddWithValue("@isbn", this.Isbn);
+                            cmd.Parameters.AddWithValue("@titulo", this.Titulo);
+                            cmd.Parameters.AddWithValue("@autores", this.Autores);
+                            cmd.Parameters.AddWithValue("@unitario", this.Unitario);
+                            cmd.Parameters.AddWithValue("@saldo_inicial", this.Saldo_inicial);
+                            cmd.Parameters.AddWithValue("@estoque_minimo", this.Estoque_minimo);
+                            cmd.Parameters.AddWithValue("@ativo", this.Ativo);
+
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+        }
     }
 }

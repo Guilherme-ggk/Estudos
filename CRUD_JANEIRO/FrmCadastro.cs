@@ -1,5 +1,4 @@
-﻿using Org.BouncyCastle.Tls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,107 +13,88 @@ namespace CRUD_JANEIRO
     public partial class FrmCadastro : Form
     {
         int id;
-        bool Excluir = false;
-        Livros livro = new Livros();
-        public FrmCadastro(int id, bool excluir = false)
+        Livros livros = new Livros();
+        bool excluirLivro = false;
+        public FrmCadastro(int id, bool excluirLivro = false)
         {
             InitializeComponent();
             this.id = id;
-            this.Excluir = excluir;
+            this.excluirLivro = excluirLivro;
 
             if(this.id > 0)
             {
-                livro.GetLivro(this.id);
+                livros.GetLivro(id);
 
-                LblId.Text = livro.Id.ToString();
-                TxtIsbn.Text = livro.Isbn.ToString();
-                TxtTitulo.Text = livro.Titulo.ToString();
-                TxtAutores.Text = livro.Autores.ToString();
-                TxtUnitario.Text = livro.Unitario.ToString("N2");
-                TxtSaldo.Text = livro.Saldo_inicial.ToString();
-                TxtEstoque.Text = livro.Estoque_minimo.ToString();
-                if(livro.Ativo == 'S')
+                LblId.Text = livros.Id.ToString();
+                TxtIsbn.Text = livros.Isbn.ToString();
+                TxtTitulo.Text = livros.Titulo.ToString();
+                TxtAutores.Text = livros.Autores.ToString();
+                TxtUnitario.Text = livros.Unitario.ToString();
+                TxtSaldo.Text = livros.Saldo_inicial.ToString();
+                TxtEstoque.Text = livros.Estoque_minimo.ToString();
+                if (livros.Ativo == 'S')
                     ChkAtivo.Checked = true;
             }
 
-            if(this.Excluir)
+            if(this.excluirLivro)
             {
+                ValidarForm();
                 BtnExcluir.Visible = true;
                 BtnSalvar.Visible = false;
-                TravarControles();
             }
             else
             {
-                BtnExcluir.Visible = false;
                 BtnSalvar.Visible = true;
+                BtnExcluir.Visible = false;
             }
         }
 
 
-        private void TravarControles()
-        {
-            LblId.Enabled = false;
-            TxtIsbn.Enabled = false;
-            TxtTitulo.Enabled = false;
-            TxtAutores.Enabled = false;
-            TxtUnitario.Enabled = false;
-            TxtSaldo.Enabled = false;
-            TxtEstoque.Enabled = false;
-            ChkAtivo.Enabled = false;
-        }
 
-
-
-       private bool ValidarForm()
+        private bool ValidarForm()
         {
             if(TxtIsbn.Text == "")
             {
-                MessageBox.Show("Adicione o ISBN do livro", Program.Sistema);
+                MessageBox.Show("");
                 TxtIsbn.Focus();
                 return false;
             }
             else if (TxtTitulo.Text == "")
             {
-                MessageBox.Show("Adicione o TITULO do livro", Program.Sistema);
+                MessageBox.Show("");
                 TxtTitulo.Focus();
                 return false;
             }
             else if (TxtAutores.Text == "")
             {
-                MessageBox.Show("Adicione o AUTORES do livro", Program.Sistema);
+                MessageBox.Show("");
                 TxtAutores.Focus();
                 return false;
             }
-            else if (TxtUnitario.Text == "")
+            else if (Convert.ToDecimal("" + TxtUnitario.Text) == 0)
             {
-                MessageBox.Show("Adicione o UNITARIO do livro", Program.Sistema);
+                MessageBox.Show("");
                 TxtUnitario.Focus();
                 return false;
             }
             else
                 return true;
-
         }
-
 
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
-            if(ValidarForm())
-            {
-                livro.Isbn = TxtIsbn.Text;
-                livro.Titulo = TxtTitulo.Text;
-                livro.Autores = TxtAutores.Text;
-                livro.Unitario = Convert.ToDecimal("0" + TxtUnitario.Text);
-                livro.Saldo_inicial = Convert.ToInt32("0" + TxtSaldo.Text);
-                livro.Estoque_minimo = Convert.ToInt32("0" + TxtEstoque.Text);
-                if (ChkAtivo.Checked == true)
-                    livro.Ativo = 'S';
-                else
-                    livro.Ativo = 'N';
+            livros.Isbn = TxtIsbn.Text;
 
-                livro.SalvarLivro();
-                this.Close();
-            } 
+            if (ChkAtivo.Checked == true)
+                livros.Ativo = 'S';
+            else
+                livros.Ativo = 'N';
+        }
+
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
+            livros.ExcluirLivro();
+            this.Close();
         }
     }
 }

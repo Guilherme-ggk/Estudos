@@ -55,25 +55,25 @@ namespace CRUD_JANEIRO
         {
             if(TxtIsbn.Text == "")
             {
-                MessageBox.Show("");
+                MessageBox.Show("Informe o Isbn do livro");
                 TxtIsbn.Focus();
                 return false;
             }
             else if (TxtTitulo.Text == "")
             {
-                MessageBox.Show("");
+                MessageBox.Show("informe o titulo do livro");
                 TxtTitulo.Focus();
                 return false;
             }
             else if (TxtAutores.Text == "")
             {
-                MessageBox.Show("");
+                MessageBox.Show("informe os autores do livro");
                 TxtAutores.Focus();
                 return false;
             }
             else if (Convert.ToDecimal("" + TxtUnitario.Text) == 0)
             {
-                MessageBox.Show("");
+                MessageBox.Show("informe o preço do livro");
                 TxtUnitario.Focus();
                 return false;
             }
@@ -83,12 +83,20 @@ namespace CRUD_JANEIRO
 
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
-            livros.Isbn = TxtIsbn.Text;
+            if(ValidarForm())
+            {
+                livros.Isbn = TxtIsbn.Text;
+                livros.Titulo = TxtTitulo.Text;
+                livros.Autores = TxtAutores.Text;
+                livros.Unitario = Convert.ToDecimal("0" + TxtUnitario.Text);
+                livros.Estoque_minimo = Convert.ToInt32("0" + TxtSaldo.Text);
+                livros.Saldo_inicial = Convert.ToInt32("0" + TxtEstoque.Text);
 
-            if (ChkAtivo.Checked == true)
-                livros.Ativo = 'S';
-            else
-                livros.Ativo = 'N';
+                if (ChkAtivo.Checked == true)
+                    livros.Ativo = 'S';
+                else
+                    livros.Ativo = 'N';
+            }
         }
 
         private void BtnExcluir_Click(object sender, EventArgs e)

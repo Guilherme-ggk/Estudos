@@ -64,6 +64,7 @@
             this.BtnAdicionar.TabIndex = 2;
             this.BtnAdicionar.Text = "ADICIONAR";
             this.BtnAdicionar.UseVisualStyleBackColor = true;
+            this.BtnAdicionar.Click += new System.EventHandler(this.BtnAdicionar_Click);
             // 
             // BtnAlterar
             // 
@@ -73,6 +74,7 @@
             this.BtnAlterar.TabIndex = 3;
             this.BtnAlterar.Text = "ALTERAR";
             this.BtnAlterar.UseVisualStyleBackColor = true;
+            this.BtnAlterar.Click += new System.EventHandler(this.BtnAlterar_Click);
             // 
             // BtnExcluir
             // 
@@ -82,6 +84,7 @@
             this.BtnExcluir.TabIndex = 4;
             this.BtnExcluir.Text = "EXCLUIR";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnBuscar
             // 
@@ -91,6 +94,7 @@
             this.BtnBuscar.TabIndex = 5;
             this.BtnBuscar.Text = "BUSCAR";
             this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // BtnFechar
             // 
@@ -100,6 +104,7 @@
             this.BtnFechar.TabIndex = 6;
             this.BtnFechar.Text = "FECHAR";
             this.BtnFechar.UseVisualStyleBackColor = true;
+            this.BtnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
             // Form1
             // 

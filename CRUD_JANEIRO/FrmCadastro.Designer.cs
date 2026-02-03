@@ -65,7 +65,7 @@
             // ChkAtivo
             // 
             this.ChkAtivo.AutoSize = true;
-            this.ChkAtivo.Location = new System.Drawing.Point(12, 169);
+            this.ChkAtivo.Location = new System.Drawing.Point(15, 181);
             this.ChkAtivo.Name = "ChkAtivo";
             this.ChkAtivo.Size = new System.Drawing.Size(58, 17);
             this.ChkAtivo.TabIndex = 2;
@@ -147,7 +147,7 @@
             // 
             // BtnExcluir
             // 
-            this.BtnExcluir.Location = new System.Drawing.Point(100, 155);
+            this.BtnExcluir.Location = new System.Drawing.Point(172, 155);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(70, 43);
             this.BtnExcluir.TabIndex = 11;
@@ -214,6 +214,7 @@
             this.Controls.Add(this.TxtIsbn);
             this.Name = "FrmCadastro";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 

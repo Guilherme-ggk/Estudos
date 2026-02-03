@@ -96,6 +96,9 @@ namespace CRUD_JANEIRO
                     livros.Ativo = 'S';
                 else
                     livros.Ativo = 'N';
+
+                livros.SalvarLivro();
+                this.Close();
             }
         }
 

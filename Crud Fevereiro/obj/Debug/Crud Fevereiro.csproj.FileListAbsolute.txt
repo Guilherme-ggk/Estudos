@@ -1,0 +1,8 @@
+C:\TI\Estudos\Crud Fevereiro\bin\Debug\Crud Fevereiro.exe.config
+C:\TI\Estudos\Crud Fevereiro\bin\Debug\Crud Fevereiro.exe
+C:\TI\Estudos\Crud Fevereiro\bin\Debug\Crud Fevereiro.pdb
+C:\TI\Estudos\Crud Fevereiro\obj\Debug\Crud Fevereiro.csproj.AssemblyReference.cache
+C:\TI\Estudos\Crud Fevereiro\obj\Debug\Crud Fevereiro.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\Crud Fevereiro\obj\Debug\Crud Fevereiro.exe
+C:\TI\Estudos\Crud Fevereiro\obj\Debug\Crud Fevereiro.pdb
+C:\TI\Estudos\Crud Fevereiro\obj\Debug\Crud Fevereiro.exe.config

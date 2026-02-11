@@ -70,6 +70,7 @@
             this.BtnExcluir.TabIndex = 2;
             this.BtnExcluir.Text = "EXCLUIR";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnSalvar
             // 
@@ -79,6 +80,7 @@
             this.BtnSalvar.TabIndex = 3;
             this.BtnSalvar.Text = "SALVAR";
             this.BtnSalvar.UseVisualStyleBackColor = true;
+            this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
             // 
             // ChkAtivo
             // 

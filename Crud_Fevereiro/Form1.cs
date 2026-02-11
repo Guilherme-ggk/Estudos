@@ -28,7 +28,7 @@ namespace Crud_Fevereiro
 
         private void BtnAdicionar_Click(object sender, EventArgs e)
         {
-            using (var frm = new FmrCadastro())
+            using (var frm = new FmrCadastro(0))
             {
                 frm.ShowDialog();
             }
@@ -36,7 +36,8 @@ namespace Crud_Fevereiro
 
         private void BtnAlterar_Click(object sender, EventArgs e)
         {
-            using (var frm = new FmrCadastro())
+            var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
+            using (var frm = new FmrCadastro(id))
             {
                 frm.ShowDialog();
             }
@@ -44,7 +45,8 @@ namespace Crud_Fevereiro
 
         private void BtnExcluir_Click(object sender, EventArgs e)
         {
-            using (var frm = new FmrCadastro())
+            var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
+            using (var frm = new FmrCadastro(id, true))
             {
                 frm.ShowDialog();
             }

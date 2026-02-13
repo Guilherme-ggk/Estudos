@@ -22,7 +22,7 @@ namespace Crud_Fevereiro
 
         public void Inicializar()
         {
-            dt = Livros.GetLivros(true);
+            dt = Livros.GetLivros();
             DgvLivros.DataSource = dt;
         }
 
@@ -31,6 +31,7 @@ namespace Crud_Fevereiro
             using (var frm = new FmrCadastro(0))
             {
                 frm.ShowDialog();
+                DgvLivros.DataSource = dt;
             }
         }
 
@@ -40,6 +41,7 @@ namespace Crud_Fevereiro
             using (var frm = new FmrCadastro(id))
             {
                 frm.ShowDialog();
+                DgvLivros.DataSource = dt;
             }
         }
 
@@ -49,12 +51,14 @@ namespace Crud_Fevereiro
             using (var frm = new FmrCadastro(id, true))
             {
                 frm.ShowDialog();
+                DgvLivros.DataSource = dt;
             }
         }
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
-
+            dt = Livros.GetLivros(TxtBuscar.Text);
+            DgvLivros.DataSource = dt;
         }
     }
 }

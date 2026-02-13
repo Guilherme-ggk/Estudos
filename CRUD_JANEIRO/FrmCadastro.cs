@@ -107,5 +107,10 @@ namespace CRUD_JANEIRO
             livros.ExcluirLivro();
             this.Close();
         }
+
+        private void TxtIsbn_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

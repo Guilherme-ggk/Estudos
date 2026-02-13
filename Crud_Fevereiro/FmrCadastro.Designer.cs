@@ -64,9 +64,9 @@
             // 
             // BtnExcluir
             // 
-            this.BtnExcluir.Location = new System.Drawing.Point(213, 113);
+            this.BtnExcluir.Location = new System.Drawing.Point(204, 123);
             this.BtnExcluir.Name = "BtnExcluir";
-            this.BtnExcluir.Size = new System.Drawing.Size(66, 35);
+            this.BtnExcluir.Size = new System.Drawing.Size(75, 35);
             this.BtnExcluir.TabIndex = 2;
             this.BtnExcluir.Text = "EXCLUIR";
             this.BtnExcluir.UseVisualStyleBackColor = true;
@@ -74,9 +74,9 @@
             // 
             // BtnSalvar
             // 
-            this.BtnSalvar.Location = new System.Drawing.Point(150, 113);
+            this.BtnSalvar.Location = new System.Drawing.Point(203, 123);
             this.BtnSalvar.Name = "BtnSalvar";
-            this.BtnSalvar.Size = new System.Drawing.Size(57, 35);
+            this.BtnSalvar.Size = new System.Drawing.Size(75, 35);
             this.BtnSalvar.TabIndex = 3;
             this.BtnSalvar.Text = "SALVAR";
             this.BtnSalvar.UseVisualStyleBackColor = true;
@@ -194,7 +194,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(291, 165);
+            this.ClientSize = new System.Drawing.Size(291, 167);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

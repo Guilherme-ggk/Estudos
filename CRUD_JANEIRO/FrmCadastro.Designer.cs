@@ -53,6 +53,7 @@
             this.TxtIsbn.Name = "TxtIsbn";
             this.TxtIsbn.Size = new System.Drawing.Size(73, 20);
             this.TxtIsbn.TabIndex = 0;
+            this.TxtIsbn.TextChanged += new System.EventHandler(this.TxtIsbn_TextChanged);
             // 
             // LblId
             // 

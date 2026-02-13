@@ -1,0 +1,8 @@
+C:\TI\Estudos\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\TI\Estudos\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\TI\Estudos\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\TI\Estudos\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\TI\Estudos\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\TI\Estudos\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\TI\Estudos\ConsoleApp2\obj\Debug\ConsoleApp2.exe.config

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,10 +21,13 @@ namespace Crud_Fevereiro
         public int Estoque_minimo { get; set; }
         public char Ativo { get; set; }
 
-        public static DataTable GetLivros(bool ativos)
+        public static DataTable GetLivros(string buscar = "")
         {
             var sql = "SELECT id, isbn, titulo, autores, unitario, saldo_inicial, estoque_minimo, ativo FROM livros";
             var dt = new DataTable();
+
+            if (buscar != "")
+                sql += " WHERE titulo LIKE '%" + buscar + " %' OR autores LIKE '%" + buscar  + "%'";
 
             try
             {

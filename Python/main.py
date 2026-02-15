@@ -1,40 +1,40 @@
-nome = input("Qual é o seu nome? ")
+def Calculadora():
 
-print(f"Prazer em conhece-lo {nome}")
+    while True:
 
-frutas = ["uva","abacaxi","laranja","melão"]
+        print("< CALCULADORA >")
+        print("")
+        print("1 - SOMA")
+        print("2 - SUBTRAÇÃO")
+        print("3 - MULTIPLICAÇÃO")
+        print("4 - DIVISÃO")
+        print("5 - POTÊNCIA")
 
-for fruta in frutas:
-    print(f"eu gosto de {fruta}")
+        print("")
 
+        opcao = input("escolha de 1 a 5 a sua opção: ")
 
-def Saudar(nome1):
-    return f"que legal {nome1}"
+        if opcao == "0":
+            print ("SAINDO...")
+            break
+        
+        n1 = int(input("digite o primeiro número: "))
+        n2 = int(input("digite o segundo número: "))
 
-mensagem = Saudar("Guilherme")
-print(mensagem)
+        if opcao == "1":
+            resultado = n1 + n2
+            print(f"o resultado de {n1} mais {n2} é {resultado}")
+        elif opcao == "2":
+            resultado = n1 - n2
+            print(f"o resultado de {n1} menos {n2} é {resultado}")
+        elif opcao == "3":
+            resultado = n1 * n2
+            print(f"o resultado de {n1} multiplicado por {n2} é {resultado}")
+        elif opcao == "4":
+            resultado = n1 / n2
+            print(f"o resultado de {n1} dividido por {n2} é {resultado}")
+        elif opcao == "5":
+            resultado = n1 **  n2
+            print(f"o resultado de {n1} com potência de {n2} é {resultado}")
 
-contador = 0
-
-while contador < 11:
-    print(contador)
-    contador+=1
-
-cachorro = {
-    "nome: ":"Toizin",
-    "idade: ":"5 anos",
-    "porte: ":"pequeno"
-}
-
-print(cachorro)
-
-print("< Limite de velocidade >")
-
-velocidadeCarro = 50
-
-if velocidadeCarro > 90:
-    print("MULTADO")
-elif velocidadeCarro == 0:
-    print("GUINCHO")
-elif velocidadeCarro < 90:
-    print("BOA VIAGEM")
+Calculadora()

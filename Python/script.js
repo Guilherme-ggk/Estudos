@@ -1,0 +1,4 @@
+
+
+
+let frutas = ["","","","abacaxi"];

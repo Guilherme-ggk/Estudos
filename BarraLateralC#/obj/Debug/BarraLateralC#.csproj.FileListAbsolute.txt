@@ -12,3 +12,16 @@ C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLat.AB6D9AB0.Up2Date
 C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.exe
 C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.pdb
 C:\TI\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.exe.config
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\bin\Debug\BarraLateralC#.exe.config
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\bin\Debug\BarraLateralC#.exe
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\bin\Debug\BarraLateralC#.pdb
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\bin\Debug\ReaLTaiizor.dll
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\bin\Debug\ReaLTaiizor.xml
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.csproj.AssemblyReference.cache
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLateralC_.Form1.resources
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLateralC_.Properties.Resources.resources
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.csproj.GenerateResource.cache
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.csproj.CoreCompileInputs.cache
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLat.AB6D9AB0.Up2Date
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.exe
+C:\Users\giova\OneDrive\Documentos\GitHub\Estudos\BarraLateralC#\obj\Debug\BarraLateralC#.pdb

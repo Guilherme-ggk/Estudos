@@ -1,12 +1,67 @@
-main
+*
 {
-    background-image: url(images/pexels-rdne-6539857.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-button
+
+header
 {
-    border-radius: 5px;
-    color: antiquewhite;
-    background-color: aqua;
-    border-color: antiquewhite;
+    background-color: blue;
+    height: 200px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul
+{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    width: 100vw;
+}
+
+nav a
+{
+    margin-left: 60px;
+    font-size: 50px;
+    justify-content: space-around;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover
+{
+    color: black;
+    transition: 0.3s;
+}
+
+
+nav button
+{
+    margin-left: 50px;
+    border: 2px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: palegreen;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav button:hover
+{
+    background-color: lime;
+    transition: 0.3s;
+    color: black;
 }

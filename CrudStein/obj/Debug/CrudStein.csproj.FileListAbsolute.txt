@@ -1,0 +1,11 @@
+C:\TI\Estudos\CrudStein\bin\Debug\CrudStein.exe.config
+C:\TI\Estudos\CrudStein\bin\Debug\CrudStein.exe
+C:\TI\Estudos\CrudStein\bin\Debug\CrudStein.pdb
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.csproj.AssemblyReference.cache
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.Form1.resources
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.Properties.Resources.resources
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.csproj.GenerateResource.cache
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.csproj.CoreCompileInputs.cache
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.exe
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.pdb
+C:\TI\Estudos\CrudStein\obj\Debug\CrudStein.exe.config

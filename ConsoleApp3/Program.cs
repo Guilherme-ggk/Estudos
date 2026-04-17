@@ -11,14 +11,28 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            int n1 = 1;
-            int n2 = 2;
+            Console.WriteLine("< Aumento de Crédito >");
 
-            int soma = n1 + n2;
+            string nome = Console.ReadLine();
+            string cpf = Console.ReadLine();
+            int rendaAtual = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(soma);
+            bool limiteUsuario = false;
+            
 
-            Console.ReadLine();
+            if(string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(cpf) || rendaAtual == 0)
+            {
+                Console.WriteLine("Dados incompletos!");
+            }
+            else
+            {
+
+            }
+            
+
+
+
+            
         }
     }
 }

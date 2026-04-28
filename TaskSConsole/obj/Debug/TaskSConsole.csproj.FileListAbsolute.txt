@@ -5,3 +5,10 @@ C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSCo
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSConsole.csproj.CoreCompileInputs.cache
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSConsole.exe
 C:\Users\30755\OneDrive\Área de Trabalho\Estudos\TaskSConsole\obj\Debug\TaskSConsole.pdb
+C:\GitHub\Estudos\TaskSConsole\bin\Debug\TaskSConsole.exe.config
+C:\GitHub\Estudos\TaskSConsole\bin\Debug\TaskSConsole.exe
+C:\GitHub\Estudos\TaskSConsole\bin\Debug\TaskSConsole.pdb
+C:\GitHub\Estudos\TaskSConsole\obj\Debug\TaskSConsole.csproj.AssemblyReference.cache
+C:\GitHub\Estudos\TaskSConsole\obj\Debug\TaskSConsole.csproj.CoreCompileInputs.cache
+C:\GitHub\Estudos\TaskSConsole\obj\Debug\TaskSConsole.exe
+C:\GitHub\Estudos\TaskSConsole\obj\Debug\TaskSConsole.pdb

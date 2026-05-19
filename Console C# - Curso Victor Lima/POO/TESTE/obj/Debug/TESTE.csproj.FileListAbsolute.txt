@@ -1,0 +1,7 @@
+C:\GitHub\Estudos\Console C# - Curso Victor Lima\POO\TESTE\bin\Debug\TESTE.exe.config
+C:\GitHub\Estudos\Console C# - Curso Victor Lima\POO\TESTE\bin\Debug\TESTE.exe
+C:\GitHub\Estudos\Console C# - Curso Victor Lima\POO\TESTE\bin\Debug\TESTE.pdb
+C:\GitHub\Estudos\Console C# - Curso Victor Lima\POO\TESTE\obj\Debug\TESTE.csproj.AssemblyReference.cache
+C:\GitHub\Estudos\Console C# - Curso Victor Lima\POO\TESTE\obj\Debug\TESTE.csproj.CoreCompileInputs.cache
+C:\GitHub\Estudos\Console C# - Curso Victor Lima\POO\TESTE\obj\Debug\TESTE.exe
+C:\GitHub\Estudos\Console C# - Curso Victor Lima\POO\TESTE\obj\Debug\TESTE.pdb

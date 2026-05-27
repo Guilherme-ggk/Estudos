@@ -1,0 +1,6 @@
+@API_FTI_HostAddress = http://localhost:5074
+
+GET {{API_FTI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

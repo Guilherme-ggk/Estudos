@@ -43,6 +43,18 @@
           }
         }
       }
+    },
+    "/WeatherForecast/GetNome": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

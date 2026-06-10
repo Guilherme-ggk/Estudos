@@ -19,5 +19,15 @@
       }
     ],
     "EndpointName": "GetWeatherForecast"
+  },
+  {
+    "ContainingType": "API_FTI.Controllers.WeatherForecastController",
+    "Method": "GetNome",
+    "RelativePath": "WeatherForecast/GetNome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

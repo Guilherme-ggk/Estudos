@@ -29,5 +29,12 @@ namespace API_FTI.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("GetNome")]
+        public IActionResult GetNome()
+        {
+            var nome = "Guilherme";
+            return Ok(nome);
+        }
     }
 }

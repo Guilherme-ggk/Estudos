@@ -1,33 +1,98 @@
-* {
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header
-{
-    background-color: cadetblue;
-}
 
-nav ul
+nav
 {
-    padding: 20px;
-    justify-content: center;
+    background-color: blue;
+    height: 50px;
+    width: 100%;
     display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-nav a
-{
-    font-size: 25px;
-    text-decoration: none;
+    justify-content: center;
+    gap: 10px;
+    padding:20px;
     color: aliceblue;
-    transition: 0.5s;
 }
 
-nav a:hover
+
+.logo
 {
-    color: rgb(63, 63, 63);
-    transition: 0.5s;
+    background-color:rgb(30, 95, 95);
+    height: 20px;
+    width: 50px;;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.menu
+{
+    background-color: brown;
+    height: 20px;
+    width: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+main
+{
+    display: block;
+    justify-items: center;
+    padding: 20px;
+}
+
+.section01
+{
+    background-color: rosybrown;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    width: 70%;
+    transition: 0.2s;
+    margin: 10px;
+}
+
+.section01:hover
+{
+    background-color: rgb(41, 31, 31);
+    color: white;
+}
+
+.section02
+{
+    background-color: lightcoral;
+    padding: 20px;
+      width: 70%;
+       margin: 10px;
+}
+
+.section03
+{
+    background-color: lightgreen;
+    padding: 20px;
+      width: 70%;
+       margin: 10px;
+}
+
+.section04
+{
+    background-color: lightblue;
+    padding: 20px;
+      width: 70%;
+       margin: 10px;
+}
+
+
+footer
+{
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
 }

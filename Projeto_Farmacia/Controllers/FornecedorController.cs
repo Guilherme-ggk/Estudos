@@ -6,7 +6,7 @@ namespace Projeto_Farmacia.Controllers
     {
         public IActionResult Index()
         {
-            return
+            returnasas
         }
     }
 }

@@ -2,11 +2,11 @@
 
 namespace Projeto_Farmacia.Controllers
 {
-    public class FornecedorController : Controller
+    public class FornecedorController : ControllerBase
     {
         public IActionResult Index()
         {
-            return View();
+            return
         }
     }
 }

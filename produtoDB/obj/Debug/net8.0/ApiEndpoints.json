@@ -1,0 +1,413 @@
+[
+  {
+    "ContainingType": "produtoDB.Controllers.FornecedorController",
+    "Method": "AtualizaFornecedor",
+    "RelativePath": "ApiController/AtualizaFornecedor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fornecedor",
+        "Type": "produtoDB.Models.Fornecedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.Item_VendaController",
+    "Method": "AtualizaFornecedor",
+    "RelativePath": "ApiController/AtualizaItem_Venda",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item_Venda",
+        "Type": "produtoDB.Models.Item_Venda",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.CategoriaController",
+    "Method": "AtualizarCategoria",
+    "RelativePath": "ApiController/AtualizarCategoria",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "produtoDB.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ClienteController",
+    "Method": "AtualizarCliente",
+    "RelativePath": "ApiController/AtualizarCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "produtoDB.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.FuncionarioController",
+    "Method": "AtualizarFuncionario",
+    "RelativePath": "ApiController/AtualizarFuncionario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "produtoDB.Models.Funcionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ProdutoController",
+    "Method": "AtualizarProduto",
+    "RelativePath": "ApiController/AtualizarProduto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "produtoDB.Models.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.VendaController",
+    "Method": "AtualizarVenda",
+    "RelativePath": "ApiController/AtualizarVenda",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venda",
+        "Type": "produtoDB.Models.Venda",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.CategoriaController",
+    "Method": "BuscaCategoria",
+    "RelativePath": "ApiController/BuscaCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.VendaController",
+    "Method": "BuscaVenda",
+    "RelativePath": "ApiController/BuscaVendas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ClienteController",
+    "Method": "ConsultaCliente",
+    "RelativePath": "ApiController/ConsultaCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.FornecedorController",
+    "Method": "ConsultaFornecedor",
+    "RelativePath": "ApiController/ConsultaFornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.FuncionarioController",
+    "Method": "ConsultaFuncionario",
+    "RelativePath": "ApiController/ConsultaFuncionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.Item_VendaController",
+    "Method": "ConsultaItem_Venda",
+    "RelativePath": "ApiController/ConsultaItem_venda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ProdutoController",
+    "Method": "ConsultaProduto",
+    "RelativePath": "ApiController/ConsultaProduto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.CategoriaController",
+    "Method": "DeletaCategoria",
+    "RelativePath": "ApiController/DeletaCategoria",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ClienteController",
+    "Method": "DeletaCliente",
+    "RelativePath": "ApiController/DeletaCliente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.FornecedorController",
+    "Method": "DeletaFornecedor",
+    "RelativePath": "ApiController/DeletaFornecedor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.FuncionarioController",
+    "Method": "DeletaFuncionario",
+    "RelativePath": "ApiController/DeletaFuncionario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.Item_VendaController",
+    "Method": "DeletaFornecedor",
+    "RelativePath": "ApiController/DeletaItem_Vendas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ProdutoController",
+    "Method": "DeletarProduto",
+    "RelativePath": "ApiController/DeletaProduto",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.VendaController",
+    "Method": "DeletaVenda",
+    "RelativePath": "ApiController/DeletaVenda",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.CategoriaController",
+    "Method": "InserirCategoria",
+    "RelativePath": "ApiController/InserirCategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "produtoDB.DTO.CategoriaInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ClienteController",
+    "Method": "InserirCliente",
+    "RelativePath": "ApiController/InserirCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "produtoDB.DTO.ClienteInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.FornecedorController",
+    "Method": "InserirFornecedor",
+    "RelativePath": "ApiController/InserirFornecedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "produtoDB.DTO.FornecedorInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.FuncionarioController",
+    "Method": "InserirFuncionario",
+    "RelativePath": "ApiController/InserirFuncionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cargo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.Item_VendaController",
+    "Method": "InserirItem_Venda",
+    "RelativePath": "ApiController/InserirItem_Venda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "produtoDB.DTO.Item_VendaInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.ProdutoController",
+    "Method": "InserirProduto",
+    "RelativePath": "ApiController/InserirProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "produtoDB.DTO.ProdutoInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "produtoDB.Controllers.VendaController",
+    "Method": "InserirVenda",
+    "RelativePath": "ApiController/InserirVenda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "produtoDB.DTO.VendaInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

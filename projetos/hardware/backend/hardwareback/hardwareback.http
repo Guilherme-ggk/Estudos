@@ -1,0 +1,6 @@
+@hardwareback_HostAddress = http://localhost:5070
+
+GET {{hardwareback_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

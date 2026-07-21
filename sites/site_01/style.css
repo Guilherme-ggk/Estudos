@@ -1,98 +1,48 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 
 nav
 {
-    background-color: blue;
-    height: 50px;
-    width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding:20px;
-    color: aliceblue;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #333;
 }
 
+nav .navbar ul
+{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .navbar ul a
+{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.1s;
+}
+
+nav .navbar ul a:hover
+{
+   text-decoration: underline;
+   color: darkgoldenrod;
+}
 
 .logo
 {
-    background-color:rgb(30, 95, 95);
-    height: 20px;
-    width: 50px;;
-    border-radius: 20px;
     text-align: center;
-}
-
-.menu
-{
-    background-color: brown;
-    height: 20px;
-    width: 50px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-
-main
-{
-    display: block;
-    justify-items: center;
-    padding: 20px;
-}
-
-.section01
-{
-    background-color: rosybrown;
-    padding: 20px;
-    color: rgb(0, 0, 0);
-    width: 70%;
-    transition: 0.2s;
-    margin: 10px;
-}
-
-.section01:hover
-{
-    background-color: rgb(41, 31, 31);
-    color: white;
-}
-
-.section02
-{
-    background-color: lightcoral;
-    padding: 20px;
-      width: 70%;
-       margin: 10px;
-}
-
-.section03
-{
-    background-color: lightgreen;
-    padding: 20px;
-      width: 70%;
-       margin: 10px;
-}
-
-.section04
-{
-    background-color: lightblue;
-    padding: 20px;
-      width: 70%;
-       margin: 10px;
-}
-
-
-footer
-{
-    background-color: blue;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: aliceblue;
+    font-family: cursive;
+    height: 25px;
+    width: 100px;
+    background-color:darkgoldenrod;
+    border-radius: 10px;
 }

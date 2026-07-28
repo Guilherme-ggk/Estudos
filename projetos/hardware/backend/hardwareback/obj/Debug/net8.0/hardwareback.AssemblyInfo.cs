@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hardwareback")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76f9996d947eac468a648b9637c6db67c1e5c42c")]
 [assembly: System.Reflection.AssemblyProductAttribute("hardwareback")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hardwareback")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

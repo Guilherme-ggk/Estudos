@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Qx1JKPNEoM=",
+  "dgSpecHash": "YSYGXaO06dc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guilherme\\Desktop\\hardware\\backend\\hardwareback\\hardwareback.csproj",
+  "projectFilePath": "C:\\TI\\Estudos\\projetos\\hardware\\backend\\hardwareback\\hardwareback.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

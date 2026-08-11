@@ -1,0 +1,493 @@
+[
+  {
+    "ContainingType": "comercio_01.Controllers.ClienteController",
+    "Method": "AtualizaClientes",
+    "RelativePath": "AtualizaClientes",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Telefone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.Item_VendaController",
+    "Method": "AtualizaItem_Vendas",
+    "RelativePath": "AtualizaItem_Vendas",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantidade",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Preco_unitario",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Produto_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Venda_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.VendaController",
+    "Method": "AtualizaVendas",
+    "RelativePath": "AtualizaVendas",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Data_hora",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Funcionario_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cliente_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ClienteController",
+    "Method": "BuscaCliente",
+    "RelativePath": "BuscaCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.Item_VendaController",
+    "Method": "BuscaItem_Venda",
+    "RelativePath": "BuscaItem_Venda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.VendaController",
+    "Method": "BuscaVenda",
+    "RelativePath": "BuscaVenda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.CategoriaController",
+    "Method": "AtualizaCategoria",
+    "RelativePath": "Categoria/AtualizaCategoria",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "comercio_01.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.CategoriaController",
+    "Method": "BuscaCategoria",
+    "RelativePath": "Categoria/BuscaCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.CategoriaController",
+    "Method": "CriaCategoria",
+    "RelativePath": "Categoria/CriarCategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "comercio_01.DTO.CategoriaInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.CategoriaController",
+    "Method": "DeleteCategoria",
+    "RelativePath": "Categoria/DeleteCategoria",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ClienteController",
+    "Method": "CriaClientes",
+    "RelativePath": "CriaClientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Telefone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.Item_VendaController",
+    "Method": "CriaItem_Vendas",
+    "RelativePath": "CriaItem_Vendas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Quantidade",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Preco_unitario",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Produto_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Venda_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.VendaController",
+    "Method": "CriaVendas",
+    "RelativePath": "CriaVendas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Data_hora",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Funcionario_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cliente_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ClienteController",
+    "Method": "DeletaClientes",
+    "RelativePath": "DeletaClientes",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.Item_VendaController",
+    "Method": "DeletaItem_Vendas",
+    "RelativePath": "DeletaItem_Vendas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.VendaController",
+    "Method": "DeletaVendas",
+    "RelativePath": "DeletaVendas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FornecedorController",
+    "Method": "AtualizaFornecedores",
+    "RelativePath": "Fornecedor/AtualizaFornecedores",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fornecedor",
+        "Type": "comercio_01.Models.Fornecedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FornecedorController",
+    "Method": "BuscaFornecedor",
+    "RelativePath": "Fornecedor/BuscaFornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FornecedorController",
+    "Method": "CriaFornecedores",
+    "RelativePath": "Fornecedor/CriaFornecedores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "comercio_01.DTO.FornecedorInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FornecedorController",
+    "Method": "DeletaFornecedores",
+    "RelativePath": "Fornecedor/DeletaFornecedores",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FuncionarioController",
+    "Method": "AtualizaFuncionarios",
+    "RelativePath": "Funcionario/AtualizaFuncionarios",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Funcionario",
+        "Type": "comercio_01.Models.Funcionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FuncionarioController",
+    "Method": "BuscaFuncionario",
+    "RelativePath": "Funcionario/BuscaFuncionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FuncionarioController",
+    "Method": "CriaFuncionarios",
+    "RelativePath": "Funcionario/CriaFuncionarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "comercio_01.DTO.FuncionarioInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.FuncionarioController",
+    "Method": "DeletaFuncionarios",
+    "RelativePath": "Funcionario/DeletaFuncionarios",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ProdutoController",
+    "Method": "AtualizaProdutos",
+    "RelativePath": "Produto/AtualizaProdutos",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Produto",
+        "Type": "comercio_01.Models.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ProdutoController",
+    "Method": "BuscaProduto",
+    "RelativePath": "Produto/BuscaProduto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ProdutoController",
+    "Method": "CriaProdutos",
+    "RelativePath": "Produto/CriaProdutos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "comercio_01.DTO.ProdutoInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ProdutoController",
+    "Method": "DeletaProdutos",
+    "RelativePath": "Produto/DeletaProdutos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

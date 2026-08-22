@@ -1,36 +1,5 @@
 [
   {
-    "ContainingType": "comercio_01.Controllers.ClienteController",
-    "Method": "AtualizaClientes",
-    "RelativePath": "AtualizaClientes",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Nome",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Cpf",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Telefone",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "comercio_01.Controllers.Item_VendaController",
     "Method": "AtualizaItem_Vendas",
     "RelativePath": "AtualizaItem_Vendas",
@@ -95,16 +64,6 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "comercio_01.Controllers.ClienteController",
-    "Method": "BuscaCliente",
-    "RelativePath": "BuscaCliente",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -187,25 +146,57 @@
   },
   {
     "ContainingType": "comercio_01.Controllers.ClienteController",
+    "Method": "AtualizaClientes",
+    "RelativePath": "Cliente/AtualizaClientes",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cliente",
+        "Type": "comercio_01.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ClienteController",
+    "Method": "BuscaCliente",
+    "RelativePath": "Cliente/BuscaCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ClienteController",
     "Method": "CriaClientes",
-    "RelativePath": "CriaClientes",
+    "RelativePath": "Cliente/CriaClientes",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Nome",
-        "Type": "System.String",
-        "IsRequired": false
-      },
+        "Name": "dto",
+        "Type": "comercio_01.DTO.ClienteInserirDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "comercio_01.Controllers.ClienteController",
+    "Method": "DeletaClientes",
+    "RelativePath": "Cliente/DeletaClientes",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Name": "Cpf",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Telefone",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
@@ -262,22 +253,6 @@
       },
       {
         "Name": "Cliente_Id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "comercio_01.Controllers.ClienteController",
-    "Method": "DeletaClientes",
-    "RelativePath": "DeletaClientes",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
       }

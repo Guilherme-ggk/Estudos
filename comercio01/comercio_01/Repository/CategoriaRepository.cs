@@ -1,4 +1,5 @@
-﻿using comercio_01.DTO;
+﻿using comercio_01.DbConnection;
+using comercio_01.DTO;
 using comercio_01.Models;
 using Dapper;
 using MySql.Data.MySqlClient;
@@ -11,7 +12,7 @@ namespace comercio_01.Repository
     {
         public void CriaCategoria(CategoriaInserirDTO dto)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=farmacia;userid=root;password=0830755@Guilherme"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -24,7 +25,7 @@ namespace comercio_01.Repository
 
         public void DeletaCategoria(int id)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=farmacia;userid=root;password=0830755@Guilherme"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -37,7 +38,7 @@ namespace comercio_01.Repository
 
         public void AtualizaCategoria(Categoria categoria)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=farmacia;userid=root;password=0830755@Guilherme"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -51,7 +52,7 @@ namespace comercio_01.Repository
 
         public List<Categoria> BuscaCategoria()
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=farmacia;userid=root;password=0830755@Guilherme"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 

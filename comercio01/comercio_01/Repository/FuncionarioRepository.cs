@@ -1,4 +1,5 @@
-﻿using comercio_01.DTO;
+﻿using comercio_01.DbConnection;
+using comercio_01.DTO;
 using comercio_01.Models;
 using Dapper;
 using MySql.Data.MySqlClient;
@@ -10,7 +11,7 @@ namespace comercio_01.Repository
     {
         public List<Funcionario> BuscaFuncionarios()
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -22,7 +23,7 @@ namespace comercio_01.Repository
 
         public void DeletaFuncionario(int id)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -35,7 +36,7 @@ namespace comercio_01.Repository
 
         public void AtualizaFuncionario(Funcionario model)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -50,7 +51,7 @@ namespace comercio_01.Repository
 
         public void CriaFuncionario(FuncionarioInserirDTO dto)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 

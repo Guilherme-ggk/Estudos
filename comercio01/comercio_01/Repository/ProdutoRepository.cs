@@ -1,4 +1,5 @@
-﻿using comercio_01.DTO;
+﻿using comercio_01.DbConnection;
+using comercio_01.DTO;
 using comercio_01.Models;
 using Dapper;
 using MySql.Data.MySqlClient;
@@ -10,7 +11,7 @@ namespace comercio_01.Repository
     {
         public List<Produto> BuscaProdutos()
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -22,7 +23,7 @@ namespace comercio_01.Repository
 
         public void DeletaProduto(int id)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -35,7 +36,7 @@ namespace comercio_01.Repository
 
         public void AtualizaProduto(Produto model)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 
@@ -51,7 +52,7 @@ namespace comercio_01.Repository
 
         public void CriaProduto(ProdutoInserirDTO dto)
         {
-            using (IDbConnection connection = new MySqlConnection("server=localhost;database=comercio;userid=root;password=0830755@Guilherme;"))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
             {
                 connection.Open();
 

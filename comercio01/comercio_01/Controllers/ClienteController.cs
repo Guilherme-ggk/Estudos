@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace comercio_01.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class ClienteController : ControllerBase
     {
         private readonly ClienteRepository _ClienteRepository;

@@ -23,6 +23,7 @@ namespace comercio_01
             builder.Services.AddScoped<ProdutoRepository>();
             builder.Services.AddScoped<VendaRepository>();
             builder.Services.AddScoped<Item_VendaRepository>();
+            builder.Services.AddScoped<ClienteRepository>();
             
 
             var app = builder.Build();

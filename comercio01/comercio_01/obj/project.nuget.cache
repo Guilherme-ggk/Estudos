@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X88mRMoGmKY=",
+  "dgSpecHash": "pxbgD7ErP2g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guilherme\\Desktop\\comercio01\\comercio_01\\comercio_01.csproj",
+  "projectFilePath": "C:\\TI\\Estudos\\comercio01\\comercio_01\\comercio_01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guilherme\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",

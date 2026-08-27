@@ -34,11 +34,6 @@ namespace comercio_01.Repository
             }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="model"></param>
-
         public void AtualizaFornecedor(Fornecedor model)
         {
             using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))

@@ -875,11 +875,11 @@
             "type": "integer",
             "format": "int32"
           },
-          "contato_Id": {
+          "fornecedor_Id": {
             "type": "integer",
             "format": "int32"
           },
-          "fornecedor_Id": {
+          "categoria_Id": {
             "type": "integer",
             "format": "int32"
           },
@@ -887,7 +887,15 @@
             "type": "string",
             "nullable": true
           },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
           "preco": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estoque": {
             "type": "integer",
             "format": "int32"
           }
@@ -897,7 +905,7 @@
       "ProdutoInserirDTO": {
         "type": "object",
         "properties": {
-          "contato_Id": {
+          "categoria_Id": {
             "type": "integer",
             "format": "int32"
           },
@@ -909,7 +917,15 @@
             "type": "string",
             "nullable": true
           },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
           "preco": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estoque": {
             "type": "integer",
             "format": "int32"
           }

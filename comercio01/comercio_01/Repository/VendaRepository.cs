@@ -40,7 +40,7 @@ namespace comercio_01.Repository
             {
                 connection.Open();
 
-                connection.Execute("UPDATE Venda (contato_id, fornecedor_id, nome, preco) SET (@contato_id, @fornecedor_id, @nome, @preco) WHERE id=@id;", new
+                connection.Execute("UPDATE Venda (data_hora, cliente_id, funcionario_id) SET (@data_hora, @cliente_id, @funcionario_id) WHERE id=@id;", new
                 {
                     id = model.Id,
                     data_hora = model.Data_hora,
@@ -56,12 +56,12 @@ namespace comercio_01.Repository
             {
                 connection.Open();
 
-                connection.Execute("INSERT INTO Venda (contato_id, fornecedor_id, nome, preco) VALUES (@contato_id, @fornecedor_id, @nome, @preco)", new
+                connection.Execute("INSERT INTO Venda ( data_hora, funcionario_id, cliente_id) VALUES (@data_hora, @funcionario_id, @cliente_id)", new
                 {
                     data_hora = dto.Data_hora,
                     funcionario_id = dto.Funcionario_Id,
                     cliente_id = dto.Cliente_Id
-                });
+    });
             }
         }
     }

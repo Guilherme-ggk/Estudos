@@ -40,7 +40,7 @@ namespace comercio_01.Repository
             {
                 connection.Open();
 
-                connection.Execute("UPDATE Venda (data_hora, cliente_id, funcionario_id) SET (@data_hora, @cliente_id, @funcionario_id) WHERE id=@id;", new
+                connection.Execute("UPDATE Venda SET (data_hora=@data_hora, cliente_id=@cliente_id, funcionario_id=@funcionario_id) WHERE id=@id;", new
                 {
                     id = model.Id,
                     data_hora = model.Data_hora,

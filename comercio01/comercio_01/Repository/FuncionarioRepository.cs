@@ -55,7 +55,7 @@ namespace comercio_01.Repository
             {
                 connection.Open();
 
-                connection.Execute("INSERT INTO Funcionario (nome, contato) VALUES (@nome, @contato)", new
+                connection.Execute("INSERT INTO Funcionario (nome, cargo) VALUES (@nome, @cargo)", new
                 {
                     nome = dto.Nome,
                     cargo = dto.Cargo

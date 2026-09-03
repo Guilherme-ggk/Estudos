@@ -11,7 +11,7 @@ namespace comercio_01.Repository
     {
         public List<Cliente> BuscaClientes()
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -23,7 +23,7 @@ namespace comercio_01.Repository
 
         public void DeletaCliente(int id)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -36,7 +36,7 @@ namespace comercio_01.Repository
 
         public void AtualizaCliente(Cliente model)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -52,7 +52,7 @@ namespace comercio_01.Repository
 
         public void CriaCliente(ClienteInserirDTO dto)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 

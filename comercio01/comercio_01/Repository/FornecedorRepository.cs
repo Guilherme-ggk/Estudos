@@ -11,7 +11,7 @@ namespace comercio_01.Repository
     {
         public List<Fornecedor> BuscaFornecedores()
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -23,7 +23,7 @@ namespace comercio_01.Repository
 
         public void DeletaFornecedor(int id)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -36,7 +36,7 @@ namespace comercio_01.Repository
 
         public void AtualizaFornecedor(Fornecedor model)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -51,7 +51,7 @@ namespace comercio_01.Repository
 
         public void CriaFornecedor(FornecedorInserirDTO dto)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 

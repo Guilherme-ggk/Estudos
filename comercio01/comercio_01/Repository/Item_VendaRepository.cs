@@ -11,7 +11,7 @@ namespace comercio_01.Repository
     {
         public List<Item_Venda> BuscaItem_Vendas()
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -23,7 +23,7 @@ namespace comercio_01.Repository
 
         public void DeletaItem_Venda(int id)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -36,7 +36,7 @@ namespace comercio_01.Repository
 
         public void AtualizaItem_Venda(Item_Venda model)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -54,7 +54,7 @@ namespace comercio_01.Repository
 
         public void CriaItem_Venda(Item_VendaInserirDTO dto)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 

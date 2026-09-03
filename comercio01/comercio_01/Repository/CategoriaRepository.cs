@@ -12,7 +12,7 @@ namespace comercio_01.Repository
     {
         public void CriaCategoria(CategoriaInserirDTO dto)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -25,7 +25,7 @@ namespace comercio_01.Repository
 
         public void DeletaCategoria(int id)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -38,7 +38,7 @@ namespace comercio_01.Repository
 
         public void AtualizaCategoria(Categoria categoria)
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
@@ -52,7 +52,7 @@ namespace comercio_01.Repository
 
         public List<Categoria> BuscaCategoria()
         {
-            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conn))
+            using (IDbConnection connection = new MySqlConnection(ConnectionDB.conexao))
             {
                 connection.Open();
 
